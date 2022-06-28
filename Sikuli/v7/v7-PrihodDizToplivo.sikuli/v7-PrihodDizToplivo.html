@@ -1,0 +1,115 @@
+
+<html>
+   <head>
+      <style type="text/css">
+         .sikuli-code {
+            font-size: 20px;
+            font-family: "Osaka-mono", Monospace;
+            line-height: 1.5em;
+            display:table-cell;
+            white-space: pre-wrap;       /* css-3 */
+            white-space: -moz-pre-wrap !important;  /* Mozilla, since 1999 */
+            white-space: -pre-wrap;      /* Opera 4-6 */
+            white-space: -o-pre-wrap;    /* Opera 7 */
+            word-wrap: break-word;       /* Internet Explorer 5.5+ */
+            width: 99%;   /* remove horizontal scroll-bar when viewing in IE7 */
+         }
+         .sikuli-code img {
+            vertical-align: middle;
+            margin: 2px;
+            border: 1px solid #ccc;
+            padding: 2px;
+            -moz-border-radius: 5px;
+            -webkit-border-radius: 5px;
+            -moz-box-shadow: 1px 1px 1px gray;
+            -webkit-box-shadow: 1px 1px 2px gray;
+         }
+         .kw {
+            color: blue;
+         }
+         .skw {
+            color: rgb(63, 127, 127);
+         }
+
+         .str {
+            color: rgb(128, 0, 0);
+         }
+
+         .dig {
+            color: rgb(128, 64, 0);
+         }
+
+         .cmt {
+            color: rgb(200, 0, 200);
+         }
+
+         h2 {
+            display: inline;
+            font-weight: normal;
+         }
+
+         .info {
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+            margin-bottom: 20px;
+            display: none;
+         }
+
+         a {
+            color: #9D2900;
+         }
+
+         body {
+            font-family: "Trebuchet MS", Arial, Sans-Serif;
+         }
+
+      </style>
+   </head>
+<body>
+<div class="info">
+<h2>v7-PrihodDizToplivo.sikuli</h2> <a href="v7-PrihodDizToplivo.zip">(Download this script)</a>
+</div>
+<pre class="sikuli-code">
+<span class="kw">if</span> exists(<img src="1.1icon_v7.png" />):
+    <span class="skw">click</span>(<img src="1.1icon_v7.png" />)
+
+    <span class="skw">wait</span>(<img src="1.2 Caption_Transpolo.png" />)
+    <span class="skw">click</span>(<img src="2.1 Menu-reference.png" />)
+    <span class="skw">click</span>(<img src="2.2 Menu-kontragents.png" />)
+    <span class="skw">wait</span>(<img src="3 Group Strani.png" />)
+    <span class="skw">doubleClick</span>(Pattern(<img src="3 Group Strani.png" />).targetOffset(-<span class="dig">73</span>,-<span class="dig">2</span>))
+    <span class="skw">wait</span>(<img src="4. Caption Kontragents.png" />)
+    <span class="skw">click</span>(<img src="4.1 Button Ins.png" />)
+    <span class="skw">wait</span>(<img src="5. Caption SvedeniaOKontr.png" />)
+    <span class="skw">click</span>(Pattern(<img src="5.1 Pole Naimenovanie.png" />).targetOffset(<span class="dig">38</span>,-<span class="dig">1</span>))
+    <span class="skw">type</span>(<span class="str">"Ucraina"</span>)
+    <span class="skw">click</span>(<img src="6. Button OK.png" />)
+    <span class="skw">wait</span>(<img src="7.Form SaveElement.png" />)
+    <span class="skw">click</span>(<img src="7.1 Button Da.png" />)
+    <span class="skw">click</span>(<img src="10.1 Menu-Operation.png" />)
+    <span class="skw">click</span>(<img src="10.2 menu-Refs.png" />)
+
+    <span class="kw">while</span> <span class="kw">not</span> exists(<img src="11.1 type Strani.png" />):
+        <span class="cmt">#click(Pattern("11.3 button down.png").similar(0.91))</span>
+        <span class="kw">for</span> i <span class="kw">in</span> range(<span class="dig">10</span>):
+            <span class="skw">click</span>(Pattern(<img src="1653576146739.png" />).similar(<span class="dig">0.81</span>).targetOffset(-<span class="dig">43</span>,<span class="dig">75</span>))
+
+    <span class="skw">click</span>(<img src="11.1 type Strani.png" />)
+    <span class="skw">click</span>(<img src="Button OK.png" />)
+    <span class="skw">click</span>(Pattern(<img src="14.1 Click in column Naimenovanie.png" />).similar(<span class="dig">0.95</span>))
+    <span class="skw">type</span>(<span class="str">"ucrai"</span>)
+    <span class="skw">doubleClick</span>(Pattern(<img src="14.2 list strani ucraina.png" />).targetOffset(<span class="dig">27</span>,-<span class="dig">2</span>))
+    <span class="skw">wait</span>(<img src="15.1 Caption Strani-Ucraina.png" />)
+    <span class="skw">click</span>(Pattern(<img src="15.2 pole contragent.png" />).targetOffset(<span class="dig">140</span>,<span class="dig">1</span>))
+
+    <span class="skw">wait</span>(<img src="3 Group Strani.png" />)
+    <span class="skw">doubleClick</span>(Pattern(<img src="3 Group Strani.png" />).targetOffset(-<span class="dig">73</span>,-<span class="dig">2</span>))
+    <span class="skw">click</span>(Pattern(<img src="17.1 Click Column-Contragent.png" />).targetOffset(<span class="dig">0</span>,<span class="dig">12</span>))
+    <span class="skw">type</span>(<span class="str">"ucrai"</span>)
+    <span class="skw">doubleClick</span>(Pattern(<img src="17.4 list contr ucraina.png" />).targetOffset(-<span class="dig">32</span>,-<span class="dig">1</span>))
+    <span class="skw">click</span>(<img src="6. Button OK.png" />)
+    <span class="skw">wait</span>(<img src="7.Form SaveElement.png" />)
+    <span class="skw">click</span>(<img src="7.1 Button Da.png" />)
+</pre>
+</body>
+</html>

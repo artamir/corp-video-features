@@ -1,0 +1,7 @@
+doubleClick("NomenclaturaTovariSikuli.png")
+exists("NomenklaturaListTovarsSikuli.png")
+exists("PoleFindSikuli.png")
+exists("NomenclaturaEdIzmStavkaNDSSikuli.png")
+exists("PoleFindSikuli.png")
+exists("1651809819167.png")
+exists("NomenclaturaEdIzmStavkaNDSSikuli.png")

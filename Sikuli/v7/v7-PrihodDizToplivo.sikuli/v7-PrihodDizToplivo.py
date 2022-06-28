@@ -1,0 +1,40 @@
+if exists("1.1icon_v7.png"):
+    click("1.1icon_v7.png")
+
+    wait("1.2 Caption_Transpolo.png")
+    click("2.1 Menu-reference.png")
+    click("2.2 Menu-kontragents.png")
+    wait("3 Group Strani.png")
+    doubleClick(Pattern("3 Group Strani.png").targetOffset(-73,-2))
+    wait("4. Caption Kontragents.png")
+    click("4.1 Button Ins.png")
+    wait("5. Caption SvedeniaOKontr.png")
+    click(Pattern("5.1 Pole Naimenovanie.png").targetOffset(38,-1))
+    type("Ucraina")
+    click("6. Button OK.png")
+    wait("7.Form SaveElement.png")
+    click("7.1 Button Da.png")
+    click("10.1 Menu-Operation.png")
+    click("10.2 menu-Refs.png")
+
+    while not exists("11.1 type Strani.png"):
+        #click(Pattern("11.3 button down.png").similar(0.91))
+        for i in range(10):
+            click(Pattern("1653576146739.png").similar(0.81).targetOffset(-43,75))
+        
+    click("11.1 type Strani.png")        
+    click("Button OK.png")  
+    click(Pattern("14.1 Click in column Naimenovanie.png").similar(0.95))
+    type("ucrai")
+    doubleClick(Pattern("14.2 list strani ucraina.png").targetOffset(27,-2))
+    wait("15.1 Caption Strani-Ucraina.png")
+    click(Pattern("15.2 pole contragent.png").targetOffset(140,1))
+    
+    wait("3 Group Strani.png")
+    doubleClick(Pattern("3 Group Strani.png").targetOffset(-73,-2))
+    click(Pattern("17.1 Click Column-Contragent.png").targetOffset(0,12))
+    type("ucrai")
+    doubleClick(Pattern("17.4 list contr ucraina.png").targetOffset(-32,-1))
+    click("6. Button OK.png")
+    wait("7.Form SaveElement.png")
+    click("7.1 Button Da.png")

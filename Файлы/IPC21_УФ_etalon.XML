@@ -1,0 +1,125 @@
+﻿<dec  xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" TypeName="IPC21">
+	<fiscCod>
+		<fiscal>1012600031354</fiscal>
+		<name>Exemplu SRL</name>
+		<cuatm>0140</cuatm>
+		<fisc>03</fisc>
+		<caem>2599*</caem>
+		<email/>
+		<telefon>0-22-234-654</telefon>
+		<cnas>1212125</cnas>
+	</fiscCod>
+	<director>
+		<director>Ivanov Ivan Ivan</director>
+		<contabil>Petrova Irina Serghiu</contabil>
+	</director>
+	<peroidnalog>
+		<datefisc>L/01/2022</datefisc>
+	</peroidnalog>
+	<table1>
+		<ds>
+			<flag/>
+			<flag1>1</flag1>
+			<flag2>0</flag2>
+		</ds>
+		<it>
+			<flag1>0</flag1>
+		</it>
+		<cf>
+			<flag1>0</flag1>
+		</cf>
+		<row>
+			<r11c4>0</r11c4>
+			<r11c5>0</r11c5>
+			<r11c6>0</r11c6>
+			<r12c4>0</r12c4>
+			<r12c5>0</r12c5>
+			<r12c6>0</r12c6>
+			<r21c4>0</r21c4>
+			<r21c5>0</r21c5>
+			<r22c4>0</r22c4>
+			<r22c5>0</r22c5>
+			<r31c4>0</r31c4>
+			<r31c5>0</r31c5>
+			<r32c4>0</r32c4>
+			<r41c4>0</r41c4>
+			<r41c5>0</r41c5>
+			<r42c4>0</r42c4>
+			<r42c5>0</r42c5>
+			<r43c4>0</r43c4>
+			<r43c5>0</r43c5>
+			<r44c4>0</r44c4>
+			<r44c5>0</r44c5>
+			<r45c4>0</r45c4>
+			<r45c5>0</r45c5>
+			<r46c4>0</r46c4>
+			<r46c5>0</r46c5>
+			<r47c4>0</r47c4>
+			<r47c5>0</r47c5>
+			<r48c4>0</r48c4>
+			<r48c5>0</r48c5>
+			<r49c4>0</r49c4>
+			<r49c5>0</r49c5>
+			<r491c4>0</r491c4>
+			<r491c5>0</r491c5>
+			<r51c4>0</r51c4>
+			<r51c5>0</r51c5>
+			<r52c4>0</r52c4>
+			<r52c5>0</r52c5>
+			<r53c4>0</r53c4>
+			<r53c5>0</r53c5>
+			<r54c4>0</r54c4>
+			<r54c5>0</r54c5>
+			<r55c4>0</r55c4>
+			<r55c5>0</r55c5>
+			<r56c4>0</r56c4>
+			<r56c5>0</r56c5>
+			<r61c4>0</r61c4>
+			<r61c5>0</r61c5>
+			<r61c6>0</r61c6>
+		</row>
+	</table1>
+	<summContr>0</summContr>
+	<dinamicTable>
+		<total>
+			<tot1c3>0</tot1c3>
+			<tot1c4>0</tot1c4>
+			<tot1c5>0</tot1c5>
+		</total>
+	</dinamicTable>
+	<dinamicTable2>
+		<total>
+			<tot2c9>0</tot2c9>
+			<tot2c10>0</tot2c10>
+			<tot2c11>0</tot2c11>
+		</total>
+	</dinamicTable2>
+	<table2>
+		<row>
+			<r11ac9 xsi:nil="true"/>
+			<r11ac11 xsi:nil="true"/>
+			<r11bc9 xsi:nil="true"/>
+			<r11bc11 xsi:nil="true"/>
+			<r12ac9 xsi:nil="true"/>
+			<r12ac11 xsi:nil="true"/>
+			<r12bc9 xsi:nil="true"/>
+			<r12bc11 xsi:nil="true"/>
+			<r13c9 xsi:nil="true"/>
+			<r13c11 xsi:nil="true"/>
+			<r14ac9 xsi:nil="true"/>
+			<r14ac11 xsi:nil="true"/>
+			<r14bc11 xsi:nil="true"/>
+			<r15c11 xsi:nil="true"/>
+			<r2c10 xsi:nil="true"/>
+			<r21c10 xsi:nil="true"/>
+			<r22c10 xsi:nil="true"/>
+			<r23c10 xsi:nil="true"/>
+			<r24c10 xsi:nil="true"/>
+			<r3c10 xsi:nil="true"/>
+			<r31c10 xsi:nil="true"/>
+			<r32c10 xsi:nil="true"/>
+			<r33c10 xsi:nil="true"/>
+			<r34c10 xsi:nil="true"/>
+		</row>
+	</table2>
+</dec>

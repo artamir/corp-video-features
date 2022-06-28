@@ -1,0 +1,378 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<dec TypeName="ials21">
+	<fiscCod>
+		<fiscal>1012600031354</fiscal>
+		<name>Exemplu SRL</name>
+		<datefisc>A/2021</datefisc>
+		<cuatm>2222</cuatm>
+		<fisc>03</fisc>
+		<caem>2599*</caem>
+	</fiscCod>
+	<dinamicTable>
+		<row line="1">
+			<number>1</number>
+			<tinsalcds>0990911438781</tinsalcds>
+			<tinsotcds/>
+			<alpha3cod>MDA</alpha3cod>
+			<namettl>ARNAUT VICTOR</namettl>
+			<codsurcdc>SAL</codsurcdc>
+			<sumvencur>8636.36</sumvencur>
+			<sumscpcur>0</sumscpcur>
+			<sumscmcur>0</sumscmcur>
+			<sumscsmcur>0</sumscsmcur>
+			<sumscncur>0</sumscncur>
+			<sumschcur>0</sumschcur>
+			<sumsctotcur>0</sumsctotcur>
+			<summedcur>777.27</summedcur>
+			<sumded2cur>0</sumded2cur>
+			<sumimpcur>943.09</sumimpcur>
+		</row>
+		<row line="2">
+			<number>2</number>
+			<tinsalcds/>
+			<tinsotcds/>
+			<alpha3cod>MDA</alpha3cod>
+			<namettl>BORDEI TATIANA</namettl>
+			<codsurcdc>SAL</codsurcdc>
+			<sumvencur>15080.71</sumvencur>
+			<sumscpcur>8400</sumscpcur>
+			<sumscmcur>0</sumscmcur>
+			<sumscsmcur>0</sumscsmcur>
+			<sumscncur>0</sumscncur>
+			<sumschcur>0</sumschcur>
+			<sumsctotcur>8400</sumsctotcur>
+			<summedcur>1202.63</summedcur>
+			<sumded2cur>206.18</sumded2cur>
+			<sumimpcur>754.43</sumimpcur>
+		</row>
+		<row line="4">
+			<number>4</number>
+			<tinsalcds>1255447741117</tinsalcds>
+			<tinsotcds/>
+			<alpha3cod>MDA</alpha3cod>
+			<namettl>BULARGA NATALIA</namettl>
+			<codsurcdc>SAL</codsurcdc>
+			<sumvencur>7036.7</sumvencur>
+			<sumscpcur>0</sumscpcur>
+			<sumscmcur>15000</sumscmcur>
+			<sumscsmcur>0</sumscsmcur>
+			<sumscncur>0</sumscncur>
+			<sumschcur>0</sumschcur>
+			<sumsctotcur>15000</sumsctotcur>
+			<summedcur>633.3</summedcur>
+			<sumded2cur>0</sumded2cur>
+			<sumimpcur>0</sumimpcur>
+		</row>
+		<row line="5">
+			<number>5</number>
+			<tinsalcds>9876541321354</tinsalcds>
+			<tinsotcds/>
+			<alpha3cod>MDA</alpha3cod>
+			<namettl>DEMOV TAMARA</namettl>
+			<codsurcdc>SAL</codsurcdc>
+			<sumvencur>15694.52</sumvencur>
+			<sumscpcur>10500</sumscpcur>
+			<sumscmcur>0</sumscmcur>
+			<sumscsmcur>0</sumscsmcur>
+			<sumscncur>750</sumscncur>
+			<sumschcur>4725</sumschcur>
+			<sumsctotcur>15975</sumsctotcur>
+			<summedcur>1412.51</summedcur>
+			<sumded2cur>0</sumded2cur>
+			<sumimpcur>519.85</sumimpcur>
+		</row>
+		<row line="6">
+			<number>6</number>
+			<tinsalcds>2165468765413</tinsalcds>
+			<tinsotcds/>
+			<alpha3cod>MDA</alpha3cod>
+			<namettl>GLOBA MARIA</namettl>
+			<codsurcdc>SAL</codsurcdc>
+			<sumvencur>12790.38</sumvencur>
+			<sumscpcur>10500</sumscpcur>
+			<sumscmcur>0</sumscmcur>
+			<sumscsmcur>0</sumscsmcur>
+			<sumscncur>1500</sumscncur>
+			<sumschcur>1575</sumschcur>
+			<sumsctotcur>13575</sumsctotcur>
+			<summedcur>1151.13</summedcur>
+			<sumded2cur>0</sumded2cur>
+			<sumimpcur>802.71</sumimpcur>
+		</row>
+		<row line="7">
+			<number>7</number>
+			<tinsalcds>6412325486574</tinsalcds>
+			<tinsotcds/>
+			<alpha3cod>MDA</alpha3cod>
+			<namettl>HERTA VEACESLAV</namettl>
+			<codsurcdc>SAL</codsurcdc>
+			<sumvencur>2197.8</sumvencur>
+			<sumscpcur>8400</sumscpcur>
+			<sumscmcur>0</sumscmcur>
+			<sumscsmcur>0</sumscsmcur>
+			<sumscncur>3000</sumscncur>
+			<sumschcur>0</sumschcur>
+			<sumsctotcur>11400</sumsctotcur>
+			<summedcur>197.8</summedcur>
+			<sumded2cur>0</sumded2cur>
+			<sumimpcur>0</sumimpcur>
+		</row>
+		<row line="8">
+			<number>8</number>
+			<tinsalcds>3456789654652</tinsalcds>
+			<tinsotcds/>
+			<alpha3cod>MDA</alpha3cod>
+			<namettl>HOMENCO I.I.</namettl>
+			<codsurcdc>SAL</codsurcdc>
+			<sumvencur>6690.92</sumvencur>
+			<sumscpcur>8400</sumscpcur>
+			<sumscmcur>0</sumscmcur>
+			<sumscsmcur>0</sumscsmcur>
+			<sumscncur>0</sumscncur>
+			<sumschcur>6300</sumschcur>
+			<sumsctotcur>14700</sumsctotcur>
+			<summedcur>602.18</summedcur>
+			<sumded2cur>0</sumded2cur>
+			<sumimpcur>785.65</sumimpcur>
+		</row>
+		<row line="9">
+			<number>9</number>
+			<tinsalcds>3456789654652</tinsalcds>
+			<tinsotcds/>
+			<alpha3cod>MDA</alpha3cod>
+			<namettl>HOMENCO I.I.</namettl>
+			<codsurcdc>SALA</codsurcdc>
+			<sumvencur>2250</sumvencur>
+			<sumscpcur>2100</sumscpcur>
+			<sumscmcur>0</sumscmcur>
+			<sumscsmcur>0</sumscsmcur>
+			<sumscncur>0</sumscncur>
+			<sumschcur>1575</sumschcur>
+			<sumsctotcur>3675</sumsctotcur>
+			<summedcur>202.5</summedcur>
+			<sumded2cur>0</sumded2cur>
+			<sumimpcur>18.2</sumimpcur>
+		</row>
+		<row line="10">
+			<number>10</number>
+			<tinsalcds>76543234</tinsalcds>
+			<tinsotcds/>
+			<alpha3cod>MDA</alpha3cod>
+			<namettl>HOMENCO I.I.</namettl>
+			<codsurcdc>FOL</codsurcdc>
+			<sumvencur>605</sumvencur>
+			<sumscpcur>0</sumscpcur>
+			<sumscmcur>0</sumscmcur>
+			<sumscsmcur>0</sumscsmcur>
+			<sumscncur>0</sumscncur>
+			<sumschcur>0</sumschcur>
+			<sumsctotcur>0</sumsctotcur>
+			<summedcur>0</summedcur>
+			<sumded2cur>0</sumded2cur>
+			<sumimpcur>60.5</sumimpcur>
+		</row>
+		<row line="12">
+			<number>12</number>
+			<tinsalcds>2154878787878</tinsalcds>
+			<tinsotcds/>
+			<alpha3cod>MDA</alpha3cod>
+			<namettl>IVANOV IVAN</namettl>
+			<codsurcdc>SAL</codsurcdc>
+			<sumvencur>15715.08</sumvencur>
+			<sumscpcur>8400</sumscpcur>
+			<sumscmcur>0</sumscmcur>
+			<sumscsmcur>0</sumscsmcur>
+			<sumscncur>0</sumscncur>
+			<sumschcur>0</sumschcur>
+			<sumsctotcur>8400</sumsctotcur>
+			<summedcur>1414.36</summedcur>
+			<sumded2cur>0</sumded2cur>
+			<sumimpcur>1212.09</sumimpcur>
+		</row>
+		<row line="14">
+			<number>14</number>
+			<tinsalcds>3456789685575</tinsalcds>
+			<tinsotcds/>
+			<alpha3cod>MDA</alpha3cod>
+			<namettl>IVANOV M.M.</namettl>
+			<codsurcdc>SAL</codsurcdc>
+			<sumvencur>15594.15</sumvencur>
+			<sumscpcur>6300</sumscpcur>
+			<sumscmcur>0</sumscmcur>
+			<sumscsmcur>0</sumscsmcur>
+			<sumscncur>1125</sumscncur>
+			<sumschcur>0</sumschcur>
+			<sumsctotcur>7425</sumsctotcur>
+			<summedcur>1403.47</summedcur>
+			<sumded2cur>0</sumded2cur>
+			<sumimpcur>1449.38</sumimpcur>
+		</row>
+		<row line="15">
+			<number>15</number>
+			<tinsalcds>3456789685575</tinsalcds>
+			<tinsotcds/>
+			<alpha3cod>MDA</alpha3cod>
+			<namettl>IVANOV M.M.</namettl>
+			<codsurcdc>SALA</codsurcdc>
+			<sumvencur>2250</sumvencur>
+			<sumscpcur>2100</sumscpcur>
+			<sumscmcur>0</sumscmcur>
+			<sumscsmcur>0</sumscsmcur>
+			<sumscncur>375</sumscncur>
+			<sumschcur>0</sumschcur>
+			<sumsctotcur>2475</sumsctotcur>
+			<summedcur>202.5</summedcur>
+			<sumded2cur>0</sumded2cur>
+			<sumimpcur>-27.3</sumimpcur>
+		</row>
+		<row line="16">
+			<number>16</number>
+			<tinsalcds>4554687847864</tinsalcds>
+			<tinsotcds/>
+			<alpha3cod>MDA</alpha3cod>
+			<namettl>MUNTEAN VASILE</namettl>
+			<codsurcdc>SAL</codsurcdc>
+			<sumvencur>3000</sumvencur>
+			<sumscpcur>6300</sumscpcur>
+			<sumscmcur>0</sumscmcur>
+			<sumscsmcur>0</sumscsmcur>
+			<sumscncur>750</sumscncur>
+			<sumschcur>0</sumschcur>
+			<sumsctotcur>7050</sumsctotcur>
+			<summedcur>270</summedcur>
+			<sumded2cur>0</sumded2cur>
+			<sumimpcur>327.6</sumimpcur>
+		</row>
+		<row line="17">
+			<number>17</number>
+			<tinsalcds>0982121657981</tinsalcds>
+			<tinsotcds/>
+			<alpha3cod>MDA</alpha3cod>
+			<namettl>PETROVA IRINA</namettl>
+			<codsurcdc>SAL</codsurcdc>
+			<sumvencur>2906.26</sumvencur>
+			<sumscpcur>0</sumscpcur>
+			<sumscmcur>0</sumscmcur>
+			<sumscsmcur>0</sumscsmcur>
+			<sumscncur>0</sumscncur>
+			<sumschcur>0</sumschcur>
+			<sumsctotcur>0</sumsctotcur>
+			<summedcur>261.56</summedcur>
+			<sumded2cur>0</sumded2cur>
+			<sumimpcur>317.36</sumimpcur>
+		</row>
+		<row line="18">
+			<number>18</number>
+			<tinsalcds>0982121657981</tinsalcds>
+			<tinsotcds/>
+			<alpha3cod>MDA</alpha3cod>
+			<namettl>PETROVA IRINA</namettl>
+			<codsurcdc>SALA</codsurcdc>
+			<sumvencur>4354.82</sumvencur>
+			<sumscpcur>0</sumscpcur>
+			<sumscmcur>0</sumscmcur>
+			<sumscsmcur>0</sumscsmcur>
+			<sumscncur>0</sumscncur>
+			<sumschcur>0</sumschcur>
+			<sumsctotcur>0</sumsctotcur>
+			<summedcur>391.93</summedcur>
+			<sumded2cur>0</sumded2cur>
+			<sumimpcur>475.55</sumimpcur>
+		</row>
+		<row line="19">
+			<number>19</number>
+			<tinsalcds>2003698521444</tinsalcds>
+			<tinsotcds/>
+			<alpha3cod>MDA</alpha3cod>
+			<namettl>RUSSU VASILE</namettl>
+			<codsurcdc>SAL</codsurcdc>
+			<sumvencur>2000</sumvencur>
+			<sumscpcur>4200</sumscpcur>
+			<sumscmcur>0</sumscmcur>
+			<sumscsmcur>0</sumscsmcur>
+			<sumscncur>0</sumscncur>
+			<sumschcur>0</sumschcur>
+			<sumsctotcur>4200</sumsctotcur>
+			<summedcur>180</summedcur>
+			<sumded2cur>0</sumded2cur>
+			<sumimpcur>218.4</sumimpcur>
+		</row>
+		<row line="20">
+			<number>20</number>
+			<tinsalcds>2121468798784</tinsalcds>
+			<tinsotcds/>
+			<alpha3cod>MDA</alpha3cod>
+			<namettl>TURCAN V.</namettl>
+			<codsurcdc>SAL</codsurcdc>
+			<sumvencur>8200</sumvencur>
+			<sumscpcur>8400</sumscpcur>
+			<sumscmcur>0</sumscmcur>
+			<sumscsmcur>0</sumscsmcur>
+			<sumscncur>0</sumscncur>
+			<sumschcur>0</sumschcur>
+			<sumsctotcur>8400</sumsctotcur>
+			<summedcur>738</summedcur>
+			<sumded2cur>0</sumded2cur>
+			<sumimpcur>139.44</sumimpcur>
+		</row>
+		<totalRow>
+			<ventotcur>125002.7</ventotcur>
+			<scpcur>84000</scpcur>
+			<scmcur>15000</scmcur>
+			<scsmcur>0</scsmcur>
+			<scncur>7500</scncur>
+			<schcur>14175</schcur>
+			<sctotcur>120675</sctotcur>
+			<medcur>11041.14</medcur>
+			<ded2cur>206.18</ded2cur>
+			<impreticur>7996.95</impreticur>
+		</totalRow>
+	</dinamicTable>
+	<GroupsummContr>
+		<summContr>7996.95</summContr>
+	</GroupsummContr>
+	<director>
+		<director>IVANOV IVAN IVAN</director>
+		<contabil>PETROVA IRINA SERGHIU</contabil>
+	</director>
+	<nrinscr>20</nrinscr>
+	<dataPrezent>22.02.2022</dataPrezent>
+	<dinamicTable2>
+		<row line="1">
+			<number>1</number>
+			<tinang>9876541321354</tinang>
+			<tinpin/>
+			<tinpih>0215787564324</tinpih>
+		</row>
+		<row line="2">
+			<number>2</number>
+			<tinang>2165468765413</tinang>
+			<tinpin/>
+			<tinpih>1000265532123</tinpih>
+		</row>
+		<row line="3">
+			<number>3</number>
+			<tinang>6412325486574</tinang>
+			<tinpin>5468542312135</tinpin>
+			<tinpih/>
+		</row>
+		<row line="4">
+			<number>4</number>
+			<tinang>6412325486574</tinang>
+			<tinpin>6546512123165</tinpin>
+			<tinpih/>
+		</row>
+		<row line="5">
+			<number>5</number>
+			<tinang>3456789654652</tinang>
+			<tinpin/>
+			<tinpih>0655674512157</tinpih>
+		</row>
+		<row line="6">
+			<number>6</number>
+			<tinang>3456789685575</tinang>
+			<tinpin>5646521231357</tinpin>
+			<tinpih/>
+		</row>
+	</dinamicTable2>
+</dec>
