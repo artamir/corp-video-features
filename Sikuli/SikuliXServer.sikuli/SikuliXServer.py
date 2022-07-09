@@ -152,6 +152,21 @@ def PodrazdelKassa():
     click("E:/vanessa/corp/features/Sikuli/PodrazdelKassa.sikuli/PodrazdelKassa.png")
     "E:/vanessa/corp/features/Sikuli/PodrazdelKassa.sikuli/RKO.png"
 
+def ZapolnenieIB():
+    click("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/Okna.png")
+    click("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/CloseAll.png")
+    
+    click("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/MenuServis.png")
+    click(Pattern("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/MenuServisEschio.png").similar(0.81))
+    click(Pattern("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/MenuServisEschio.png").similar(0.80))
+    click(Pattern("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/MenuServisEschio.png").similar(0.80))
+    sleep(2)
+    click(Pattern("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/MenuServisZapolnenieIB.png").similar(0.95).targetOffset(0,-5))
+    
+    click(Pattern("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/ZakladkaSpravochnik.png").similar(0.91))
+    click(Pattern("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/ZapolnitiDoljnosti22.png").targetOffset(-71,0))
+    click("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/Vipolniti.png")
+
 def v7-PrihodDizToplivo-1.Menu-Refs-Contr():
     wait("E:/vanessa/corp/features/Sikuli/v7/v7-PrihodDizToplivo-1.Menu-Refs-Contr.sikuli/1.2 Caption_Transpolo.png")
     click("E:/vanessa/corp/features/Sikuli/v7/v7-PrihodDizToplivo-1.Menu-Refs-Contr.sikuli/2.1 Menu-reference.png")
@@ -316,6 +331,12 @@ while True:
             elif comand == "PodrazdelKassa":
                 read_comand(dataofcomand)
                 PodrazdelKassa()
+                DoResponse(response_filename,'success')
+
+
+            elif comand == "ZapolnenieIB":
+                read_comand(dataofcomand)
+                ZapolnenieIB()
                 DoResponse(response_filename,'success')
 
 
