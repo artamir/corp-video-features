@@ -56,6 +56,9 @@ def 1VanessaRunTestKlient():
     click("1SManagerOnPanel.jpg")
     wait("E:/vanessa/corp/features/Sikuli/1VanessaRunTestKlient.sikuli/1651754519039.png")
 
+def ClickOnElementZatrati():
+    click(Pattern("E:/vanessa/corp/features/Sikuli/ClickOnElementZatrati.sikuli/StatiiZatratNaimenovanie.png").targetOffset(55,0))
+
 def ClickOnFileName():
     if exists(Pattern("E:/vanessa/corp/features/Sikuli/ClickOnFileName.sikuli/1648669327734.png").targetOffset(-183,-16)):
         click(Pattern("E:/vanessa/corp/features/Sikuli/ClickOnFileName.sikuli/1648669327734.png").targetOffset(-183,-16))
@@ -78,6 +81,11 @@ def DoubleClickOnGroupTovari():
     exists("E:/vanessa/corp/features/Sikuli/DoubleClickOnGroupTovari.sikuli/PoleFindSikuli.png")
     exists("E:/vanessa/corp/features/Sikuli/DoubleClickOnGroupTovari.sikuli/1651809819167.png")
     exists("E:/vanessa/corp/features/Sikuli/DoubleClickOnGroupTovari.sikuli/NomenclaturaEdIzmStavkaNDSSikuli.png")
+
+def Kassa_ClickOnOtchetKassira():
+    click(Pattern("E:/vanessa/corp/features/Sikuli/Kassa_ClickOnOtchetKassira.sikuli/OtchetKassiraPodrazdelKassa.png").targetOffset(-45,54))
+    
+    "E:/vanessa/corp/features/Sikuli/Kassa_ClickOnOtchetKassira.sikuli/OtchetKassira.png"
 
 def Kassa_ClickOnPKO():
     "E:/vanessa/corp/features/Sikuli/Kassa_ClickOnPKO.sikuli/PKO.png"
@@ -233,6 +241,12 @@ while True:
                 DoResponse(response_filename,'success')
 
 
+            elif comand == "ClickOnElementZatrati":
+                read_comand(dataofcomand)
+                ClickOnElementZatrati()
+                DoResponse(response_filename,'success')
+
+
             elif comand == "ClickOnFileName":
                 read_comand(dataofcomand)
                 ClickOnFileName()
@@ -254,6 +268,12 @@ while True:
             elif comand == "DoubleClickOnGroupTovari":
                 read_comand(dataofcomand)
                 DoubleClickOnGroupTovari()
+                DoResponse(response_filename,'success')
+
+
+            elif comand == "Kassa_ClickOnOtchetKassira":
+                read_comand(dataofcomand)
+                Kassa_ClickOnOtchetKassira()
                 DoResponse(response_filename,'success')
 
 
