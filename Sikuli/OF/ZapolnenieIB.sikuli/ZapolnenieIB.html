@@ -73,6 +73,9 @@
 <span class="skw">click</span>(<img src="Okna.png" />)
 <span class="skw">click</span>(<img src="CloseAll.png" />)
 
+<span class="skw">wait</span>(Pattern(<img src="DannieBiliIzmeneni.png" />).targetOffset(-<span class="dig">6</span>,<span class="dig">20</span>))
+
+
 <span class="skw">click</span>(<img src="MenuServis.png" />)
 <span class="skw">click</span>(Pattern(<img src="MenuServisEschio.png" />).similar(<span class="dig">0.81</span>))
 <span class="skw">click</span>(Pattern(<img src="MenuServisEschio.png" />).similar(<span class="dig">0.80</span>))
@@ -83,6 +86,25 @@
 <span class="skw">click</span>(Pattern(<img src="ZakladkaSpravochnik.png" />).similar(<span class="dig">0.91</span>))
 <span class="skw">click</span>(Pattern(<img src="ZapolnitiDoljnosti22.png" />).targetOffset(-<span class="dig">71</span>,<span class="dig">0</span>))
 <span class="skw">click</span>(<img src="Vipolniti.png" />)
+<span class="skw">sleep</span>(<span class="dig">5</span>)
+<span class="skw">click</span>(<img src="MenuServis.png" />)
+<span class="skw">click</span>(<img src="NastroikiPolzovatelea.png" />)
+<span class="skw">click</span>(<img src="ZakladkaNastroiki.png" />)
+<span class="skw">click</span>(Pattern(<img src="ZagolovokNastroika.png" />).targetOffset(-<span class="dig">3</span>,<span class="dig">12</span>))
+
+<span class="skw">click</span>(Pattern(<img src="Poisk.png" />).targetOffset(<span class="dig">30</span>,<span class="dig">11</span>))
+<span class="skw">click</span>(<img src="ButtonIskati.png" />)
+<span class="skw">click</span>(Pattern(<img src="PokazivatiNeispolzuemieDoljnosti.png" />).targetOffset(<span class="dig">146</span>,<span class="dig">0</span>))
+
+<span class="skw">click</span>(<img src="PokazivatiNeispolizuemieDoljnostiActiveFlag.png" />)
+
+<span class="skw">click</span>(<img src="ButtonOk.png" />)
+
+<span class="skw">click</span>(<img src="MenuOperatii.png" />)
+<span class="skw">click</span>(<img src="Spravochnik.png" />)
+
+<span class="skw">click</span>(Pattern(<img src="SpravochnikDoljnostiActiv.png" />).targetOffset(-<span class="dig">55</span>,<span class="dig">0</span>))
+<span class="skw">click</span>(<img src="ButtonOKThin.png" />)
 </pre>
 </body>
 </html>
