@@ -1,0 +1,1 @@
+click(Pattern("AdressnaeaStroka.png").targetOffset(65,-1))

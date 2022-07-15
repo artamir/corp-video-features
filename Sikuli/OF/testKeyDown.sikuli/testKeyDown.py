@@ -1,0 +1,6 @@
+keyDown(Key.ALT)
+keyDown(Key.TAB+Key.TAB)
+#keyUp(Key.TAB)
+keyDown(Key.TAB)
+#keyUp(Key.TAB)
+#keyUp(Key.ALT)

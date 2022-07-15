@@ -156,6 +156,9 @@ def ZapolnenieIB():
     click("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/Okna.png")
     click("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/CloseAll.png")
     
+    wait(Pattern("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/DannieBiliIzmeneni.png").targetOffset(-6,20))
+    
+    
     click("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/MenuServis.png")
     click(Pattern("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/MenuServisEschio.png").similar(0.81))
     click(Pattern("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/MenuServisEschio.png").similar(0.80))
@@ -163,9 +166,57 @@ def ZapolnenieIB():
     sleep(2)
     click(Pattern("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/MenuServisZapolnenieIB.png").similar(0.95).targetOffset(0,-5))
     
-    click(Pattern("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/ZakladkaSpravochnik.png").similar(0.91))
+    click(Pattern("ZakladkaE:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/Spravochnik.png").similar(0.91))
     click(Pattern("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/ZapolnitiDoljnosti22.png").targetOffset(-71,0))
     click("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/Vipolniti.png")
+    sleep(5)
+    click("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/MenuServis.png")
+    click("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/NastroikiPolzovatelea.png")
+    click("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/ZakladkaNastroiki.png")
+    click(Pattern("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/ZagolovokNastroika.png").targetOffset(-3,12))
+    
+    click(Pattern("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/Poisk.png").targetOffset(30,11))
+    click("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/ButtonIskati.png")
+    click(Pattern("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/PokazivatiNeispolzuemieDoljnosti.png").targetOffset(146,0))
+    
+    click("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/PokazivatiNeispolizuemieDoljnostiActiveFlag.png")
+    
+    click("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/ButtonOk.png")
+    
+    click("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/MenuOperatii.png")
+    click("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/Spravochnik.png")
+    
+    click(Pattern("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/SpravochnikDoljnostiActiv.png").targetOffset(-55,0))
+    click("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/ButtonOKThin.png")
+    
+    exists("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/ButtonPokazivatiNeispolizuemieDoljnosti.png")
+    
+    exists("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/FlagNeIspolizuetsea.png")
+    
+    doubleClick(Pattern("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/SsilkaNaNovuiuDoljnosti.png").targetOffset(-106,-2))
+    
+    click("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/ButtonTriTochki.png")
+    
+    click(Pattern("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/ButtonExit.png").targetOffset(18,-2))
+    
+    click("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/MenuZPAndKadri.png") 
+    click("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/MenuDokumenti.png") 
+    click("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/MenuKadrovieDocumenti.png")
+    
+    click("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/ButtonDobavitiNoviiDokument.png")
+    click("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/ViborKadrovoe.png")
+    
+    click(Pattern("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/DataDoc.png").targetOffset(-39,-2))
+    exists("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/Podrazdelenie.png")
+    
+    click("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/ButtonZapolniti.png")
+    
+    exists("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/KolonkiDoljnosti.png")
+    exists("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/PustaeaNovaeaDoljnosti.png")
+    exists("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/KolonkaS.png")
+    exists("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/ZakladkaNachislenia.png")
+    exists("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/ButtonDa.png")
+    
 
 def v7-PrihodDizToplivo-1.Menu-Refs-Contr():
     wait("E:/vanessa/corp/features/Sikuli/v7/v7-PrihodDizToplivo-1.Menu-Refs-Contr.sikuli/1.2 Caption_Transpolo.png")

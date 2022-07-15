@@ -1,0 +1,1 @@
+click(Pattern("ZakritiPervuiuVkladku.png").targetOffset(-17,0))
