@@ -1,1 +1,0 @@
-doubleClick(Pattern("3 Group Strani.png").targetOffset(-73,-2))

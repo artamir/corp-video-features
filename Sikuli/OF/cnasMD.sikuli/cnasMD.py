@@ -11,4 +11,4 @@ click(Pattern("MenuPentruPlatitoriDeContributii.png").targetOffset(17,45))
 wait("MenuClassificatoare.png",10)
 click("MenuClassificatoare.png")
 
-exists("TabelComparativ.png")
+exists(Pattern("TabelComparativ.png").similar(0.89))

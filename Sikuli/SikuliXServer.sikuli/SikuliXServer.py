@@ -45,17 +45,6 @@ def DoResponse(response_filename,str):
 
 
 
-def 1VanessaRunTestKlient():
-    wait("E:/vanessa/corp/features/Sikuli/1VanessaRunTestKlient.sikuli/1VAZagolovok.png")
-    wait("E:/vanessa/corp/features/Sikuli/1VanessaRunTestKlient.sikuli/2VATestKlients.png")
-    click("E:/vanessa/corp/features/Sikuli/1VanessaRunTestKlient.sikuli/2VATestKlients.png")
-    click("E:/vanessa/corp/features/Sikuli/1VanessaRunTestKlient.sikuli/3VATestKlientsThisKlient.png")
-    click("E:/vanessa/corp/features/Sikuli/1VanessaRunTestKlient.sikuli/4VATestKlientsKnopkaRunKlient.png")
-    wait(Pattern("E:/vanessa/corp/features/Sikuli/1VanessaRunTestKlient.sikuli/1SBaseTestKlient.png").similar(0.90),20)
-    click("E:/vanessa/corp/features/Sikuli/1VanessaRunTestKlient.sikuli/1SIconOnPanel.png")
-    click("1SManagerOnPanel.jpg")
-    wait("E:/vanessa/corp/features/Sikuli/1VanessaRunTestKlient.sikuli/1651754519039.png")
-
 def ClickOnElementZatrati():
     click(Pattern("E:/vanessa/corp/features/Sikuli/ClickOnElementZatrati.sikuli/StatiiZatratNaimenovanie.png").targetOffset(55,0))
 
@@ -65,13 +54,28 @@ def ClickOnFileName():
     
     pass
 
+def ClickOnKontragentStatistica():
+    click("E:/vanessa/corp/features/Sikuli/ClickOnKontragentStatistica.sikuli/KontragentStatictica.png")
+
 def ClickRazdelDown():
     click("E:/vanessa/corp/features/Sikuli/ClickRazdelDown.sikuli/1646790691953.png")
     
     
 
 def CommandInterfaceOrganizationPropierties():
-    "E:/vanessa/corp/features/Sikuli/CommandInterfaceOrganizationPropierties.sikuli/1650827191667.png""E:/vanessa/corp/features/Sikuli/CommandInterfaceOrganizationPropierties.sikuli/1650644600490.png""E:/vanessa/corp/features/Sikuli/CommandInterfaceOrganizationPropierties.sikuli/1651084264472.png"
+    click("E:/vanessa/corp/features/Sikuli/CommandInterfaceOrganizationPropierties.sikuli/1650827191667.png")
+    click("E:/vanessa/corp/features/Sikuli/CommandInterfaceOrganizationPropierties.sikuli/1650644600490.png")
+    click("E:/vanessa/corp/features/Sikuli/CommandInterfaceOrganizationPropierties.sikuli/1651084264472.png")
+
+def CtrlA():
+    type('a', KeyModifier.CTRL)
+    sleep(1)
+    pass 
+
+def CtrlF():
+    type('f', KeyModifier.CTRL)
+    sleep(1)
+    pass
 
 def DoubleClickOnGroupTovari():
     doubleClick("E:/vanessa/corp/features/Sikuli/DoubleClickOnGroupTovari.sikuli/NomenclaturaTovariSikuli.png")
@@ -85,10 +89,10 @@ def DoubleClickOnGroupTovari():
 def Kassa_ClickOnOtchetKassira():
     click(Pattern("E:/vanessa/corp/features/Sikuli/Kassa_ClickOnOtchetKassira.sikuli/OtchetKassiraPodrazdelKassa.png").targetOffset(-45,54))
     
-    "E:/vanessa/corp/features/Sikuli/Kassa_ClickOnOtchetKassira.sikuli/OtchetKassira.png"
+    click("E:/vanessa/corp/features/Sikuli/Kassa_ClickOnOtchetKassira.sikuli/OtchetKassira.png")
 
 def Kassa_ClickOnPKO():
-    "E:/vanessa/corp/features/Sikuli/Kassa_ClickOnPKO.sikuli/PKO.png"
+    click("E:/vanessa/corp/features/Sikuli/Kassa_ClickOnPKO.sikuli/PKO.png")
     click(Pattern("E:/vanessa/corp/features/Sikuli/Kassa_ClickOnPKO.sikuli/PKOPodrazdelKassa.png").targetOffset(-44,-24))
 
 def OneSClickOnIcon():
@@ -148,9 +152,73 @@ def OpenReglReports():
             
 
 def PodrazdelKassa():
-    "E:/vanessa/corp/features/Sikuli/PodrazdelKassa.sikuli/PodrazdelKassa.png"
+    exists("E:/vanessa/corp/features/Sikuli/PodrazdelKassa.sikuli/PodrazdelKassa.png")
     click("E:/vanessa/corp/features/Sikuli/PodrazdelKassa.sikuli/PodrazdelKassa.png")
-    "E:/vanessa/corp/features/Sikuli/PodrazdelKassa.sikuli/RKO.png"
+    exists("E:/vanessa/corp/features/Sikuli/PodrazdelKassa.sikuli/RKO.png")
+
+def TypeDELETE():
+    type(Key.DELETE)
+    pass
+
+def TypeENTER():
+    type(Key.ENTER)
+    pass
+
+def VanessaRunTestKlient():
+    wait("E:/vanessa/corp/features/Sikuli/VanessaRunTestKlient.sikuli/1VAZagolovok.png")
+    wait("E:/vanessa/corp/features/Sikuli/VanessaRunTestKlient.sikuli/2VATestKlients.png")
+    click("E:/vanessa/corp/features/Sikuli/VanessaRunTestKlient.sikuli/2VATestKlients.png")
+    click("E:/vanessa/corp/features/Sikuli/VanessaRunTestKlient.sikuli/3VATestKlientsThisKlient.png")
+    click("E:/vanessa/corp/features/Sikuli/VanessaRunTestKlient.sikuli/4VATestKlientsKnopkaRunKlient.png")
+    wait(Pattern("E:/vanessa/corp/features/Sikuli/VanessaRunTestKlient.sikuli/1SBaseTestKlient.png").similar(0.90),20)
+    click("E:/vanessa/corp/features/Sikuli/VanessaRunTestKlient.sikuli/1SIconOnPanel.png")
+    click("1SManagerOnPanel.jpg")
+    wait("E:/vanessa/corp/features/Sikuli/VanessaRunTestKlient.sikuli/1651754519039.png")
+
+def AdressnaeaStroka():
+    click(Pattern("E:/vanessa/corp/features/Sikuli/OF/AdressnaeaStroka.sikuli/AdressnaeaStroka.png").targetOffset(65,-1))
+
+def Chrome():
+    click(Pattern("E:/vanessa/corp/features/Sikuli/OF/Chrome.sikuli/NovaeaVkladka.png").targetOffset(20,-1))
+    click(Pattern("E:/vanessa/corp/features/Sikuli/OF/Chrome.sikuli/ZakritiPervuiuVkladku.png").targetOffset(-17,0))
+    click(Pattern("E:/vanessa/corp/features/Sikuli/OF/Chrome.sikuli/AdressnaeaStroka.png").targetOffset(65,-1))
+
+def cnasMD():
+    click(Pattern("E:/vanessa/corp/features/Sikuli/OF/cnasMD.sikuli/NovaeaVkladka.png").targetOffset(20,-1))
+    click(Pattern("E:/vanessa/corp/features/Sikuli/OF/cnasMD.sikuli/ZakritiPervuiuVkladku.png").targetOffset(-17,0))
+    
+    click(Pattern("E:/vanessa/corp/features/Sikuli/OF/cnasMD.sikuli/AdressnaeaStroka.png").targetOffset(65,-1))
+    type("cnas.gov.md")
+    type(Key.ENTER)
+    
+    wait("E:/vanessa/corp/features/Sikuli/OF/cnasMD.sikuli/MenuPentruPlatitoriDeContributii.png")
+    click(Pattern("E:/vanessa/corp/features/Sikuli/OF/cnasMD.sikuli/MenuPentruPlatitoriDeContributii.png").targetOffset(17,45))
+    
+    wait("E:/vanessa/corp/features/Sikuli/OF/cnasMD.sikuli/MenuClassificatoare.png",10)
+    click("E:/vanessa/corp/features/Sikuli/OF/cnasMD.sikuli/MenuClassificatoare.png")
+    
+    exists(Pattern("E:/vanessa/corp/features/Sikuli/OF/cnasMD.sikuli/TabelComparativ.png").similar(0.89))
+
+def OProgramme():
+    click("E:/vanessa/corp/features/Sikuli/OF/OProgramme.sikuli/MenuSpravka.png")
+    click("E:/vanessa/corp/features/Sikuli/OF/OProgramme.sikuli/OProgramme.png")
+    exists("E:/vanessa/corp/features/Sikuli/OF/OProgramme.sikuli/redactia1291.png")
+
+def PereclucenieNaOneS():
+    click("E:/vanessa/corp/features/Sikuli/OF/PereclucenieNaOneS.sikuli/OneS.png")
+    click("E:/vanessa/corp/features/Sikuli/OF/PereclucenieNaOneS.sikuli/1SBuhOF.png")
+    #click("E:/vanessa/corp/features/Sikuli/OF/PereclucenieNaOneS.sikuli/Chrome.png")
+
+def testKeyDown():
+    keyDown(Key.ALT)
+    keyDown(Key.TAB+Key.TAB)
+    #keyUp(Key.TAB)
+    keyDown(Key.TAB)
+    #keyUp(Key.TAB)
+    #keyUp(Key.ALT)
+
+def ZakritiVkladku():
+    click(Pattern("E:/vanessa/corp/features/Sikuli/OF/ZakritiVkladku.sikuli/ZakritiPervuiuVkladku.png").targetOffset(-17,0))
 
 def ZapolnenieIB():
     click("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/Okna.png")
@@ -170,8 +238,16 @@ def ZapolnenieIB():
     click(Pattern("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/ZapolnitiDoljnosti22.png").targetOffset(-71,0))
     click("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/Vipolniti.png")
     sleep(5)
+    
+    
     click("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/MenuServis.png")
     click("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/NastroikiPolzovatelea.png")
+    
+    rightClick("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/ZagolovockNastroikaPolizovatelea.png")
+    click("VosstanovitiPolojenieE:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/Okna.png")
+    click("UpravlenieRazmeromE:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/Okna.png")
+    
+    
     click("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/ZakladkaNastroiki.png")
     click(Pattern("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/ZagolovokNastroika.png").targetOffset(-3,12))
     
@@ -218,65 +294,6 @@ def ZapolnenieIB():
     exists("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/ButtonDa.png")
     
 
-def v7-PrihodDizToplivo-1.Menu-Refs-Contr():
-    wait("E:/vanessa/corp/features/Sikuli/v7/v7-PrihodDizToplivo-1.Menu-Refs-Contr.sikuli/1.2 Caption_Transpolo.png")
-    click("E:/vanessa/corp/features/Sikuli/v7/v7-PrihodDizToplivo-1.Menu-Refs-Contr.sikuli/2.1 Menu-reference.png")
-    click("E:/vanessa/corp/features/Sikuli/v7/v7-PrihodDizToplivo-1.Menu-Refs-Contr.sikuli/2.2 Menu-kontragents.png")
-
-def v7-PrihodDizToplivo-2.doubleclick-on-Strani():
-    doubleClick(Pattern("E:/vanessa/corp/features/Sikuli/v7/v7-PrihodDizToplivo-2.doubleclick-on-Strani.sikuli/3 Group Strani.png").targetOffset(-73,-2))
-
-def v7-PrihodDizToplivo-click on Naimenovanie():
-    click(Pattern("5.1 Pole Naimenovanie.png").targetOffset(38,-1))
-
-def v7-PrihodDizToplivo-VidRefStrani():
-    while not exists("11.1 type Strani.png"):
-            #click(Pattern("11.3 button down.png").similar(0.91))
-            for i in range(10):
-                click(Pattern("1653576146739.png").similar(0.81).targetOffset(-43,75))
-
-def v7-PrihodDizToplivo():
-    if exists("E:/vanessa/corp/features/Sikuli/v7/v7-PrihodDizToplivo.sikuli/1.1icon_v7.png"):
-        click("E:/vanessa/corp/features/Sikuli/v7/v7-PrihodDizToplivo.sikuli/1.1icon_v7.png")
-    
-        wait("1.2 Caption_Transpolo.png")
-        click("2.1 Menu-reference.png")
-        click("2.2 Menu-kontragents.png")
-        wait("3 Group Strani.png")
-        doubleClick(Pattern("3 Group Strani.png").targetOffset(-73,-2))
-        wait("E:/vanessa/corp/features/Sikuli/v7/v7-PrihodDizToplivo.sikuli/4. Caption Kontragents.png")
-        click("E:/vanessa/corp/features/Sikuli/v7/v7-PrihodDizToplivo.sikuli/4.1 Button Ins.png")
-        wait("E:/vanessa/corp/features/Sikuli/v7/v7-PrihodDizToplivo.sikuli/5. Caption SvedeniaOKontr.png")
-        click(Pattern("E:/vanessa/corp/features/Sikuli/v7/v7-PrihodDizToplivo.sikuli/5.1 Pole Naimenovanie.png").targetOffset(38,-1))
-        type("Ucraina")
-        click("E:/vanessa/corp/features/Sikuli/v7/v7-PrihodDizToplivo.sikuli/6. E:/vanessa/corp/features/Sikuli/v7/v7-PrihodDizToplivo.sikuli/Button OK.png")
-        wait("E:/vanessa/corp/features/Sikuli/v7/v7-PrihodDizToplivo.sikuli/7.Form SaveElement.png")
-        click("E:/vanessa/corp/features/Sikuli/v7/v7-PrihodDizToplivo.sikuli/7.1 Button Da.png")
-        click("E:/vanessa/corp/features/Sikuli/v7/v7-PrihodDizToplivo.sikuli/10.1 Menu-Operation.png")
-        click("E:/vanessa/corp/features/Sikuli/v7/v7-PrihodDizToplivo.sikuli/10.2 menu-Refs.png")
-    
-        while not exists("E:/vanessa/corp/features/Sikuli/v7/v7-PrihodDizToplivo.sikuli/11.1 type Strani.png"):
-            #click(Pattern("E:/vanessa/corp/features/Sikuli/v7/v7-PrihodDizToplivo.sikuli/11.3 button down.png").similar(0.91))
-            for i in range(10):
-                click(Pattern("E:/vanessa/corp/features/Sikuli/v7/v7-PrihodDizToplivo.sikuli/1653576146739.png").similar(0.81).targetOffset(-43,75))
-            
-        click("E:/vanessa/corp/features/Sikuli/v7/v7-PrihodDizToplivo.sikuli/11.1 type Strani.png")        
-        click("E:/vanessa/corp/features/Sikuli/v7/v7-PrihodDizToplivo.sikuli/Button OK.png")  
-        click(Pattern("E:/vanessa/corp/features/Sikuli/v7/v7-PrihodDizToplivo.sikuli/14.1 Click in column Naimenovanie.png").similar(0.95))
-        type("ucrai")
-        doubleClick(Pattern("E:/vanessa/corp/features/Sikuli/v7/v7-PrihodDizToplivo.sikuli/14.2 list strani ucraina.png").targetOffset(27,-2))
-        wait("E:/vanessa/corp/features/Sikuli/v7/v7-PrihodDizToplivo.sikuli/15.1 Caption Strani-Ucraina.png")
-        click(Pattern("E:/vanessa/corp/features/Sikuli/v7/v7-PrihodDizToplivo.sikuli/15.2 pole contragent.png").targetOffset(140,1))
-        
-        wait("3 Group Strani.png")
-        doubleClick(Pattern("3 Group Strani.png").targetOffset(-73,-2))
-        click(Pattern("E:/vanessa/corp/features/Sikuli/v7/v7-PrihodDizToplivo.sikuli/17.1 Click Column-Contragent.png").targetOffset(0,12))
-        type("ucrai")
-        doubleClick(Pattern("E:/vanessa/corp/features/Sikuli/v7/v7-PrihodDizToplivo.sikuli/17.4 list contr ucraina.png").targetOffset(-32,-1))
-        click("E:/vanessa/corp/features/Sikuli/v7/v7-PrihodDizToplivo.sikuli/6. E:/vanessa/corp/features/Sikuli/v7/v7-PrihodDizToplivo.sikuli/Button OK.png")
-        wait("E:/vanessa/corp/features/Sikuli/v7/v7-PrihodDizToplivo.sikuli/7.Form SaveElement.png")
-        click("E:/vanessa/corp/features/Sikuli/v7/v7-PrihodDizToplivo.sikuli/7.1 Button Da.png")
-
 
 comand_filename   = sys.argv[1]
 response_filename = sys.argv[2]
@@ -301,12 +318,6 @@ while True:
 
 
 
-            elif comand == "1VanessaRunTestKlient":
-                read_comand(dataofcomand)
-                1VanessaRunTestKlient()
-                DoResponse(response_filename,'success')
-
-
             elif comand == "ClickOnElementZatrati":
                 read_comand(dataofcomand)
                 ClickOnElementZatrati()
@@ -319,6 +330,12 @@ while True:
                 DoResponse(response_filename,'success')
 
 
+            elif comand == "ClickOnKontragentStatistica":
+                read_comand(dataofcomand)
+                ClickOnKontragentStatistica()
+                DoResponse(response_filename,'success')
+
+
             elif comand == "ClickRazdelDown":
                 read_comand(dataofcomand)
                 ClickRazdelDown()
@@ -328,6 +345,18 @@ while True:
             elif comand == "CommandInterfaceOrganizationPropierties":
                 read_comand(dataofcomand)
                 CommandInterfaceOrganizationPropierties()
+                DoResponse(response_filename,'success')
+
+
+            elif comand == "CtrlA":
+                read_comand(dataofcomand)
+                CtrlA()
+                DoResponse(response_filename,'success')
+
+
+            elif comand == "CtrlF":
+                read_comand(dataofcomand)
+                CtrlF()
                 DoResponse(response_filename,'success')
 
 
@@ -385,39 +414,69 @@ while True:
                 DoResponse(response_filename,'success')
 
 
+            elif comand == "TypeDELETE":
+                read_comand(dataofcomand)
+                TypeDELETE()
+                DoResponse(response_filename,'success')
+
+
+            elif comand == "TypeENTER":
+                read_comand(dataofcomand)
+                TypeENTER()
+                DoResponse(response_filename,'success')
+
+
+            elif comand == "VanessaRunTestKlient":
+                read_comand(dataofcomand)
+                VanessaRunTestKlient()
+                DoResponse(response_filename,'success')
+
+
+            elif comand == "AdressnaeaStroka":
+                read_comand(dataofcomand)
+                AdressnaeaStroka()
+                DoResponse(response_filename,'success')
+
+
+            elif comand == "Chrome":
+                read_comand(dataofcomand)
+                Chrome()
+                DoResponse(response_filename,'success')
+
+
+            elif comand == "cnasMD":
+                read_comand(dataofcomand)
+                cnasMD()
+                DoResponse(response_filename,'success')
+
+
+            elif comand == "OProgramme":
+                read_comand(dataofcomand)
+                OProgramme()
+                DoResponse(response_filename,'success')
+
+
+            elif comand == "PereclucenieNaOneS":
+                read_comand(dataofcomand)
+                PereclucenieNaOneS()
+                DoResponse(response_filename,'success')
+
+
+            elif comand == "testKeyDown":
+                read_comand(dataofcomand)
+                testKeyDown()
+                DoResponse(response_filename,'success')
+
+
+            elif comand == "ZakritiVkladku":
+                read_comand(dataofcomand)
+                ZakritiVkladku()
+                DoResponse(response_filename,'success')
+
+
             elif comand == "ZapolnenieIB":
                 read_comand(dataofcomand)
                 ZapolnenieIB()
-                DoResponse(response_filename,'success')
-
-
-            elif comand == "v7-PrihodDizToplivo-1.Menu-Refs-Contr":
-                read_comand(dataofcomand)
-                v7-PrihodDizToplivo-1.Menu-Refs-Contr()
-                DoResponse(response_filename,'success')
-
-
-            elif comand == "v7-PrihodDizToplivo-2.doubleclick-on-Strani":
-                read_comand(dataofcomand)
-                v7-PrihodDizToplivo-2.doubleclick-on-Strani()
-                DoResponse(response_filename,'success')
-
-
-            elif comand == "v7-PrihodDizToplivo-click on Naimenovanie":
-                read_comand(dataofcomand)
-                v7-PrihodDizToplivo-click on Naimenovanie()
-                DoResponse(response_filename,'success')
-
-
-            elif comand == "v7-PrihodDizToplivo-VidRefStrani":
-                read_comand(dataofcomand)
-                v7-PrihodDizToplivo-VidRefStrani()
-                DoResponse(response_filename,'success')
-
-
-            elif comand == "v7-PrihodDizToplivo":
-                read_comand(dataofcomand)
-                v7-PrihodDizToplivo()
                 DoResponse(response_filename,'success')
 
 

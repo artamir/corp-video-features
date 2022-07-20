@@ -1,3 +1,3 @@
-"PodrazdelKassa.png"
+exists("PodrazdelKassa.png")
 click("PodrazdelKassa.png")
-"RKO.png"
+exists("RKO.png")

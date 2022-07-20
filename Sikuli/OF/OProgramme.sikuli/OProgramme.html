@@ -67,23 +67,13 @@
    </head>
 <body>
 <div class="info">
-<h2>cnasMD.sikuli</h2> <a href="cnasMD.zip">(Download this script)</a>
+<h2>OProgramme.sikuli</h2> <a href="OProgramme.zip">(Download this script)</a>
 </div>
 <pre class="sikuli-code">
-<span class="skw">click</span>(Pattern(<img src="NovaeaVkladka.png" />).targetOffset(<span class="dig">20</span>,-<span class="dig">1</span>))
-<span class="skw">click</span>(Pattern(<img src="ZakritiPervuiuVkladku.png" />).targetOffset(-<span class="dig">17</span>,<span class="dig">0</span>))
-
-<span class="skw">click</span>(Pattern(<img src="AdressnaeaStroka.png" />).targetOffset(<span class="dig">65</span>,-<span class="dig">1</span>))
-<span class="skw">type</span>(<span class="str">"cnas.gov.md"</span>)
-<span class="skw">type</span>(Key.ENTER)
-
-<span class="skw">wait</span>(<img src="MenuPentruPlatitoriDeContributii.png" />)
-<span class="skw">click</span>(Pattern(<img src="MenuPentruPlatitoriDeContributii.png" />).targetOffset(<span class="dig">17</span>,<span class="dig">45</span>))
-
-<span class="skw">wait</span>(<img src="MenuClassificatoare.png" />,<span class="dig">10</span>)
-<span class="skw">click</span>(<img src="MenuClassificatoare.png" />)
-
-exists(Pattern(<img src="TabelComparativ.png" />).similar(<span class="dig">0.89</span>))
+<span class="skw">click</span>(<img src="MenuSpravka.png" />)
+<span class="skw">click</span>(<img src="OProgramme.png" />)
+<span class="cmt">#exists("redactia1291.png")</span>
+exists(<img src="redactia12111.png" />)
 </pre>
 </body>
 </html>

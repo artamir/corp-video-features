@@ -15,8 +15,16 @@ click(Pattern("ZakladkaSpravochnik.png").similar(0.91))
 click(Pattern("ZapolnitiDoljnosti22.png").targetOffset(-71,0))
 click("Vipolniti.png")
 sleep(5)
+
+
 click("MenuServis.png")
 click("NastroikiPolzovatelea.png")
+
+rightClick("ZagolovockNastroikaPolizovatelea.png")
+click("VosstanovitiPolojenieOkna.png")
+click("UpravlenieRazmeromOkna.png")
+
+
 click("ZakladkaNastroiki.png")
 click(Pattern("ZagolovokNastroika.png").targetOffset(-3,12))
 
