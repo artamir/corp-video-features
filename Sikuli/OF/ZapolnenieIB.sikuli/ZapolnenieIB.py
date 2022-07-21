@@ -20,17 +20,14 @@ sleep(5)
 click("MenuServis.png")
 click("NastroikiPolzovatelea.png")
 
-rightClick("ZagolovockNastroikaPolizovatelea.png")
-click("VosstanovitiPolojenieOkna.png")
-click("UpravlenieRazmeromOkna.png")
-
-
 click("ZakladkaNastroiki.png")
 click(Pattern("ZagolovokNastroika.png").targetOffset(-3,12))
 
 click(Pattern("Poisk.png").targetOffset(30,11))
 click("ButtonIskati.png")
 click(Pattern("PokazivatiNeispolzuemieDoljnosti.png").targetOffset(146,0))
+exists(Pattern("NeIspolizuemieDoljnosti.png").targetOffset(465,0))
+
 
 click("PokazivatiNeispolizuemieDoljnostiActiveFlag.png")
 

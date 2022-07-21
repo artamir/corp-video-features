@@ -164,6 +164,11 @@ def TypeENTER():
     type(Key.ENTER)
     pass
 
+def TypeTEXT():
+    textParam = sys_argv_1
+    type(textParam)
+    type(Key.ENTER)
+
 def VanessaRunTestKlient():
     wait("E:/vanessa/corp/features/Sikuli/VanessaRunTestKlient.sikuli/1VAZagolovok.png")
     wait("E:/vanessa/corp/features/Sikuli/VanessaRunTestKlient.sikuli/2VATestKlients.png")
@@ -180,8 +185,14 @@ def AdressnaeaStroka():
 
 def Chrome():
     click(Pattern("E:/vanessa/corp/features/Sikuli/OF/Chrome.sikuli/NovaeaVkladka.png").targetOffset(20,-1))
+    wait("E:/vanessa/corp/features/Sikuli/OF/Chrome.sikuli/1658320902297.png")
+    mouseMove("E:/vanessa/corp/features/Sikuli/OF/Chrome.sikuli/1658320902297.png")
     click(Pattern("E:/vanessa/corp/features/Sikuli/OF/Chrome.sikuli/ZakritiPervuiuVkladku.png").targetOffset(-17,0))
+    mouseMove("E:/vanessa/corp/features/Sikuli/OF/Chrome.sikuli/1658313545518.png")
     click(Pattern("E:/vanessa/corp/features/Sikuli/OF/Chrome.sikuli/AdressnaeaStroka.png").targetOffset(65,-1))
+
+def ClickButtonOK():
+    click("E:/vanessa/corp/features/Sikuli/OF/ClickButtonOK.sikuli/ButtonOK.png")
 
 def cnasMD():
     click(Pattern("E:/vanessa/corp/features/Sikuli/OF/cnasMD.sikuli/NovaeaVkladka.png").targetOffset(20,-1))
@@ -202,7 +213,14 @@ def cnasMD():
 def OProgramme():
     click("E:/vanessa/corp/features/Sikuli/OF/OProgramme.sikuli/MenuSpravka.png")
     click("E:/vanessa/corp/features/Sikuli/OF/OProgramme.sikuli/OProgramme.png")
-    exists("E:/vanessa/corp/features/Sikuli/OF/OProgramme.sikuli/redactia1291.png")
+    #exists("E:/vanessa/corp/features/Sikuli/OF/OProgramme.sikuli/redactia1291.png")
+    exists("E:/vanessa/corp/features/Sikuli/OF/OProgramme.sikuli/redactia12111.png")
+
+def PereclucenieNaConfig():
+    click("E:/vanessa/corp/features/Sikuli/OF/PereclucenieNaConfig.sikuli/IconOneS.png")
+    click("E:/vanessa/corp/features/Sikuli/OF/PereclucenieNaConfig.sikuli/Configurator.png")
+    
+    exists("E:/vanessa/corp/features/Sikuli/OF/PereclucenieNaConfig.sikuli/IconNaPodderjke.png")
 
 def PereclucenieNaOneS():
     click("E:/vanessa/corp/features/Sikuli/OF/PereclucenieNaOneS.sikuli/OneS.png")
@@ -216,6 +234,16 @@ def testKeyDown():
     keyDown(Key.TAB)
     #keyUp(Key.TAB)
     #keyUp(Key.ALT)
+
+def typeCnasGovMD():
+    type("cnas.gov.md")
+    type(Key.ENTER)
+
+def UpravlenieRazmeromOkna():
+    #rightClick(Pattern("E:/vanessa/corp/features/Sikuli/OF/UpravlenieRazmeromOkna.sikuli/ZagolovockNastroikaPolizovatelea.png").similar(0.50))
+    rightClick("E:/vanessa/corp/features/Sikuli/OF/UpravlenieRazmeromOkna.sikuli/1658339571926.png")
+    click("E:/vanessa/corp/features/Sikuli/OF/UpravlenieRazmeromOkna.sikuli/VosstanovitiPolojenieOkna.png")
+    click("E:/vanessa/corp/features/Sikuli/OF/UpravlenieRazmeromOkna.sikuli/UpravlenieRazmeromOkna.png")
 
 def ZakritiVkladku():
     click(Pattern("E:/vanessa/corp/features/Sikuli/OF/ZakritiVkladku.sikuli/ZakritiPervuiuVkladku.png").targetOffset(-17,0))
@@ -243,17 +271,14 @@ def ZapolnenieIB():
     click("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/MenuServis.png")
     click("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/NastroikiPolzovatelea.png")
     
-    rightClick("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/ZagolovockNastroikaPolizovatelea.png")
-    click("VosstanovitiPolojenieE:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/Okna.png")
-    click("UpravlenieRazmeromE:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/Okna.png")
-    
-    
     click("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/ZakladkaNastroiki.png")
     click(Pattern("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/ZagolovokNastroika.png").targetOffset(-3,12))
     
     click(Pattern("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/Poisk.png").targetOffset(30,11))
     click("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/ButtonIskati.png")
     click(Pattern("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/PokazivatiNeispolzuemieDoljnosti.png").targetOffset(146,0))
+    exists(Pattern("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/NeIspolizuemieDoljnosti.png").targetOffset(465,0))
+    
     
     click("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/PokazivatiNeispolizuemieDoljnostiActiveFlag.png")
     
@@ -426,6 +451,12 @@ while True:
                 DoResponse(response_filename,'success')
 
 
+            elif comand == "TypeTEXT":
+                read_comand(dataofcomand)
+                TypeTEXT()
+                DoResponse(response_filename,'success')
+
+
             elif comand == "VanessaRunTestKlient":
                 read_comand(dataofcomand)
                 VanessaRunTestKlient()
@@ -444,6 +475,12 @@ while True:
                 DoResponse(response_filename,'success')
 
 
+            elif comand == "ClickButtonOK":
+                read_comand(dataofcomand)
+                ClickButtonOK()
+                DoResponse(response_filename,'success')
+
+
             elif comand == "cnasMD":
                 read_comand(dataofcomand)
                 cnasMD()
@@ -456,6 +493,12 @@ while True:
                 DoResponse(response_filename,'success')
 
 
+            elif comand == "PereclucenieNaConfig":
+                read_comand(dataofcomand)
+                PereclucenieNaConfig()
+                DoResponse(response_filename,'success')
+
+
             elif comand == "PereclucenieNaOneS":
                 read_comand(dataofcomand)
                 PereclucenieNaOneS()
@@ -465,6 +508,18 @@ while True:
             elif comand == "testKeyDown":
                 read_comand(dataofcomand)
                 testKeyDown()
+                DoResponse(response_filename,'success')
+
+
+            elif comand == "typeCnasGovMD":
+                read_comand(dataofcomand)
+                typeCnasGovMD()
+                DoResponse(response_filename,'success')
+
+
+            elif comand == "UpravlenieRazmeromOkna":
+                read_comand(dataofcomand)
+                UpravlenieRazmeromOkna()
                 DoResponse(response_filename,'success')
 
 
