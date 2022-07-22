@@ -32,8 +32,10 @@
 
 	И я выполняю скрипт "PereclucenieNaOneS" Sikulix
 
-	Затем клик на картинку "Okna"
-	Затем клик на картинку "CloseAll"
+//	Затем клик на картинку "Okna"
+//	Затем клик на картинку "CloseAll"
+	И я выполняю скрипт SikuliX "CloseAllWindows"
+	
 
 	Если есть картинка "DannieBiliIzmeneni" Тогда
 		Затем клик на картинку "DannieBiliIzmeneni"	со смещением "-6" "20"		

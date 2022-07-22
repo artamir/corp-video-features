@@ -46,26 +46,26 @@ def DoResponse(response_filename,str):
 
 
 def ClickOnElementZatrati():
-    click(Pattern("E:/vanessa/corp/features/Sikuli/ClickOnElementZatrati.sikuli/StatiiZatratNaimenovanie.png").targetOffset(55,0))
+    click(Pattern("C:/vanessa/features/corp-video-features/Sikuli/ClickOnElementZatrati.sikuli/StatiiZatratNaimenovanie.png").targetOffset(55,0))
 
 def ClickOnFileName():
-    if exists(Pattern("E:/vanessa/corp/features/Sikuli/ClickOnFileName.sikuli/1648669327734.png").targetOffset(-183,-16)):
-        click(Pattern("E:/vanessa/corp/features/Sikuli/ClickOnFileName.sikuli/1648669327734.png").targetOffset(-183,-16))
+    if exists(Pattern("C:/vanessa/features/corp-video-features/Sikuli/ClickOnFileName.sikuli/1648669327734.png").targetOffset(-183,-16)):
+        click(Pattern("C:/vanessa/features/corp-video-features/Sikuli/ClickOnFileName.sikuli/1648669327734.png").targetOffset(-183,-16))
     
     pass
 
 def ClickOnKontragentStatistica():
-    click("E:/vanessa/corp/features/Sikuli/ClickOnKontragentStatistica.sikuli/KontragentStatictica.png")
+    click("C:/vanessa/features/corp-video-features/Sikuli/ClickOnKontragentStatistica.sikuli/KontragentStatictica.png")
 
 def ClickRazdelDown():
-    click("E:/vanessa/corp/features/Sikuli/ClickRazdelDown.sikuli/1646790691953.png")
+    click("C:/vanessa/features/corp-video-features/Sikuli/ClickRazdelDown.sikuli/1646790691953.png")
     
     
 
 def CommandInterfaceOrganizationPropierties():
-    click("E:/vanessa/corp/features/Sikuli/CommandInterfaceOrganizationPropierties.sikuli/1650827191667.png")
-    click("E:/vanessa/corp/features/Sikuli/CommandInterfaceOrganizationPropierties.sikuli/1650644600490.png")
-    click("E:/vanessa/corp/features/Sikuli/CommandInterfaceOrganizationPropierties.sikuli/1651084264472.png")
+    click("C:/vanessa/features/corp-video-features/Sikuli/CommandInterfaceOrganizationPropierties.sikuli/1650827191667.png")
+    click("C:/vanessa/features/corp-video-features/Sikuli/CommandInterfaceOrganizationPropierties.sikuli/1650644600490.png")
+    click("C:/vanessa/features/corp-video-features/Sikuli/CommandInterfaceOrganizationPropierties.sikuli/1651084264472.png")
 
 def CtrlA():
     type('a', KeyModifier.CTRL)
@@ -78,83 +78,83 @@ def CtrlF():
     pass
 
 def DoubleClickOnGroupTovari():
-    doubleClick("E:/vanessa/corp/features/Sikuli/DoubleClickOnGroupTovari.sikuli/NomenclaturaTovariSikuli.png")
-    exists("E:/vanessa/corp/features/Sikuli/DoubleClickOnGroupTovari.sikuli/NomenklaturaListTovarsSikuli.png")
-    exists("E:/vanessa/corp/features/Sikuli/DoubleClickOnGroupTovari.sikuli/PoleFindSikuli.png")
-    exists("E:/vanessa/corp/features/Sikuli/DoubleClickOnGroupTovari.sikuli/NomenclaturaEdIzmStavkaNDSSikuli.png")
-    exists("E:/vanessa/corp/features/Sikuli/DoubleClickOnGroupTovari.sikuli/PoleFindSikuli.png")
-    exists("E:/vanessa/corp/features/Sikuli/DoubleClickOnGroupTovari.sikuli/1651809819167.png")
-    exists("E:/vanessa/corp/features/Sikuli/DoubleClickOnGroupTovari.sikuli/NomenclaturaEdIzmStavkaNDSSikuli.png")
+    doubleClick("C:/vanessa/features/corp-video-features/Sikuli/DoubleClickOnGroupTovari.sikuli/NomenclaturaTovariSikuli.png")
+    exists("C:/vanessa/features/corp-video-features/Sikuli/DoubleClickOnGroupTovari.sikuli/NomenklaturaListTovarsSikuli.png")
+    exists("C:/vanessa/features/corp-video-features/Sikuli/DoubleClickOnGroupTovari.sikuli/PoleFindSikuli.png")
+    exists("C:/vanessa/features/corp-video-features/Sikuli/DoubleClickOnGroupTovari.sikuli/NomenclaturaEdIzmStavkaNDSSikuli.png")
+    exists("C:/vanessa/features/corp-video-features/Sikuli/DoubleClickOnGroupTovari.sikuli/PoleFindSikuli.png")
+    exists("C:/vanessa/features/corp-video-features/Sikuli/DoubleClickOnGroupTovari.sikuli/1651809819167.png")
+    exists("C:/vanessa/features/corp-video-features/Sikuli/DoubleClickOnGroupTovari.sikuli/NomenclaturaEdIzmStavkaNDSSikuli.png")
 
 def Kassa_ClickOnOtchetKassira():
-    click(Pattern("E:/vanessa/corp/features/Sikuli/Kassa_ClickOnOtchetKassira.sikuli/OtchetKassiraPodrazdelKassa.png").targetOffset(-45,54))
+    click(Pattern("C:/vanessa/features/corp-video-features/Sikuli/Kassa_ClickOnOtchetKassira.sikuli/OtchetKassiraPodrazdelKassa.png").targetOffset(-45,54))
     
-    click("E:/vanessa/corp/features/Sikuli/Kassa_ClickOnOtchetKassira.sikuli/OtchetKassira.png")
+    click("C:/vanessa/features/corp-video-features/Sikuli/Kassa_ClickOnOtchetKassira.sikuli/OtchetKassira.png")
 
 def Kassa_ClickOnPKO():
-    click("E:/vanessa/corp/features/Sikuli/Kassa_ClickOnPKO.sikuli/PKO.png")
-    click(Pattern("E:/vanessa/corp/features/Sikuli/Kassa_ClickOnPKO.sikuli/PKOPodrazdelKassa.png").targetOffset(-44,-24))
+    click("C:/vanessa/features/corp-video-features/Sikuli/Kassa_ClickOnPKO.sikuli/PKO.png")
+    click(Pattern("C:/vanessa/features/corp-video-features/Sikuli/Kassa_ClickOnPKO.sikuli/PKOPodrazdelKassa.png").targetOffset(-44,-24))
 
 def OneSClickOnIcon():
     type('d', KeyModifier.WIN)
-    click("E:/vanessa/corp/features/Sikuli/OneSClickOnIcon.sikuli/1651729303207.png")
-    wait(Pattern("E:/vanessa/corp/features/Sikuli/OneSClickOnIcon.sikuli/Icon1S.png").similar(0.80),10)
-    if exists(Pattern("E:/vanessa/corp/features/Sikuli/OneSClickOnIcon.sikuli/Icon1S.png").similar(0.80)):
-        doubleClick(Pattern("E:/vanessa/corp/features/Sikuli/OneSClickOnIcon.sikuli/Icon1S.png").similar(0.80))
+    click("C:/vanessa/features/corp-video-features/Sikuli/OneSClickOnIcon.sikuli/1651729303207.png")
+    wait(Pattern("C:/vanessa/features/corp-video-features/Sikuli/OneSClickOnIcon.sikuli/Icon1S.png").similar(0.80),10)
+    if exists(Pattern("C:/vanessa/features/corp-video-features/Sikuli/OneSClickOnIcon.sikuli/Icon1S.png").similar(0.80)):
+        doubleClick(Pattern("C:/vanessa/features/corp-video-features/Sikuli/OneSClickOnIcon.sikuli/Icon1S.png").similar(0.80))
 
 def OneSConfigTestManager():
-    wait("E:/vanessa/corp/features/Sikuli/OneSConfigTestManager.sikuli/ZagolovokConfigurator.png")
-    click("E:/vanessa/corp/features/Sikuli/OneSConfigTestManager.sikuli/Servis.png")
+    wait("C:/vanessa/features/corp-video-features/Sikuli/OneSConfigTestManager.sikuli/ZagolovokConfigurator.png")
+    click("C:/vanessa/features/corp-video-features/Sikuli/OneSConfigTestManager.sikuli/Servis.png")
     click("Parametri.jpg")
-    wait("E:/vanessa/corp/features/Sikuli/OneSConfigTestManager.sikuli/1ZakladkaZapusk.png")
-    click("E:/vanessa/corp/features/Sikuli/OneSConfigTestManager.sikuli/1ZakladkaZapusk.png")
-    click("E:/vanessa/corp/features/Sikuli/OneSConfigTestManager.sikuli/2ZakladkaDopolnitelnie.png")
-    click("E:/vanessa/corp/features/Sikuli/OneSConfigTestManager.sikuli/3RadioZapuskatiKakaManager.png")
-    click("E:/vanessa/corp/features/Sikuli/OneSConfigTestManager.sikuli/4KnokaPrimeniti.png")
-    click("E:/vanessa/corp/features/Sikuli/OneSConfigTestManager.sikuli/5KnopkaOk.png")
-    click("E:/vanessa/corp/features/Sikuli/OneSConfigTestManager.sikuli/9KnopkaNachatiOtladku.png")
+    wait("C:/vanessa/features/corp-video-features/Sikuli/OneSConfigTestManager.sikuli/1ZakladkaZapusk.png")
+    click("C:/vanessa/features/corp-video-features/Sikuli/OneSConfigTestManager.sikuli/1ZakladkaZapusk.png")
+    click("C:/vanessa/features/corp-video-features/Sikuli/OneSConfigTestManager.sikuli/2ZakladkaDopolnitelnie.png")
+    click("C:/vanessa/features/corp-video-features/Sikuli/OneSConfigTestManager.sikuli/3RadioZapuskatiKakaManager.png")
+    click("C:/vanessa/features/corp-video-features/Sikuli/OneSConfigTestManager.sikuli/4KnokaPrimeniti.png")
+    click("C:/vanessa/features/corp-video-features/Sikuli/OneSConfigTestManager.sikuli/5KnopkaOk.png")
+    click("C:/vanessa/features/corp-video-features/Sikuli/OneSConfigTestManager.sikuli/9KnopkaNachatiOtladku.png")
 
 def OneSEnterepriceRunVanessa():
-    wait("E:/vanessa/corp/features/Sikuli/OneSEnterepriceRunVanessa.sikuli/1SEnterpriceZagolovokManager.png")
-    click("E:/vanessa/corp/features/Sikuli/OneSEnterepriceRunVanessa.sikuli/1SEnterpriceMenu.png")
+    wait("C:/vanessa/features/corp-video-features/Sikuli/OneSEnterepriceRunVanessa.sikuli/1SEnterpriceZagolovokManager.png")
+    click("C:/vanessa/features/corp-video-features/Sikuli/OneSEnterepriceRunVanessa.sikuli/1SEnterpriceMenu.png")
     click("1MenuFile.jpg")
     click("2MenuOpen.jpg")
-    click("E:/vanessa/corp/features/Sikuli/OneSEnterepriceRunVanessa.sikuli/1OpenFormMyComp.png")
-    click("E:/vanessa/corp/features/Sikuli/OneSEnterepriceRunVanessa.sikuli/2OpenFormDiskE.png")
-    click("E:/vanessa/corp/features/Sikuli/OneSEnterepriceRunVanessa.sikuli/3OpenFormVanessa.png")
-    click("E:/vanessa/corp/features/Sikuli/OneSEnterepriceRunVanessa.sikuli/OpenFormKnopkaOpen.png")
+    click("C:/vanessa/features/corp-video-features/Sikuli/OneSEnterepriceRunVanessa.sikuli/1OpenFormMyComp.png")
+    click("C:/vanessa/features/corp-video-features/Sikuli/OneSEnterepriceRunVanessa.sikuli/2OpenFormDiskE.png")
+    click("C:/vanessa/features/corp-video-features/Sikuli/OneSEnterepriceRunVanessa.sikuli/3OpenFormVanessa.png")
+    click("C:/vanessa/features/corp-video-features/Sikuli/OneSEnterepriceRunVanessa.sikuli/OpenFormKnopkaOpen.png")
     
 
 def OneSRunConfig():
-    wait("E:/vanessa/corp/features/Sikuli/OneSRunConfig.sikuli/ZagolovokOknaZapuska1S.png")
-    if not exists("E:/vanessa/corp/features/Sikuli/OneSRunConfig.sikuli/ImeaBaziNeaktivnoe.png") or not exists("E:/vanessa/corp/features/Sikuli/OneSRunConfig.sikuli/ImeaBaziAktivnoe.png"):
-        click("E:/vanessa/corp/features/Sikuli/OneSRunConfig.sikuli/ZagolovokOknaZapuska1S.png")
+    wait("C:/vanessa/features/corp-video-features/Sikuli/OneSRunConfig.sikuli/ZagolovokOknaZapuska1S.png")
+    if not exists("C:/vanessa/features/corp-video-features/Sikuli/OneSRunConfig.sikuli/ImeaBaziNeaktivnoe.png") or not exists("C:/vanessa/features/corp-video-features/Sikuli/OneSRunConfig.sikuli/ImeaBaziAktivnoe.png"):
+        click("C:/vanessa/features/corp-video-features/Sikuli/OneSRunConfig.sikuli/ZagolovokOknaZapuska1S.png")
         type('c')
-        if exists("E:/vanessa/corp/features/Sikuli/OneSRunConfig.sikuli/ImeaBaziNeaktivnoe.png"):
-            click("E:/vanessa/corp/features/Sikuli/OneSRunConfig.sikuli/ImeaBaziNeaktivnoe.png")
+        if exists("C:/vanessa/features/corp-video-features/Sikuli/OneSRunConfig.sikuli/ImeaBaziNeaktivnoe.png"):
+            click("C:/vanessa/features/corp-video-features/Sikuli/OneSRunConfig.sikuli/ImeaBaziNeaktivnoe.png")
     
-    if exists("E:/vanessa/corp/features/Sikuli/OneSRunConfig.sikuli/ImeaBaziAktivnoe.png"):
-        click("E:/vanessa/corp/features/Sikuli/OneSRunConfig.sikuli/KnopkaConfigurator.png")
+    if exists("C:/vanessa/features/corp-video-features/Sikuli/OneSRunConfig.sikuli/ImeaBaziAktivnoe.png"):
+        click("C:/vanessa/features/corp-video-features/Sikuli/OneSRunConfig.sikuli/KnopkaConfigurator.png")
     
-    wait("E:/vanessa/corp/features/Sikuli/OneSRunConfig.sikuli/KnopkaVoiti.png",20)
-    click("E:/vanessa/corp/features/Sikuli/OneSRunConfig.sikuli/KnopkaVoiti.png")
+    wait("C:/vanessa/features/corp-video-features/Sikuli/OneSRunConfig.sikuli/KnopkaVoiti.png",20)
+    click("C:/vanessa/features/corp-video-features/Sikuli/OneSRunConfig.sikuli/KnopkaVoiti.png")
     
     
         
             
 
 def OpenReglReports():
-    if (exists("E:/vanessa/corp/features/Sikuli/OpenReglReports.sikuli/1646439775281.png")):
-            click("E:/vanessa/corp/features/Sikuli/OpenReglReports.sikuli/1646439785680.png")
+    if (exists("C:/vanessa/features/corp-video-features/Sikuli/OpenReglReports.sikuli/1646439775281.png")):
+            click("C:/vanessa/features/corp-video-features/Sikuli/OpenReglReports.sikuli/1646439785680.png")
     
-    if (exists("E:/vanessa/corp/features/Sikuli/OpenReglReports.sikuli/reports-reglreports.png")):
-            click("E:/vanessa/corp/features/Sikuli/OpenReglReports.sikuli/reports-reglreports.png")
+    if (exists("C:/vanessa/features/corp-video-features/Sikuli/OpenReglReports.sikuli/reports-reglreports.png")):
+            click("C:/vanessa/features/corp-video-features/Sikuli/OpenReglReports.sikuli/reports-reglreports.png")
             
 
 def PodrazdelKassa():
-    exists("E:/vanessa/corp/features/Sikuli/PodrazdelKassa.sikuli/PodrazdelKassa.png")
-    click("E:/vanessa/corp/features/Sikuli/PodrazdelKassa.sikuli/PodrazdelKassa.png")
-    exists("E:/vanessa/corp/features/Sikuli/PodrazdelKassa.sikuli/RKO.png")
+    exists("C:/vanessa/features/corp-video-features/Sikuli/PodrazdelKassa.sikuli/PodrazdelKassa.png")
+    click("C:/vanessa/features/corp-video-features/Sikuli/PodrazdelKassa.sikuli/PodrazdelKassa.png")
+    exists("C:/vanessa/features/corp-video-features/Sikuli/PodrazdelKassa.sikuli/RKO.png")
 
 def TypeDELETE():
     type(Key.DELETE)
@@ -170,62 +170,70 @@ def TypeTEXT():
     type(Key.ENTER)
 
 def VanessaRunTestKlient():
-    wait("E:/vanessa/corp/features/Sikuli/VanessaRunTestKlient.sikuli/1VAZagolovok.png")
-    wait("E:/vanessa/corp/features/Sikuli/VanessaRunTestKlient.sikuli/2VATestKlients.png")
-    click("E:/vanessa/corp/features/Sikuli/VanessaRunTestKlient.sikuli/2VATestKlients.png")
-    click("E:/vanessa/corp/features/Sikuli/VanessaRunTestKlient.sikuli/3VATestKlientsThisKlient.png")
-    click("E:/vanessa/corp/features/Sikuli/VanessaRunTestKlient.sikuli/4VATestKlientsKnopkaRunKlient.png")
-    wait(Pattern("E:/vanessa/corp/features/Sikuli/VanessaRunTestKlient.sikuli/1SBaseTestKlient.png").similar(0.90),20)
-    click("E:/vanessa/corp/features/Sikuli/VanessaRunTestKlient.sikuli/1SIconOnPanel.png")
+    wait("C:/vanessa/features/corp-video-features/Sikuli/VanessaRunTestKlient.sikuli/1VAZagolovok.png")
+    wait("C:/vanessa/features/corp-video-features/Sikuli/VanessaRunTestKlient.sikuli/2VATestKlients.png")
+    click("C:/vanessa/features/corp-video-features/Sikuli/VanessaRunTestKlient.sikuli/2VATestKlients.png")
+    click("C:/vanessa/features/corp-video-features/Sikuli/VanessaRunTestKlient.sikuli/3VATestKlientsThisKlient.png")
+    click("C:/vanessa/features/corp-video-features/Sikuli/VanessaRunTestKlient.sikuli/4VATestKlientsKnopkaRunKlient.png")
+    wait(Pattern("C:/vanessa/features/corp-video-features/Sikuli/VanessaRunTestKlient.sikuli/1SBaseTestKlient.png").similar(0.90),20)
+    click("C:/vanessa/features/corp-video-features/Sikuli/VanessaRunTestKlient.sikuli/1SIconOnPanel.png")
     click("1SManagerOnPanel.jpg")
-    wait("E:/vanessa/corp/features/Sikuli/VanessaRunTestKlient.sikuli/1651754519039.png")
+    wait("C:/vanessa/features/corp-video-features/Sikuli/VanessaRunTestKlient.sikuli/1651754519039.png")
 
 def AdressnaeaStroka():
-    click(Pattern("E:/vanessa/corp/features/Sikuli/OF/AdressnaeaStroka.sikuli/AdressnaeaStroka.png").targetOffset(65,-1))
+    click(Pattern("C:/vanessa/features/corp-video-features/Sikuli/OF/AdressnaeaStroka.sikuli/AdressnaeaStroka.png").targetOffset(65,-1))
 
 def Chrome():
-    click(Pattern("E:/vanessa/corp/features/Sikuli/OF/Chrome.sikuli/NovaeaVkladka.png").targetOffset(20,-1))
-    wait("E:/vanessa/corp/features/Sikuli/OF/Chrome.sikuli/1658320902297.png")
-    mouseMove("E:/vanessa/corp/features/Sikuli/OF/Chrome.sikuli/1658320902297.png")
-    click(Pattern("E:/vanessa/corp/features/Sikuli/OF/Chrome.sikuli/ZakritiPervuiuVkladku.png").targetOffset(-17,0))
-    mouseMove("E:/vanessa/corp/features/Sikuli/OF/Chrome.sikuli/1658313545518.png")
-    click(Pattern("E:/vanessa/corp/features/Sikuli/OF/Chrome.sikuli/AdressnaeaStroka.png").targetOffset(65,-1))
+    click(Pattern("C:/vanessa/features/corp-video-features/Sikuli/OF/Chrome.sikuli/NovaeaVkladka.png").targetOffset(20,-1))
+    wait("C:/vanessa/features/corp-video-features/Sikuli/OF/Chrome.sikuli/1658320902297.png")
+    mouseMove("C:/vanessa/features/corp-video-features/Sikuli/OF/Chrome.sikuli/1658320902297.png")
+    click(Pattern("C:/vanessa/features/corp-video-features/Sikuli/OF/Chrome.sikuli/ZakritiPervuiuVkladku.png").targetOffset(-17,0))
+    mouseMove("C:/vanessa/features/corp-video-features/Sikuli/OF/Chrome.sikuli/1658313545518.png")
+    click(Pattern("C:/vanessa/features/corp-video-features/Sikuli/OF/Chrome.sikuli/AdressnaeaStroka.png").targetOffset(65,-1))
 
 def ClickButtonOK():
-    click("E:/vanessa/corp/features/Sikuli/OF/ClickButtonOK.sikuli/ButtonOK.png")
+    click("C:/vanessa/features/corp-video-features/Sikuli/OF/ClickButtonOK.sikuli/ButtonOK.png")
+
+def CloseAllWindows():
+    click("C:/vanessa/features/corp-video-features/Sikuli/OF/CloseAllWindows.sikuli/Okna.png")
+    click("C:/vanessa/features/corp-video-features/Sikuli/OF/CloseAllWindows.sikuli/CloseAll.png")
 
 def cnasMD():
-    click(Pattern("E:/vanessa/corp/features/Sikuli/OF/cnasMD.sikuli/NovaeaVkladka.png").targetOffset(20,-1))
-    click(Pattern("E:/vanessa/corp/features/Sikuli/OF/cnasMD.sikuli/ZakritiPervuiuVkladku.png").targetOffset(-17,0))
+    click(Pattern("C:/vanessa/features/corp-video-features/Sikuli/OF/cnasMD.sikuli/NovaeaVkladka.png").targetOffset(20,-1))
+    click(Pattern("C:/vanessa/features/corp-video-features/Sikuli/OF/cnasMD.sikuli/ZakritiPervuiuVkladku.png").targetOffset(-17,0))
     
-    click(Pattern("E:/vanessa/corp/features/Sikuli/OF/cnasMD.sikuli/AdressnaeaStroka.png").targetOffset(65,-1))
+    click(Pattern("C:/vanessa/features/corp-video-features/Sikuli/OF/cnasMD.sikuli/AdressnaeaStroka.png").targetOffset(65,-1))
     type("cnas.gov.md")
     type(Key.ENTER)
     
-    wait("E:/vanessa/corp/features/Sikuli/OF/cnasMD.sikuli/MenuPentruPlatitoriDeContributii.png")
-    click(Pattern("E:/vanessa/corp/features/Sikuli/OF/cnasMD.sikuli/MenuPentruPlatitoriDeContributii.png").targetOffset(17,45))
+    wait("C:/vanessa/features/corp-video-features/Sikuli/OF/cnasMD.sikuli/MenuPentruPlatitoriDeContributii.png")
+    click(Pattern("C:/vanessa/features/corp-video-features/Sikuli/OF/cnasMD.sikuli/MenuPentruPlatitoriDeContributii.png").targetOffset(17,45))
     
-    wait("E:/vanessa/corp/features/Sikuli/OF/cnasMD.sikuli/MenuClassificatoare.png",10)
-    click("E:/vanessa/corp/features/Sikuli/OF/cnasMD.sikuli/MenuClassificatoare.png")
+    wait("C:/vanessa/features/corp-video-features/Sikuli/OF/cnasMD.sikuli/MenuClassificatoare.png",10)
+    click("C:/vanessa/features/corp-video-features/Sikuli/OF/cnasMD.sikuli/MenuClassificatoare.png")
     
-    exists(Pattern("E:/vanessa/corp/features/Sikuli/OF/cnasMD.sikuli/TabelComparativ.png").similar(0.89))
+    exists(Pattern("C:/vanessa/features/corp-video-features/Sikuli/OF/cnasMD.sikuli/TabelComparativ.png").similar(0.89))
 
 def OProgramme():
-    click("E:/vanessa/corp/features/Sikuli/OF/OProgramme.sikuli/MenuSpravka.png")
-    click("E:/vanessa/corp/features/Sikuli/OF/OProgramme.sikuli/OProgramme.png")
-    #exists("E:/vanessa/corp/features/Sikuli/OF/OProgramme.sikuli/redactia1291.png")
-    exists("E:/vanessa/corp/features/Sikuli/OF/OProgramme.sikuli/redactia12111.png")
+    click("C:/vanessa/features/corp-video-features/Sikuli/OF/OProgramme.sikuli/MenuSpravka.png")
+    click("C:/vanessa/features/corp-video-features/Sikuli/OF/OProgramme.sikuli/OProgramme.png")
+    #exists("C:/vanessa/features/corp-video-features/Sikuli/OF/OProgramme.sikuli/redactia1291.png")
+    exists("C:/vanessa/features/corp-video-features/Sikuli/OF/OProgramme.sikuli/redactia12111.png")
 
 def PereclucenieNaConfig():
-    click("E:/vanessa/corp/features/Sikuli/OF/PereclucenieNaConfig.sikuli/IconOneS.png")
-    click("E:/vanessa/corp/features/Sikuli/OF/PereclucenieNaConfig.sikuli/Configurator.png")
+    click("C:/vanessa/features/corp-video-features/Sikuli/OF/PereclucenieNaConfig.sikuli/IconOneS.png")
+    click("C:/vanessa/features/corp-video-features/Sikuli/OF/PereclucenieNaConfig.sikuli/Configurator.png")
     
-    exists("E:/vanessa/corp/features/Sikuli/OF/PereclucenieNaConfig.sikuli/IconNaPodderjke.png")
+    exists("C:/vanessa/features/corp-video-features/Sikuli/OF/PereclucenieNaConfig.sikuli/IconNaPodderjke.png")
 
 def PereclucenieNaOneS():
-    click("E:/vanessa/corp/features/Sikuli/OF/PereclucenieNaOneS.sikuli/OneS.png")
-    click("E:/vanessa/corp/features/Sikuli/OF/PereclucenieNaOneS.sikuli/1SBuhOF.png")
-    #click("E:/vanessa/corp/features/Sikuli/OF/PereclucenieNaOneS.sikuli/Chrome.png")
+    if exists("C:/vanessa/features/corp-video-features/Sikuli/OF/PereclucenieNaOneS.sikuli/OneS.png"):
+        click("C:/vanessa/features/corp-video-features/Sikuli/OF/PereclucenieNaOneS.sikuli/OneS.png")
+        click("C:/vanessa/features/corp-video-features/Sikuli/OF/PereclucenieNaOneS.sikuli/1SBuhOF.png")
+    if exists("C:/vanessa/features/corp-video-features/Sikuli/OF/PereclucenieNaOneS.sikuli/OneSBlack.png"):
+        click("C:/vanessa/features/corp-video-features/Sikuli/OF/PereclucenieNaOneS.sikuli/OneSBlack.png")
+        click("C:/vanessa/features/corp-video-features/Sikuli/OF/PereclucenieNaOneS.sikuli/1SBuhOFBlack.png")
+    #click("C:/vanessa/features/corp-video-features/Sikuli/OF/PereclucenieNaOneS.sikuli/Chrome.png")
 
 def testKeyDown():
     keyDown(Key.ALT)
@@ -240,83 +248,81 @@ def typeCnasGovMD():
     type(Key.ENTER)
 
 def UpravlenieRazmeromOkna():
-    #rightClick(Pattern("E:/vanessa/corp/features/Sikuli/OF/UpravlenieRazmeromOkna.sikuli/ZagolovockNastroikaPolizovatelea.png").similar(0.50))
-    rightClick("E:/vanessa/corp/features/Sikuli/OF/UpravlenieRazmeromOkna.sikuli/1658339571926.png")
-    click("E:/vanessa/corp/features/Sikuli/OF/UpravlenieRazmeromOkna.sikuli/VosstanovitiPolojenieOkna.png")
-    click("E:/vanessa/corp/features/Sikuli/OF/UpravlenieRazmeromOkna.sikuli/UpravlenieRazmeromOkna.png")
+    #rightClick(Pattern("C:/vanessa/features/corp-video-features/Sikuli/OF/UpravlenieRazmeromOkna.sikuli/ZagolovockNastroikaPolizovatelea.png").similar(0.50))
+    rightClick("C:/vanessa/features/corp-video-features/Sikuli/OF/UpravlenieRazmeromOkna.sikuli/1658339571926.png")
+    click("C:/vanessa/features/corp-video-features/Sikuli/OF/UpravlenieRazmeromOkna.sikuli/VosstanovitiPolojenieOkna.png")
+    click("C:/vanessa/features/corp-video-features/Sikuli/OF/UpravlenieRazmeromOkna.sikuli/UpravlenieRazmeromOkna.png")
 
 def ZakritiVkladku():
-    click(Pattern("E:/vanessa/corp/features/Sikuli/OF/ZakritiVkladku.sikuli/ZakritiPervuiuVkladku.png").targetOffset(-17,0))
+    click(Pattern("C:/vanessa/features/corp-video-features/Sikuli/OF/ZakritiVkladku.sikuli/ZakritiPervuiuVkladku.png").targetOffset(-17,0))
 
 def ZapolnenieIB():
-    click("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/Okna.png")
-    click("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/CloseAll.png")
     
-    wait(Pattern("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/DannieBiliIzmeneni.png").targetOffset(-6,20))
+    wait(Pattern("C:/vanessa/features/corp-video-features/Sikuli/OF/ZapolnenieIB.sikuli/DannieBiliIzmeneni.png").targetOffset(-6,20))
     
     
-    click("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/MenuServis.png")
-    click(Pattern("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/MenuServisEschio.png").similar(0.81))
-    click(Pattern("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/MenuServisEschio.png").similar(0.80))
-    click(Pattern("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/MenuServisEschio.png").similar(0.80))
+    click("C:/vanessa/features/corp-video-features/Sikuli/OF/ZapolnenieIB.sikuli/MenuServis.png")
+    click(Pattern("C:/vanessa/features/corp-video-features/Sikuli/OF/ZapolnenieIB.sikuli/MenuServisEschio.png").similar(0.81))
+    click(Pattern("C:/vanessa/features/corp-video-features/Sikuli/OF/ZapolnenieIB.sikuli/MenuServisEschio.png").similar(0.80))
+    click(Pattern("C:/vanessa/features/corp-video-features/Sikuli/OF/ZapolnenieIB.sikuli/MenuServisEschio.png").similar(0.80))
     sleep(2)
-    click(Pattern("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/MenuServisZapolnenieIB.png").similar(0.95).targetOffset(0,-5))
+    click(Pattern("C:/vanessa/features/corp-video-features/Sikuli/OF/ZapolnenieIB.sikuli/MenuServisZapolnenieIB.png").similar(0.95).targetOffset(0,-5))
     
-    click(Pattern("ZakladkaE:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/Spravochnik.png").similar(0.91))
-    click(Pattern("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/ZapolnitiDoljnosti22.png").targetOffset(-71,0))
-    click("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/Vipolniti.png")
+    click(Pattern("ZakladkaC:/vanessa/features/corp-video-features/Sikuli/OF/ZapolnenieIB.sikuli/Spravochnik.png").similar(0.91))
+    click(Pattern("C:/vanessa/features/corp-video-features/Sikuli/OF/ZapolnenieIB.sikuli/ZapolnitiDoljnosti22.png").targetOffset(-71,0))
+    click("C:/vanessa/features/corp-video-features/Sikuli/OF/ZapolnenieIB.sikuli/Vipolniti.png")
     sleep(5)
     
     
-    click("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/MenuServis.png")
-    click("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/NastroikiPolzovatelea.png")
+    click("C:/vanessa/features/corp-video-features/Sikuli/OF/ZapolnenieIB.sikuli/MenuServis.png")
+    click("C:/vanessa/features/corp-video-features/Sikuli/OF/ZapolnenieIB.sikuli/NastroikiPolzovatelea.png")
     
-    click("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/ZakladkaNastroiki.png")
-    click(Pattern("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/ZagolovokNastroika.png").targetOffset(-3,12))
+    click("C:/vanessa/features/corp-video-features/Sikuli/OF/ZapolnenieIB.sikuli/ZakladkaNastroiki.png")
+    click(Pattern("C:/vanessa/features/corp-video-features/Sikuli/OF/ZapolnenieIB.sikuli/ZagolovokNastroika.png").targetOffset(-3,12))
     
-    click(Pattern("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/Poisk.png").targetOffset(30,11))
-    click("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/ButtonIskati.png")
-    click(Pattern("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/PokazivatiNeispolzuemieDoljnosti.png").targetOffset(146,0))
-    exists(Pattern("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/NeIspolizuemieDoljnosti.png").targetOffset(465,0))
+    click(Pattern("C:/vanessa/features/corp-video-features/Sikuli/OF/ZapolnenieIB.sikuli/Poisk.png").targetOffset(30,11))
+    click("C:/vanessa/features/corp-video-features/Sikuli/OF/ZapolnenieIB.sikuli/ButtonIskati.png")
+    click(Pattern("C:/vanessa/features/corp-video-features/Sikuli/OF/ZapolnenieIB.sikuli/PokazivatiNeispolzuemieDoljnosti.png").targetOffset(146,0))
+    exists(Pattern("C:/vanessa/features/corp-video-features/Sikuli/OF/ZapolnenieIB.sikuli/NeIspolizuemieDoljnosti.png").targetOffset(465,0))
     
     
-    click("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/PokazivatiNeispolizuemieDoljnostiActiveFlag.png")
+    click("C:/vanessa/features/corp-video-features/Sikuli/OF/ZapolnenieIB.sikuli/PokazivatiNeispolizuemieDoljnostiActiveFlag.png")
     
-    click("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/ButtonOk.png")
+    click("C:/vanessa/features/corp-video-features/Sikuli/OF/ZapolnenieIB.sikuli/ButtonOk.png")
     
-    click("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/MenuOperatii.png")
-    click("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/Spravochnik.png")
+    click("C:/vanessa/features/corp-video-features/Sikuli/OF/ZapolnenieIB.sikuli/MenuOperatii.png")
+    click("C:/vanessa/features/corp-video-features/Sikuli/OF/ZapolnenieIB.sikuli/Spravochnik.png")
     
-    click(Pattern("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/SpravochnikDoljnostiActiv.png").targetOffset(-55,0))
-    click("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/ButtonOKThin.png")
+    click(Pattern("C:/vanessa/features/corp-video-features/Sikuli/OF/ZapolnenieIB.sikuli/SpravochnikDoljnostiActiv.png").targetOffset(-55,0))
+    click("C:/vanessa/features/corp-video-features/Sikuli/OF/ZapolnenieIB.sikuli/ButtonOKThin.png")
     
-    exists("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/ButtonPokazivatiNeispolizuemieDoljnosti.png")
+    exists("C:/vanessa/features/corp-video-features/Sikuli/OF/ZapolnenieIB.sikuli/ButtonPokazivatiNeispolizuemieDoljnosti.png")
     
-    exists("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/FlagNeIspolizuetsea.png")
+    exists("C:/vanessa/features/corp-video-features/Sikuli/OF/ZapolnenieIB.sikuli/FlagNeIspolizuetsea.png")
     
-    doubleClick(Pattern("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/SsilkaNaNovuiuDoljnosti.png").targetOffset(-106,-2))
+    doubleClick(Pattern("C:/vanessa/features/corp-video-features/Sikuli/OF/ZapolnenieIB.sikuli/SsilkaNaNovuiuDoljnosti.png").targetOffset(-106,-2))
     
-    click("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/ButtonTriTochki.png")
+    click("C:/vanessa/features/corp-video-features/Sikuli/OF/ZapolnenieIB.sikuli/ButtonTriTochki.png")
     
-    click(Pattern("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/ButtonExit.png").targetOffset(18,-2))
+    click(Pattern("C:/vanessa/features/corp-video-features/Sikuli/OF/ZapolnenieIB.sikuli/ButtonExit.png").targetOffset(18,-2))
     
-    click("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/MenuZPAndKadri.png") 
-    click("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/MenuDokumenti.png") 
-    click("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/MenuKadrovieDocumenti.png")
+    click("C:/vanessa/features/corp-video-features/Sikuli/OF/ZapolnenieIB.sikuli/MenuZPAndKadri.png") 
+    click("C:/vanessa/features/corp-video-features/Sikuli/OF/ZapolnenieIB.sikuli/MenuDokumenti.png") 
+    click("C:/vanessa/features/corp-video-features/Sikuli/OF/ZapolnenieIB.sikuli/MenuKadrovieDocumenti.png")
     
-    click("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/ButtonDobavitiNoviiDokument.png")
-    click("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/ViborKadrovoe.png")
+    click("C:/vanessa/features/corp-video-features/Sikuli/OF/ZapolnenieIB.sikuli/ButtonDobavitiNoviiDokument.png")
+    click("C:/vanessa/features/corp-video-features/Sikuli/OF/ZapolnenieIB.sikuli/ViborKadrovoe.png")
     
-    click(Pattern("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/DataDoc.png").targetOffset(-39,-2))
-    exists("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/Podrazdelenie.png")
+    click(Pattern("C:/vanessa/features/corp-video-features/Sikuli/OF/ZapolnenieIB.sikuli/DataDoc.png").targetOffset(-39,-2))
+    exists("C:/vanessa/features/corp-video-features/Sikuli/OF/ZapolnenieIB.sikuli/Podrazdelenie.png")
     
-    click("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/ButtonZapolniti.png")
+    click("C:/vanessa/features/corp-video-features/Sikuli/OF/ZapolnenieIB.sikuli/ButtonZapolniti.png")
     
-    exists("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/KolonkiDoljnosti.png")
-    exists("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/PustaeaNovaeaDoljnosti.png")
-    exists("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/KolonkaS.png")
-    exists("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/ZakladkaNachislenia.png")
-    exists("E:/vanessa/corp/features/Sikuli/OF/ZapolnenieIB.sikuli/ButtonDa.png")
+    exists("C:/vanessa/features/corp-video-features/Sikuli/OF/ZapolnenieIB.sikuli/KolonkiDoljnosti.png")
+    exists("C:/vanessa/features/corp-video-features/Sikuli/OF/ZapolnenieIB.sikuli/PustaeaNovaeaDoljnosti.png")
+    exists("C:/vanessa/features/corp-video-features/Sikuli/OF/ZapolnenieIB.sikuli/KolonkaS.png")
+    exists("C:/vanessa/features/corp-video-features/Sikuli/OF/ZapolnenieIB.sikuli/ZakladkaNachislenia.png")
+    exists("C:/vanessa/features/corp-video-features/Sikuli/OF/ZapolnenieIB.sikuli/ButtonDa.png")
     
 
 
@@ -478,6 +484,12 @@ while True:
             elif comand == "ClickButtonOK":
                 read_comand(dataofcomand)
                 ClickButtonOK()
+                DoResponse(response_filename,'success')
+
+
+            elif comand == "CloseAllWindows":
+                read_comand(dataofcomand)
+                CloseAllWindows()
                 DoResponse(response_filename,'success')
 
 

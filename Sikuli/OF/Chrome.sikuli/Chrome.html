@@ -70,9 +70,18 @@
 <h2>Chrome.sikuli</h2> <a href="Chrome.zip">(Download this script)</a>
 </div>
 <pre class="sikuli-code">
+<span class="kw">if</span> exists(<img src="ChromeBlack.png" />):
+    <span class="skw">click</span>(<img src="ChromeBlack.png" />)
 <span class="skw">click</span>(Pattern(<img src="NovaeaVkladka.png" />).targetOffset(<span class="dig">20</span>,-<span class="dig">1</span>))
+
 <span class="skw">wait</span>(<img src="1658320902297.png" />)
-mouseMove(<img src="1658320902297.png" />)
+
+<span class="kw">if</span> exists(<img src="1658320902297.png" />):
+    mouseMove(<img src="1658320902297.png" />)
+
+<span class="kw">if</span> exists(<img src="1658518736432.png" />):
+    mouseMove(<img src="1658518736432.png" />)
+
 <span class="skw">click</span>(Pattern(<img src="ZakritiPervuiuVkladku.png" />).targetOffset(-<span class="dig">17</span>,<span class="dig">0</span>))
 mouseMove(<img src="1658313545518.png" />)
 <span class="skw">click</span>(Pattern(<img src="AdressnaeaStroka.png" />).targetOffset(<span class="dig">65</span>,-<span class="dig">1</span>))
