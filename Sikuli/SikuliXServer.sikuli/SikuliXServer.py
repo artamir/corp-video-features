@@ -185,11 +185,13 @@ def AdressnaeaStroka():
 
 def Chrome():
     click(Pattern("E:/vanessa/corp/features/Sikuli/OF/Chrome.sikuli/NovaeaVkladka.png").targetOffset(20,-1))
-    wait("E:/vanessa/corp/features/Sikuli/OF/Chrome.sikuli/1658320902297.png")
-    mouseMove("E:/vanessa/corp/features/Sikuli/OF/Chrome.sikuli/1658320902297.png")
-    click(Pattern("E:/vanessa/corp/features/Sikuli/OF/Chrome.sikuli/ZakritiPervuiuVkladku.png").targetOffset(-17,0))
-    mouseMove("E:/vanessa/corp/features/Sikuli/OF/Chrome.sikuli/1658313545518.png")
-    click(Pattern("E:/vanessa/corp/features/Sikuli/OF/Chrome.sikuli/AdressnaeaStroka.png").targetOffset(65,-1))
+    wait("E:/vanessa/corp/features/Sikuli/OF/Chrome.sikuli/1658400951003.png")
+    #mouseMove("E:/vanessa/corp/features/Sikuli/OF/Chrome.sikuli/1658320902297.png")
+    rightClick("E:/vanessa/corp/features/Sikuli/OF/Chrome.sikuli/1658400951003.png")
+    click("E:/vanessa/corp/features/Sikuli/OF/Chrome.sikuli/CloseOtherTabs.png")
+    #click(Pattern("E:/vanessa/corp/features/Sikuli/OF/Chrome.sikuli/ZakritiPervuiuVkladku.png").targetOffset(-17,0))
+    #mouseMove("E:/vanessa/corp/features/Sikuli/OF/Chrome.sikuli/1658313545518.png")
+    #click(Pattern("E:/vanessa/corp/features/Sikuli/OF/Chrome.sikuli/AdressnaeaStroka.png").targetOffset(65,-1))
 
 def ClickButtonOK():
     click("E:/vanessa/corp/features/Sikuli/OF/ClickButtonOK.sikuli/ButtonOK.png")
