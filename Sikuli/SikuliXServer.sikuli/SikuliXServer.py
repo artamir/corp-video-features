@@ -184,15 +184,31 @@ def AdressnaeaStroka():
     click(Pattern("C:/vanessa/features/corp-video-features/Sikuli/OF/AdressnaeaStroka.sikuli/AdressnaeaStroka.png").targetOffset(65,-1))
 
 def Chrome():
+    if exists("C:/vanessa/features/corp-video-features/Sikuli/OF/Chrome.sikuli/ChromeBlack.png"):
+        click("C:/vanessa/features/corp-video-features/Sikuli/OF/Chrome.sikuli/ChromeBlack.png")
     click(Pattern("C:/vanessa/features/corp-video-features/Sikuli/OF/Chrome.sikuli/NovaeaVkladka.png").targetOffset(20,-1))
-    wait("C:/vanessa/features/corp-video-features/Sikuli/OF/Chrome.sikuli/1658320902297.png")
-    mouseMove("C:/vanessa/features/corp-video-features/Sikuli/OF/Chrome.sikuli/1658320902297.png")
-    click(Pattern("C:/vanessa/features/corp-video-features/Sikuli/OF/Chrome.sikuli/ZakritiPervuiuVkladku.png").targetOffset(-17,0))
-    mouseMove("C:/vanessa/features/corp-video-features/Sikuli/OF/Chrome.sikuli/1658313545518.png")
-    click(Pattern("C:/vanessa/features/corp-video-features/Sikuli/OF/Chrome.sikuli/AdressnaeaStroka.png").targetOffset(65,-1))
+    try:
+        wait("C:/vanessa/features/corp-video-features/Sikuli/OF/Chrome.sikuli/1658400951003.png")
+        #mouseMove("C:/vanessa/features/corp-video-features/Sikuli/OF/Chrome.sikuli/1658320902297.png")
+        rightClick("C:/vanessa/features/corp-video-features/Sikuli/OF/Chrome.sikuli/1658400951003.png")
+        click("C:/vanessa/features/corp-video-features/Sikuli/OF/Chrome.sikuli/CloseOtherTabs.png")
+    except:
+        wait("C:/vanessa/features/corp-video-features/Sikuli/OF/Chrome.sikuli/1658526180943.png")
+        rightClick("C:/vanessa/features/corp-video-features/Sikuli/OF/Chrome.sikuli/1658526180943.png")   
+        click("C:/vanessa/features/corp-video-features/Sikuli/OF/Chrome.sikuli/CloseOtherTabs2.png")
+    #click(Pattern("C:/vanessa/features/corp-video-features/Sikuli/OF/Chrome.sikuli/ZakritiPervuiuVkladku.png").targetOffset(-17,0))
+    #mouseMove("C:/vanessa/features/corp-video-features/Sikuli/OF/Chrome.sikuli/1658313545518.png")
+    #click(Pattern("C:/vanessa/features/corp-video-features/Sikuli/OF/Chrome.sikuli/AdressnaeaStroka.png").targetOffset(65,-1))
 
 def ClickButtonOK():
     click("C:/vanessa/features/corp-video-features/Sikuli/OF/ClickButtonOK.sikuli/ButtonOK.png")
+
+def ClickMenuEschio():
+    if exists(Pattern("C:/vanessa/features/corp-video-features/Sikuli/OF/ClickMenuEschio.sikuli/MenuServisEschio.png").similar(0.81)):
+        click(Pattern("C:/vanessa/features/corp-video-features/Sikuli/OF/ClickMenuEschio.sikuli/MenuServisEschio.png").similar(0.81))
+        click(Pattern("C:/vanessa/features/corp-video-features/Sikuli/OF/ClickMenuEschio.sikuli/MenuServisEschio.png").similar(0.80))
+        click(Pattern("C:/vanessa/features/corp-video-features/Sikuli/OF/ClickMenuEschio.sikuli/MenuServisEschio.png").similar(0.80))
+        sleep(2)
 
 def CloseAllWindows():
     click("C:/vanessa/features/corp-video-features/Sikuli/OF/CloseAllWindows.sikuli/Okna.png")
@@ -221,8 +237,12 @@ def OProgramme():
     exists("C:/vanessa/features/corp-video-features/Sikuli/OF/OProgramme.sikuli/redactia12111.png")
 
 def PereclucenieNaConfig():
-    click("C:/vanessa/features/corp-video-features/Sikuli/OF/PereclucenieNaConfig.sikuli/IconOneS.png")
-    click("C:/vanessa/features/corp-video-features/Sikuli/OF/PereclucenieNaConfig.sikuli/Configurator.png")
+    if exists("C:/vanessa/features/corp-video-features/Sikuli/OF/PereclucenieNaConfig.sikuli/IconOneS.png"):
+        click("C:/vanessa/features/corp-video-features/Sikuli/OF/PereclucenieNaConfig.sikuli/IconOneS.png")
+        click("C:/vanessa/features/corp-video-features/Sikuli/OF/PereclucenieNaConfig.sikuli/Configurator.png")
+        
+    if exists("C:/vanessa/features/corp-video-features/Sikuli/OF/PereclucenieNaConfig.sikuli/Configurator2.png"):
+        click("C:/vanessa/features/corp-video-features/Sikuli/OF/PereclucenieNaConfig.sikuli/Configurator2.png")
     
     exists("C:/vanessa/features/corp-video-features/Sikuli/OF/PereclucenieNaConfig.sikuli/IconNaPodderjke.png")
 
@@ -230,9 +250,11 @@ def PereclucenieNaOneS():
     if exists("C:/vanessa/features/corp-video-features/Sikuli/OF/PereclucenieNaOneS.sikuli/OneS.png"):
         click("C:/vanessa/features/corp-video-features/Sikuli/OF/PereclucenieNaOneS.sikuli/OneS.png")
         click("C:/vanessa/features/corp-video-features/Sikuli/OF/PereclucenieNaOneS.sikuli/1SBuhOF.png")
-    if exists("C:/vanessa/features/corp-video-features/Sikuli/OF/PereclucenieNaOneS.sikuli/OneSBlack.png"):
-        click("C:/vanessa/features/corp-video-features/Sikuli/OF/PereclucenieNaOneS.sikuli/OneSBlack.png")
-        click("C:/vanessa/features/corp-video-features/Sikuli/OF/PereclucenieNaOneS.sikuli/1SBuhOFBlack.png")
+    if exists("C:/vanessa/features/corp-video-features/Sikuli/OF/PereclucenieNaOneS.sikuli/1SBuhgOFBlack.png"):
+        #click("C:/vanessa/features/corp-video-features/Sikuli/OF/PereclucenieNaOneS.sikuli/OneSBlack.png")
+        #click("C:/vanessa/features/corp-video-features/Sikuli/OF/PereclucenieNaOneS.sikuli/1SBuhOFBlack.png")
+        click("C:/vanessa/features/corp-video-features/Sikuli/OF/PereclucenieNaOneS.sikuli/1SBuhgOFBlack.png")
+        
     #click("C:/vanessa/features/corp-video-features/Sikuli/OF/PereclucenieNaOneS.sikuli/Chrome.png")
 
 def testKeyDown():
@@ -484,6 +506,12 @@ while True:
             elif comand == "ClickButtonOK":
                 read_comand(dataofcomand)
                 ClickButtonOK()
+                DoResponse(response_filename,'success')
+
+
+            elif comand == "ClickMenuEschio":
+                read_comand(dataofcomand)
+                ClickMenuEschio()
                 DoResponse(response_filename,'success')
 
 

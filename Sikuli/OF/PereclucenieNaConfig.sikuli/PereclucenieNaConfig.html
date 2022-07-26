@@ -70,8 +70,12 @@
 <h2>PereclucenieNaConfig.sikuli</h2> <a href="PereclucenieNaConfig.zip">(Download this script)</a>
 </div>
 <pre class="sikuli-code">
-<span class="skw">click</span>(<img src="IconOneS.png" />)
-<span class="skw">click</span>(<img src="Configurator.png" />)
+<span class="kw">if</span> exists(<img src="IconOneS.png" />):
+    <span class="skw">click</span>(<img src="IconOneS.png" />)
+    <span class="skw">click</span>(<img src="Configurator.png" />)
+
+<span class="kw">if</span> exists(<img src="Configurator2.png" />):
+    <span class="skw">click</span>(<img src="Configurator2.png" />)
 
 exists(<img src="IconNaPodderjke.png" />)
 </pre>

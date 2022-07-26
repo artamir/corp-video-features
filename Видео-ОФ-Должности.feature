@@ -54,7 +54,7 @@
 
 	#[autodoc.ignorestep]
 	*
-		Затем клик на картинку "Chrome"
+		//Затем клик на картинку "Chrome"
 		И я выполняю скрипт SikuliX "Chrome"
 
 	#[autodoc.mute]	
@@ -156,10 +156,12 @@
 //		И я закрываю увеличение фрагмента экрана
 		
 
-		Затем клик на картинку "MenuServisEschio"
-		Затем клик на картинку "MenuServisEschio"
-		Затем клик на картинку "MenuServisEschio"
-		И Пауза 1
+//		Затем клик на картинку "MenuServisEschio"
+//		Затем клик на картинку "MenuServisEschio"
+//		Затем клик на картинку "MenuServisEschio"
+//		И Пауза 1
+		И я выполняю скрипт SikuliX "ClickMenuEschio"
+		
 		
 		//Дано курсор к картинке "MenuServisZapolnenieIB"
 		//Дано курсор к картинке "MenuServisEschio" со смещением "0" "-10"
