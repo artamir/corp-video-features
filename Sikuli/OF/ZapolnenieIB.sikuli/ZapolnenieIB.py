@@ -1,5 +1,3 @@
-click("Okna.png")
-click("CloseAll.png")
 
 wait(Pattern("DannieBiliIzmeneni.png").targetOffset(-6,20))
 

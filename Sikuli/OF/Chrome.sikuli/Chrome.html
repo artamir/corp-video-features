@@ -70,11 +70,18 @@
 <h2>Chrome.sikuli</h2> <a href="Chrome.zip">(Download this script)</a>
 </div>
 <pre class="sikuli-code">
+<span class="kw">if</span> exists(<img src="ChromeBlack.png" />):
+    <span class="skw">click</span>(<img src="ChromeBlack.png" />)
 <span class="skw">click</span>(Pattern(<img src="NovaeaVkladka.png" />).targetOffset(<span class="dig">20</span>,-<span class="dig">1</span>))
-<span class="skw">wait</span>(<img src="1658400951003.png" />)
-<span class="cmt">#mouseMove("1658320902297.png")</span>
-<span class="skw">rightClick</span>(<img src="1658400951003.png" />)
-<span class="skw">click</span>(<img src="CloseOtherTabs.png" />)
+<span class="kw">try</span>:
+    <span class="skw">wait</span>(<img src="1658400951003.png" />)
+    <span class="cmt">#mouseMove("1658320902297.png")</span>
+    <span class="skw">rightClick</span>(<img src="1658400951003.png" />)
+    <span class="skw">click</span>(<img src="CloseOtherTabs.png" />)
+<span class="kw">except</span>:
+    <span class="skw">wait</span>(<img src="1658526180943.png" />)
+    <span class="skw">rightClick</span>(<img src="1658526180943.png" />)
+    <span class="skw">click</span>(<img src="CloseOtherTabs2.png" />)
 <span class="cmt">#click(Pattern("ZakritiPervuiuVkladku.png").targetOffset(-17,0))</span>
 <span class="cmt">#mouseMove("1658313545518.png")</span>
 <span class="cmt">#click(Pattern("AdressnaeaStroka.png").targetOffset(65,-1))</span>
