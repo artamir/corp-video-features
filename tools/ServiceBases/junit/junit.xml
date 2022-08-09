@@ -1,0 +1,448 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+	<testsuite name="Дымовые тесты" errors="0" skipped="0" tests="268" failures="6" time="1157.259">
+		<testcase name="Открытие формы списка &quot;Tarifele&quot;" classname="Дымовые тесты" time="36.8"/>
+		<testcase name="Открытие формы объекта &quot;Tarifele&quot;" classname="Дымовые тесты" time="3.302"/>
+		<testcase name="Открытие формы списка &quot;Авто_БланкиВнешние&quot;" classname="Дымовые тесты" time="3.549"/>
+		<testcase name="Открытие формы объекта &quot;Авто_БланкиВнешние&quot;" classname="Дымовые тесты" time="3.334"/>
+		<testcase name="Открытие формы списка &quot;Авто_ВидыОплаты&quot;" classname="Дымовые тесты" time="3.129"/>
+		<testcase name="Открытие формы объекта &quot;Авто_ВидыОплаты&quot;" classname="Дымовые тесты" time="3.457"/>
+		<testcase name="Открытие формы списка &quot;Авто_ВидыТМЦ&quot;" classname="Дымовые тесты" time="3.158"/>
+		<testcase name="Открытие формы объекта &quot;Авто_ВидыТМЦ&quot;" classname="Дымовые тесты" time="3.144"/>
+		<testcase name="Открытие формы списка &quot;Авто_КонтрагентыВнешние&quot;" classname="Дымовые тесты" time="3.909"/>
+		<testcase name="Открытие формы объекта &quot;Авто_КонтрагентыВнешние&quot;" classname="Дымовые тесты" time="8.229">
+			<error>Не удалось открыть форму справочника Авто_КонтрагентыВнешние
+
+{ВнешняяОбработка.Условие.Форма.Форма.Форма(263)}:
+
+Технические данные:
+        ЗаголовокАктивногоОкна: 1С:Предприятие
+        ИмяАктивнойФормы: ErrorWindow
+        ИмяФичи: Дымовые тесты
+        ИмяСценария: Открытие формы объекта "Авто_КонтрагентыВнешние"
+        НомерСтрокиДерева: 73
+        НомерСтрокиФичи: 89
+        ПолныйПутьКФиче: e:\vanessa\corp\features\beforeRelease\001. Открытие форм справочников.feature
+        ИмяФайла: e:\vanessa\vanessa-automation\features\Libraries\Условие\step_definitions\Условие.epf
+        ИмяПроцедуры: ЯВызываюИсключение
+        ИмяРаннера: ts1scont
+        ТипПлатформы: Windows x86
+        ТипКлиентаТестирования: Web
+        СтрокаСоединения: http://localhost/v83ServiceBaseCorp8319/ru_RU/
+        PIDКлиентаТестирования: 0
+        ВерсияVA: ver 1.2.038.1
+        ВерсияПлатформы: 8.3.19.1229
+        РежимСовместимостиTestManager: Версия8_3_18
+        ДатаВремяОшибки: 09.08.2022 20:40:03
+Текст модального окна:
+    К сожалению, возникла непредвиденная ошибка  Попробуйте повторить операцию. Если ошибка повторится, попробуйте перезапустить приложение или обратитесь к администратору приложения или техническому специалисту.
+</error>
+			<system-out>[[ATTACHMENT|/tools/ServiceBases/ScreenShots/2c623b32-7944-4a95-a815-4e7c2137e7a1-attachment.png]]</system-out>
+		</testcase>
+		<testcase name="Открытие формы списка &quot;Авто_Маршруты&quot;" classname="Дымовые тесты" time="3.073"/>
+		<testcase name="Открытие формы объекта &quot;Авто_Маршруты&quot;" classname="Дымовые тесты" time="3.082"/>
+		<testcase name="Открытие формы списка &quot;Авто_ТипыАвто&quot;" classname="Дымовые тесты" time="3.322"/>
+		<testcase name="Открытие формы объекта &quot;Авто_ТипыАвто&quot;" classname="Дымовые тесты" time="3.223"/>
+		<testcase name="Открытие формы списка &quot;АвтоПас_АвтоСтанции&quot;" classname="Дымовые тесты" time="3.093"/>
+		<testcase name="Открытие формы объекта &quot;АвтоПас_АвтоСтанции&quot;" classname="Дымовые тесты" time="2.939"/>
+		<testcase name="Открытие формы списка &quot;АвтоПас_Города&quot;" classname="Дымовые тесты" time="3.433"/>
+		<testcase name="Открытие формы объекта &quot;АвтоПас_Города&quot;" classname="Дымовые тесты" time="3.38"/>
+		<testcase name="Открытие формы списка &quot;АвтоПас_ГрафикиМаршрутов&quot;" classname="Дымовые тесты" time="3.341"/>
+		<testcase name="Открытие формы объекта &quot;АвтоПас_ГрафикиМаршрутов&quot;" classname="Дымовые тесты" time="3.291"/>
+		<testcase name="Открытие формы списка &quot;АвтоПас_Рейсы&quot;" classname="Дымовые тесты" time="4.088"/>
+		<testcase name="Открытие формы объекта &quot;АвтоПас_Рейсы&quot;" classname="Дымовые тесты" time="2.859"/>
+		<testcase name="Открытие формы списка &quot;АдресаПотребителейКомунальныхУслуг&quot;" classname="Дымовые тесты" time="3.56"/>
+		<testcase name="Открытие формы объекта &quot;АдресаПотребителейКомунальныхУслуг&quot;" classname="Дымовые тесты" time="2.805"/>
+		<testcase name="Открытие формы списка &quot;Банки&quot;" classname="Дымовые тесты" time="3.401"/>
+		<testcase name="Открытие формы объекта &quot;Банки&quot;" classname="Дымовые тесты" time="3.136"/>
+		<testcase name="Открытие формы списка &quot;Бланки&quot;" classname="Дымовые тесты" time="3.233"/>
+		<testcase name="Открытие формы объекта &quot;Бланки&quot;" classname="Дымовые тесты" time="3.475"/>
+		<testcase name="Открытие формы списка &quot;БланкиСтрогойОтчетности&quot;" classname="Дымовые тесты" time="3.698"/>
+		<testcase name="Открытие формы объекта &quot;БланкиСтрогойОтчетности&quot;" classname="Дымовые тесты" time="3.674"/>
+		<testcase name="Открытие формы списка &quot;Валюты&quot;" classname="Дымовые тесты" time="5.529"/>
+		<testcase name="Открытие формы объекта &quot;Валюты&quot;" classname="Дымовые тесты" time="3.807"/>
+		<testcase name="Открытие формы списка &quot;Взаиморасчеты&quot;" classname="Дымовые тесты" time="3.221"/>
+		<testcase name="Открытие формы объекта &quot;Взаиморасчеты&quot;" classname="Дымовые тесты" time="3.291"/>
+		<testcase name="Открытие формы списка &quot;ВидыВыбытияОС&quot;" classname="Дымовые тесты" time="3.335"/>
+		<testcase name="Открытие формы объекта &quot;ВидыВыбытияОС&quot;" classname="Дымовые тесты" time="3.109"/>
+		<testcase name="Открытие формы списка &quot;ВидыДеятельности&quot;" classname="Дымовые тесты" time="2.903"/>
+		<testcase name="Открытие формы объекта &quot;ВидыДеятельности&quot;" classname="Дымовые тесты" time="3.157"/>
+		<testcase name="Открытие формы списка &quot;ВидыКонтактнойИнформации&quot;" classname="Дымовые тесты" time="3.258"/>
+		<testcase name="Открытие формы объекта &quot;ВидыКонтактнойИнформации&quot;" classname="Дымовые тесты" time="2.925"/>
+		<testcase name="Открытие формы списка &quot;ВидыЛьгот&quot;" classname="Дымовые тесты" time="3.236"/>
+		<testcase name="Открытие формы объекта &quot;ВидыЛьгот&quot;" classname="Дымовые тесты" time="3.148"/>
+		<testcase name="Открытие формы списка &quot;ВидыОсвобождений&quot;" classname="Дымовые тесты" time="3.73"/>
+		<testcase name="Открытие формы объекта &quot;ВидыОсвобождений&quot;" classname="Дымовые тесты" time="3.742"/>
+		<testcase name="Открытие формы списка &quot;ВидыОсвобожденийПоПН&quot;" classname="Дымовые тесты" time="3.78"/>
+		<testcase name="Открытие формы объекта &quot;ВидыОсвобожденийПоПН&quot;" classname="Дымовые тесты" time="3.532"/>
+		<testcase name="Открытие формы списка &quot;ВидыОтпусков&quot;" classname="Дымовые тесты" time="3.596"/>
+		<testcase name="Открытие формы объекта &quot;ВидыОтпусков&quot;" classname="Дымовые тесты" time="3.039"/>
+		<testcase name="Открытие формы списка &quot;ВидыПоступленийОС&quot;" classname="Дымовые тесты" time="3.216"/>
+		<testcase name="Открытие формы объекта &quot;ВидыПоступленийОС&quot;" classname="Дымовые тесты" time="2.972"/>
+		<testcase name="Открытие формы списка &quot;ВидыСчетчиков&quot;" classname="Дымовые тесты" time="3.128"/>
+		<testcase name="Открытие формы объекта &quot;ВидыСчетчиков&quot;" classname="Дымовые тесты" time="2.907"/>
+		<testcase name="Открытие формы списка &quot;ВнешниеОбработки&quot;" classname="Дымовые тесты" time="3.698"/>
+		<testcase name="Открытие формы объекта &quot;ВнешниеОбработки&quot;" classname="Дымовые тесты" time="3.513"/>
+		<testcase name="Открытие формы списка &quot;Год&quot;" classname="Дымовые тесты" time="3.317"/>
+		<testcase name="Открытие формы объекта &quot;Год&quot;" classname="Дымовые тесты" time="3.13"/>
+		<testcase name="Открытие формы списка &quot;ГрафикиРаботы&quot;" classname="Дымовые тесты" time="3.28"/>
+		<testcase name="Открытие формы объекта &quot;ГрафикиРаботы&quot;" classname="Дымовые тесты" time="4.218"/>
+		<testcase name="Открытие формы списка &quot;ГруппыПользователей&quot;" classname="Дымовые тесты" time="3.394"/>
+		<testcase name="Открытие формы объекта &quot;ГруппыПользователей&quot;" classname="Дымовые тесты" time="3.136"/>
+		<testcase name="Открытие формы списка &quot;ДенежныеСредства&quot;" classname="Дымовые тесты" time="3.667"/>
+		<testcase name="Открытие формы объекта &quot;ДенежныеСредства&quot;" classname="Дымовые тесты" time="2.877"/>
+		<testcase name="Открытие формы списка &quot;ДисконтныеКарты&quot;" classname="Дымовые тесты" time="3.232"/>
+		<testcase name="Открытие формы объекта &quot;ДисконтныеКарты&quot;" classname="Дымовые тесты" time="2.867"/>
+		<testcase name="Открытие формы списка &quot;Договора&quot;" classname="Дымовые тесты" time="3.51"/>
+		<testcase name="Открытие формы объекта &quot;Договора&quot;" classname="Дымовые тесты" time="3.322"/>
+		<testcase name="Открытие формы списка &quot;Должности&quot;" classname="Дымовые тесты" time="4.061"/>
+		<testcase name="Открытие формы объекта &quot;Должности&quot;" classname="Дымовые тесты" time="3.172"/>
+		<testcase name="Открытие формы списка &quot;ДоходыБудущихПериодов&quot;" classname="Дымовые тесты" time="3.343"/>
+		<testcase name="Открытие формы объекта &quot;ДоходыБудущихПериодов&quot;" classname="Дымовые тесты" time="3.347"/>
+		<testcase name="Открытие формы списка &quot;Драгметаллы&quot;" classname="Дымовые тесты" time="3.092"/>
+		<testcase name="Открытие формы объекта &quot;Драгметаллы&quot;" classname="Дымовые тесты" time="3.45"/>
+		<testcase name="Открытие формы списка &quot;ЖВ_Комиссии&quot;" classname="Дымовые тесты" time="2.987"/>
+		<testcase name="Открытие формы объекта &quot;ЖВ_Комиссии&quot;" classname="Дымовые тесты" time="3.664"/>
+		<testcase name="Открытие формы списка &quot;ЖурналыДокументов&quot;" classname="Дымовые тесты" time="3.077"/>
+		<testcase name="Открытие формы объекта &quot;ЖурналыДокументов&quot;" classname="Дымовые тесты" time="3.522"/>
+		<testcase name="Открытие формы списка &quot;ЗакрытиеОтрицательныхОстатков&quot;" classname="Дымовые тесты" time="3.096"/>
+		<testcase name="Открытие формы объекта &quot;ЗакрытиеОтрицательныхОстатков&quot;" classname="Дымовые тесты" time="3.514"/>
+		<testcase name="Открытие формы списка &quot;Залы&quot;" classname="Дымовые тесты" time="3.26"/>
+		<testcase name="Открытие формы объекта &quot;Залы&quot;" classname="Дымовые тесты" time="3.159"/>
+		<testcase name="Открытие формы списка &quot;Затраты&quot;" classname="Дымовые тесты" time="3.901"/>
+		<testcase name="Открытие формы объекта &quot;Затраты&quot;" classname="Дымовые тесты" time="3.328"/>
+		<testcase name="Открытие формы списка &quot;ЗемельныеУчастки&quot;" classname="Дымовые тесты" time="3.21"/>
+		<testcase name="Открытие формы объекта &quot;ЗемельныеУчастки&quot;" classname="Дымовые тесты" time="3.715"/>
+		<testcase name="Открытие формы списка &quot;Изготовители&quot;" classname="Дымовые тесты" time="3.059"/>
+		<testcase name="Открытие формы объекта &quot;Изготовители&quot;" classname="Дымовые тесты" time="2.754"/>
+		<testcase name="Открытие формы списка &quot;Импорт&quot;" classname="Дымовые тесты" time="3.258"/>
+		<testcase name="Открытие формы объекта &quot;Импорт&quot;" classname="Дымовые тесты" time="2.827"/>
+		<testcase name="Открытие формы списка &quot;Календари&quot;" classname="Дымовые тесты" time="3.687"/>
+		<testcase name="Открытие формы объекта &quot;Календари&quot;" classname="Дымовые тесты" time="2.908"/>
+		<testcase name="Открытие формы списка &quot;КатегорииДолжностей&quot;" classname="Дымовые тесты" time="3.539"/>
+		<testcase name="Открытие формы объекта &quot;КатегорииДолжностей&quot;" classname="Дымовые тесты" time="3.362"/>
+		<testcase name="Открытие формы списка &quot;КатегорииЗатрат&quot;" classname="Дымовые тесты" time="3.157"/>
+		<testcase name="Открытие формы объекта &quot;КатегорииЗатрат&quot;" classname="Дымовые тесты" time="3.12"/>
+		<testcase name="Открытие формы списка &quot;КатегорииСотрудников&quot;" classname="Дымовые тесты" time="3.469"/>
+		<testcase name="Открытие формы объекта &quot;КатегорииСотрудников&quot;" classname="Дымовые тесты" time="3.539"/>
+		<testcase name="Открытие формы списка &quot;КатегорииСтрахования&quot;" classname="Дымовые тесты" time="3.357"/>
+		<testcase name="Открытие формы объекта &quot;КатегорииСтрахования&quot;" classname="Дымовые тесты" time="7.401">
+			<error>Не удалось открыть форму справочника КатегорииСтрахования
+
+{ВнешняяОбработка.Условие.Форма.Форма.Форма(263)}:
+
+Технические данные:
+        ЗаголовокАктивногоОкна: 1С:Предприятие
+        ИмяАктивнойФормы: ErrorWindow
+        ИмяФичи: Дымовые тесты
+        ИмяСценария: Открытие формы объекта "КатегорииСтрахования"
+        НомерСтрокиДерева: 513
+        НомерСтрокиФичи: 749
+        ПолныйПутьКФиче: e:\vanessa\corp\features\beforeRelease\001. Открытие форм справочников.feature
+        ИмяФайла: e:\vanessa\vanessa-automation\features\Libraries\Условие\step_definitions\Условие.epf
+        ИмяПроцедуры: ЯВызываюИсключение
+        ИмяРаннера: ts1scont
+        ТипПлатформы: Windows x86
+        ТипКлиентаТестирования: Web
+        СтрокаСоединения: http://localhost/v83ServiceBaseCorp8319/ru_RU/
+        PIDКлиентаТестирования: 0
+        ВерсияVA: ver 1.2.038.1
+        ВерсияПлатформы: 8.3.19.1229
+        РежимСовместимостиTestManager: Версия8_3_18
+        ДатаВремяОшибки: 09.08.2022 20:47:04
+Текст модального окна:
+    Не удалось перейти по навигационной ссылке  Возможно, ссылка введена не полностью, получена для другого приложения, или устарела.  Что может помочь?     • Проверьте правильность ссылки     • Убедитесь, что ссылка открывается в соответствующем приложении  Если ошибка повторится, обратитесь к техническому специалисту.
+</error>
+			<system-out>[[ATTACHMENT|/tools/ServiceBases/ScreenShots/3c58dcab-d3d5-400f-bb2b-6c2a33ec8b2f-attachment.png]]</system-out>
+		</testcase>
+		<testcase name="Открытие формы списка &quot;КАТЕМ&quot;" classname="Дымовые тесты" time="3.287"/>
+		<testcase name="Открытие формы объекта &quot;КАТЕМ&quot;" classname="Дымовые тесты" time="2.94"/>
+		<testcase name="Открытие формы списка &quot;КачестваЗемли&quot;" classname="Дымовые тесты" time="3.438"/>
+		<testcase name="Открытие формы объекта &quot;КачестваЗемли&quot;" classname="Дымовые тесты" time="3.287"/>
+		<testcase name="Открытие формы списка &quot;КлассификаторДолжностей&quot;" classname="Дымовые тесты" time="3.437"/>
+		<testcase name="Открытие формы объекта &quot;КлассификаторДолжностей&quot;" classname="Дымовые тесты" time="3.101"/>
+		<testcase name="Открытие формы списка &quot;КлассификаторЕдиницИзмерения&quot;" classname="Дымовые тесты" time="3.477"/>
+		<testcase name="Открытие формы объекта &quot;КлассификаторЕдиницИзмерения&quot;" classname="Дымовые тесты" time="3.434"/>
+		<testcase name="Открытие формы списка &quot;КлассификаторИспользованияРабочегоВремени&quot;" classname="Дымовые тесты" time="3.529"/>
+		<testcase name="Открытие формы объекта &quot;КлассификаторИспользованияРабочегоВремени&quot;" classname="Дымовые тесты" time="3.492"/>
+		<testcase name="Открытие формы списка &quot;КлассификаторОС&quot;" classname="Дымовые тесты" time="3.097"/>
+		<testcase name="Открытие формы объекта &quot;КлассификаторОС&quot;" classname="Дымовые тесты" time="3.324"/>
+		<testcase name="Открытие формы списка &quot;КлассификаторСоцСтатуса&quot;" classname="Дымовые тесты" time="3.221"/>
+		<testcase name="Открытие формы объекта &quot;КлассификаторСоцСтатуса&quot;" classname="Дымовые тесты" time="3.02"/>
+		<testcase name="Открытие формы списка &quot;КлассификаторСтранМира&quot;" classname="Дымовые тесты" time="3.361"/>
+		<testcase name="Открытие формы объекта &quot;КлассификаторСтранМира&quot;" classname="Дымовые тесты" time="3.528"/>
+		<testcase name="Открытие формы списка &quot;КлассификаторТрудовыхОтношений&quot;" classname="Дымовые тесты" time="3.555"/>
+		<testcase name="Открытие формы объекта &quot;КлассификаторТрудовыхОтношений&quot;" classname="Дымовые тесты" time="3.082"/>
+		<testcase name="Открытие формы списка &quot;КодыГосударственнойНалоговойИнспекции&quot;" classname="Дымовые тесты" time="3.816"/>
+		<testcase name="Открытие формы объекта &quot;КодыГосударственнойНалоговойИнспекции&quot;" classname="Дымовые тесты" time="3.343"/>
+		<testcase name="Открытие формы списка &quot;КодыРасходовСоцФонда&quot;" classname="Дымовые тесты" time="3.54"/>
+		<testcase name="Открытие формы объекта &quot;КодыРасходовСоцФонда&quot;" classname="Дымовые тесты" time="3.312"/>
+		<testcase name="Открытие формы списка &quot;КоммунальныеУслуги&quot;" classname="Дымовые тесты" time="4.085"/>
+		<testcase name="Открытие формы объекта &quot;КоммунальныеУслуги&quot;" classname="Дымовые тесты" time="3.719"/>
+		<testcase name="Открытие формы списка &quot;Контрагенты&quot;" classname="Дымовые тесты" time="3.576"/>
+		<testcase name="Открытие формы объекта &quot;Контрагенты&quot;" classname="Дымовые тесты" time="4.27"/>
+		<testcase name="Открытие формы списка &quot;Контролеры&quot;" classname="Дымовые тесты" time="11.414"/>
+		<testcase name="Открытие формы объекта &quot;Контролеры&quot;" classname="Дымовые тесты" time="2.978"/>
+		<testcase name="Открытие формы списка &quot;КОПФ&quot;" classname="Дымовые тесты" time="3.978"/>
+		<testcase name="Открытие формы объекта &quot;КОПФ&quot;" classname="Дымовые тесты" time="2.841"/>
+		<testcase name="Открытие формы списка &quot;КФС&quot;" classname="Дымовые тесты" time="3.514"/>
+		<testcase name="Открытие формы объекта &quot;КФС&quot;" classname="Дымовые тесты" time="3.043"/>
+		<testcase name="Открытие формы списка &quot;Марки&quot;" classname="Дымовые тесты" time="3.134"/>
+		<testcase name="Открытие формы объекта &quot;Марки&quot;" classname="Дымовые тесты" time="3.012"/>
+		<testcase name="Открытие формы списка &quot;МБП&quot;" classname="Дымовые тесты" time="3.755"/>
+		<testcase name="Открытие формы объекта &quot;МБП&quot;" classname="Дымовые тесты" time="3.457"/>
+		<testcase name="Открытие формы списка &quot;МесяцГод&quot;" classname="Дымовые тесты" time="3.137"/>
+		<testcase name="Открытие формы объекта &quot;МесяцГод&quot;" classname="Дымовые тесты" time="3.109"/>
+		<testcase name="Открытие формы списка &quot;НаличиеДрагметалла&quot;" classname="Дымовые тесты" time="3.078"/>
+		<testcase name="Открытие формы объекта &quot;НаличиеДрагметалла&quot;" classname="Дымовые тесты" time="3.265"/>
+		<testcase name="Открытие формы списка &quot;Налоги&quot;" classname="Дымовые тесты" time="3.972"/>
+		<testcase name="Открытие формы объекта &quot;Налоги&quot;" classname="Дымовые тесты" time="3.405"/>
+		<testcase name="Открытие формы списка &quot;НастройкиВыписки&quot;" classname="Дымовые тесты" time="3.628"/>
+		<testcase name="Открытие формы объекта &quot;НастройкиВыписки&quot;" classname="Дымовые тесты" time="3.129"/>
+		<testcase name="Открытие формы списка &quot;НастройкиОбменаДанными&quot;" classname="Дымовые тесты" time="3.581"/>
+		<testcase name="Открытие формы объекта &quot;НастройкиОбменаДанными&quot;" classname="Дымовые тесты" time="3.823"/>
+		<testcase name="Открытие формы списка &quot;НачисленийИУдержаний&quot;" classname="Дымовые тесты" time="3.546"/>
+		<testcase name="Открытие формы объекта &quot;НачисленийИУдержаний&quot;" classname="Дымовые тесты" time="3.27"/>
+		<testcase name="Открытие формы списка &quot;НематАктивы&quot;" classname="Дымовые тесты" time="3.472"/>
+		<testcase name="Открытие формы объекта &quot;НематАктивы&quot;" classname="Дымовые тесты" time="3.289"/>
+		<testcase name="Открытие формы списка &quot;Номенклатура&quot;" classname="Дымовые тесты" time="4.867"/>
+		<testcase name="Открытие формы объекта &quot;Номенклатура&quot;" classname="Дымовые тесты" time="3.821"/>
+		<testcase name="Открытие формы списка &quot;НоменклатурныеГруппы&quot;" classname="Дымовые тесты" time="3.177"/>
+		<testcase name="Открытие формы объекта &quot;НоменклатурныеГруппы&quot;" classname="Дымовые тесты" time="3.445"/>
+		<testcase name="Открытие формы списка &quot;НоменклатураПрисоединенныеФайлы&quot;" classname="Дымовые тесты" time="3.288"/>
+		<testcase name="Открытие формы объекта &quot;НоменклатураПрисоединенныеФайлы&quot;" classname="Дымовые тесты" time="3.66"/>
+		<testcase name="Открытие формы списка &quot;НомераГТД&quot;" classname="Дымовые тесты" time="3.164"/>
+		<testcase name="Открытие формы объекта &quot;НомераГТД&quot;" classname="Дымовые тесты" time="3.255"/>
+		<testcase name="Открытие формы списка &quot;ОснованияУвольненияИзОрганизации&quot;" classname="Дымовые тесты" time="3.667"/>
+		<testcase name="Открытие формы объекта &quot;ОснованияУвольненияИзОрганизации&quot;" classname="Дымовые тесты" time="3.133"/>
+		<testcase name="Открытие формы списка &quot;ОсновныеСредства&quot;" classname="Дымовые тесты" time="3.541"/>
+		<testcase name="Открытие формы объекта &quot;ОсновныеСредства&quot;" classname="Дымовые тесты" time="4.181"/>
+		<testcase name="Открытие формы списка &quot;ПараметрыРасчетов&quot;" classname="Дымовые тесты" time="4.31"/>
+		<testcase name="Открытие формы объекта &quot;ПараметрыРасчетов&quot;" classname="Дымовые тесты" time="4.002"/>
+		<testcase name="Открытие формы списка &quot;Платежи&quot;" classname="Дымовые тесты" time="3.169"/>
+		<testcase name="Открытие формы объекта &quot;Платежи&quot;" classname="Дымовые тесты" time="3.337"/>
+		<testcase name="Открытие формы списка &quot;Подразделения&quot;" classname="Дымовые тесты" time="3.453"/>
+		<testcase name="Открытие формы объекта &quot;Подразделения&quot;" classname="Дымовые тесты" time="2.9"/>
+		<testcase name="Открытие формы списка &quot;НалоговоеПодразделение&quot;" classname="Дымовые тесты" time="3.554"/>
+		<testcase name="Открытие формы объекта &quot;НалоговоеПодразделение&quot;" classname="Дымовые тесты" time="3.566"/>
+		<testcase name="Открытие формы списка &quot;Пользователи&quot;" classname="Дымовые тесты" time="3.492"/>
+		<testcase name="Открытие формы объекта &quot;Пользователи&quot;" classname="Дымовые тесты" time="3.882"/>
+		<testcase name="Открытие формы списка &quot;ПрибылиИУбытки&quot;" classname="Дымовые тесты" time="3.843"/>
+		<testcase name="Открытие формы объекта &quot;ПрибылиИУбытки&quot;" classname="Дымовые тесты" time="3.23"/>
+		<testcase name="Открытие формы списка &quot;ПричинаУвольнения&quot;" classname="Дымовые тесты" time="3.616"/>
+		<testcase name="Открытие формы объекта &quot;ПричинаУвольнения&quot;" classname="Дымовые тесты" time="3.448"/>
+		<testcase name="Открытие формы списка &quot;Проекты&quot;" classname="Дымовые тесты" time="3.951"/>
+		<testcase name="Открытие формы объекта &quot;Проекты&quot;" classname="Дымовые тесты" time="3.275"/>
+		<testcase name="Открытие формы списка &quot;РасходыБудущихПериодов&quot;" classname="Дымовые тесты" time="3.468"/>
+		<testcase name="Открытие формы объекта &quot;РасходыБудущихПериодов&quot;" classname="Дымовые тесты" time="3.322"/>
+		<testcase name="Открытие формы списка &quot;РасходыПоДоставке&quot;" classname="Дымовые тесты" time="3.494"/>
+		<testcase name="Открытие формы объекта &quot;РасходыПоДоставке&quot;" classname="Дымовые тесты" time="2.961"/>
+		<testcase name="Открытие формы списка &quot;РасчетныеСчета&quot;" classname="Дымовые тесты" time="3.107"/>
+		<testcase name="Открытие формы объекта &quot;РасчетныеСчета&quot;" classname="Дымовые тесты" time="3.773"/>
+		<testcase name="Открытие формы списка &quot;РасчетныеСчетаФирмы&quot;" classname="Дымовые тесты" time="3.281"/>
+		<testcase name="Открытие формы объекта &quot;РасчетныеСчетаФирмы&quot;" classname="Дымовые тесты" time="3.126"/>
+		<testcase name="Открытие формы списка &quot;РегламентированныеОтчеты&quot;" classname="Дымовые тесты" time="3.523"/>
+		<testcase name="Открытие формы объекта &quot;РегламентированныеОтчеты&quot;" classname="Дымовые тесты" time="3.158"/>
+		<testcase name="Открытие формы списка &quot;Склады&quot;" classname="Дымовые тесты" time="3.592"/>
+		<testcase name="Открытие формы объекта &quot;Склады&quot;" classname="Дымовые тесты" time="3.88"/>
+		<testcase name="Открытие формы списка &quot;Смены&quot;" classname="Дымовые тесты" time="3.679"/>
+		<testcase name="Открытие формы объекта &quot;Смены&quot;" classname="Дымовые тесты" time="3.429"/>
+		<testcase name="Открытие формы списка &quot;Сотрудники&quot;" classname="Дымовые тесты" time="3.938"/>
+		<testcase name="Открытие формы объекта &quot;Сотрудники&quot;" classname="Дымовые тесты" time="3.948"/>
+		<testcase name="Открытие формы списка &quot;СохраненныеНастройки&quot;" classname="Дымовые тесты" time="3.814"/>
+		<testcase name="Открытие формы объекта &quot;СохраненныеНастройки&quot;" classname="Дымовые тесты" time="7.521">
+			<error>Не удалось открыть форму справочника СохраненныеНастройки
+
+{ВнешняяОбработка.Условие.Форма.Форма.Форма(263)}:
+
+Технические данные:
+        ЗаголовокАктивногоОкна: 1С:Предприятие
+        ИмяАктивнойФормы: ErrorWindow
+        ИмяФичи: Дымовые тесты
+        ИмяСценария: Открытие формы объекта "СохраненныеНастройки"
+        НомерСтрокиДерева: 993
+        НомерСтрокиФичи: 1 469
+        ПолныйПутьКФиче: e:\vanessa\corp\features\beforeRelease\001. Открытие форм справочников.feature
+        ИмяФайла: e:\vanessa\vanessa-automation\features\Libraries\Условие\step_definitions\Условие.epf
+        ИмяПроцедуры: ЯВызываюИсключение
+        ИмяРаннера: ts1scont
+        ТипПлатформы: Windows x86
+        ТипКлиентаТестирования: Web
+        СтрокаСоединения: http://localhost/v83ServiceBaseCorp8319/ru_RU/
+        PIDКлиентаТестирования: 0
+        ВерсияVA: ver 1.2.038.1
+        ВерсияПлатформы: 8.3.19.1229
+        РежимСовместимостиTestManager: Версия8_3_18
+        ДатаВремяОшибки: 09.08.2022 20:55:09
+Текст модального окна:
+    К сожалению, возникла непредвиденная ошибка  Попробуйте повторить операцию. Если ошибка повторится, попробуйте перезапустить приложение или обратитесь к администратору приложения или техническому специалисту.
+</error>
+			<system-out>[[ATTACHMENT|/tools/ServiceBases/ScreenShots/3405b691-31d3-46ab-885e-63c6bfecfc02-attachment.png]]</system-out>
+		</testcase>
+		<testcase name="Открытие формы списка &quot;СпецификацииНоменклатуры&quot;" classname="Дымовые тесты" time="3.202"/>
+		<testcase name="Открытие формы объекта &quot;СпецификацииНоменклатуры&quot;" classname="Дымовые тесты" time="3.274"/>
+		<testcase name="Открытие формы списка &quot;СпособыОтраженияЗарплатыВБухучете&quot;" classname="Дымовые тесты" time="3.215"/>
+		<testcase name="Открытие формы объекта &quot;СпособыОтраженияЗарплатыВБухучете&quot;" classname="Дымовые тесты" time="3.478"/>
+		<testcase name="Открытие формы списка &quot;СтавкиНДС&quot;" classname="Дымовые тесты" time="3.359"/>
+		<testcase name="Открытие формы объекта &quot;СтавкиНДС&quot;" classname="Дымовые тесты" time="3.312"/>
+		<testcase name="Открытие формы списка &quot;Статьи5С_2011&quot;" classname="Дымовые тесты" time="3.54"/>
+		<testcase name="Открытие формы объекта &quot;Статьи5С_2011&quot;" classname="Дымовые тесты" time="2.914"/>
+		<testcase name="Открытие формы списка &quot;Статьи5С_2014&quot;" classname="Дымовые тесты" time="3.969"/>
+		<testcase name="Открытие формы объекта &quot;Статьи5С_2014&quot;" classname="Дымовые тесты" time="3.077"/>
+		<testcase name="Открытие формы списка &quot;Статьи5С_2017&quot;" classname="Дымовые тесты" time="3.314"/>
+		<testcase name="Открытие формы объекта &quot;Статьи5С_2017&quot;" classname="Дымовые тесты" time="3.389"/>
+		<testcase name="Открытие формы списка &quot;СтатьиЗатратЗаложенныеБюджетом&quot;" classname="Дымовые тесты" time="3.68"/>
+		<testcase name="Открытие формы объекта &quot;СтатьиЗатратЗаложенныеБюджетом&quot;" classname="Дымовые тесты" time="3.255"/>
+		<testcase name="Открытие формы списка &quot;Столы&quot;" classname="Дымовые тесты" time="3.459"/>
+		<testcase name="Открытие формы объекта &quot;Столы&quot;" classname="Дымовые тесты" time="3.164"/>
+		<testcase name="Открытие формы списка &quot;СценарииОбменовДанными&quot;" classname="Дымовые тесты" time="3.36"/>
+		<testcase name="Открытие формы объекта &quot;СценарииОбменовДанными&quot;" classname="Дымовые тесты" time="3.123"/>
+		<testcase name="Открытие формы списка &quot;Счетчики&quot;" classname="Дымовые тесты" time="3.655"/>
+		<testcase name="Открытие формы объекта &quot;Счетчики&quot;" classname="Дымовые тесты" time="3.35"/>
+		<testcase name="Открытие формы списка &quot;ТаможенныеКоды&quot;" classname="Дымовые тесты" time="3.761"/>
+		<testcase name="Открытие формы объекта &quot;ТаможенныеКоды&quot;" classname="Дымовые тесты" time="3.326"/>
+		<testcase name="Открытие формы списка &quot;ТаможенныеТарифы&quot;" classname="Дымовые тесты" time="3.731"/>
+		<testcase name="Открытие формы объекта &quot;ТаможенныеТарифы&quot;" classname="Дымовые тесты" time="2.927"/>
+		<testcase name="Открытие формы списка &quot;ТарифыЭА_ЗЛ&quot;" classname="Дымовые тесты" time="3.134"/>
+		<testcase name="Открытие формы объекта &quot;ТарифыЭА_ЗЛ&quot;" classname="Дымовые тесты" time="3.5"/>
+		<testcase name="Открытие формы списка &quot;ТипДокумента&quot;" classname="Дымовые тесты" time="3.524"/>
+		<testcase name="Открытие формы объекта &quot;ТипДокумента&quot;" classname="Дымовые тесты" time="3.446"/>
+		<testcase name="Открытие формы списка &quot;ТиповыеОперации&quot;" classname="Дымовые тесты" time="3.429"/>
+		<testcase name="Открытие формы объекта &quot;ТиповыеОперации&quot;" classname="Дымовые тесты" time="3.783"/>
+		<testcase name="Открытие формы списка &quot;ТипыОбъектовОС&quot;" classname="Дымовые тесты" time="3.108"/>
+		<testcase name="Открытие формы объекта &quot;ТипыОбъектовОС&quot;" classname="Дымовые тесты" time="3.159"/>
+		<testcase name="Открытие формы списка &quot;ТипыОпераций&quot;" classname="Дымовые тесты" time="3.154"/>
+		<testcase name="Открытие формы объекта &quot;ТипыОпераций&quot;" classname="Дымовые тесты" time="3.169"/>
+		<testcase name="Открытие формы списка &quot;ТипыОсвобожденийПоПН&quot;" classname="Дымовые тесты" time="3.775"/>
+		<testcase name="Открытие формы объекта &quot;ТипыОсвобожденийПоПН&quot;" classname="Дымовые тесты" time="2.984"/>
+		<testcase name="Открытие формы списка &quot;ТипыФормы&quot;" classname="Дымовые тесты" time="3.653"/>
+		<testcase name="Открытие формы объекта &quot;ТипыФормы&quot;" classname="Дымовые тесты" time="3.524"/>
+		<testcase name="Открытие формы списка &quot;ТипыЦенНоменклатуры&quot;" classname="Дымовые тесты" time="3.364"/>
+		<testcase name="Открытие формы объекта &quot;ТипыЦенНоменклатуры&quot;" classname="Дымовые тесты" time="3.23"/>
+		<testcase name="Открытие формы списка &quot;ТКСС&quot;" classname="Дымовые тесты" time="3.168"/>
+		<testcase name="Открытие формы объекта &quot;ТКСС&quot;" classname="Дымовые тесты" time="3.145"/>
+		<testcase name="Открытие формы списка &quot;ТраншиПроектов&quot;" classname="Дымовые тесты" time="3.357"/>
+		<testcase name="Открытие формы объекта &quot;ТраншиПроектов&quot;" classname="Дымовые тесты" time="3.525"/>
+		<testcase name="Открытие формы списка &quot;ТрудоваяКнижка&quot;" classname="Дымовые тесты" time="3.158"/>
+		<testcase name="Открытие формы объекта &quot;ТрудоваяКнижка&quot;" classname="Дымовые тесты" time="3.123"/>
+		<testcase name="Открытие формы списка &quot;НастройкиОтчетов&quot;" classname="Дымовые тесты" time="3.709"/>
+		<testcase name="Открытие формы объекта &quot;НастройкиОтчетов&quot;" classname="Дымовые тесты" time="3.078"/>
+		<testcase name="Открытие формы списка &quot;Удалить_Статьи5С&quot;" classname="Дымовые тесты" time="3.502"/>
+		<testcase name="Открытие формы объекта &quot;Удалить_Статьи5С&quot;" classname="Дымовые тесты" time="2.934"/>
+		<testcase name="Открытие формы списка &quot;Удалить_Статьи5С_Новый&quot;" classname="Дымовые тесты" time="3.203"/>
+		<testcase name="Открытие формы объекта &quot;Удалить_Статьи5С_Новый&quot;" classname="Дымовые тесты" time="3.944"/>
+		<testcase name="Открытие формы списка &quot;УдержанияСоцФонда&quot;" classname="Дымовые тесты" time="3.157"/>
+		<testcase name="Открытие формы объекта &quot;УдержанияСоцФонда&quot;" classname="Дымовые тесты" time="3.112"/>
+		<testcase name="Открытие формы списка &quot;Фирмы&quot;" classname="Дымовые тесты" time="3.621"/>
+		<testcase name="Открытие формы объекта &quot;Фирмы&quot;" classname="Дымовые тесты" time="3.932"/>
+		<testcase name="Открытие формы списка &quot;Фонды&quot;" classname="Дымовые тесты" time="3.711"/>
+		<testcase name="Открытие формы объекта &quot;Фонды&quot;" classname="Дымовые тесты" time="3.593"/>
+		<testcase name="Открытие формы списка &quot;ЦенныеБумаги&quot;" classname="Дымовые тесты" time="3.785"/>
+		<testcase name="Открытие формы объекта &quot;ЦенныеБумаги&quot;" classname="Дымовые тесты" time="2.948"/>
+		<testcase name="Открытие формы списка &quot;Чины_И_Классы&quot;" classname="Дымовые тесты" time="3.563"/>
+		<testcase name="Открытие формы объекта &quot;Чины_И_Классы&quot;" classname="Дымовые тесты" time="3.417"/>
+		<testcase name="Открытие формы списка &quot;ШиныИАккумуляторы&quot;" classname="Дымовые тесты" time="4.37"/>
+		<testcase name="Открытие формы объекта &quot;ШиныИАккумуляторы&quot;" classname="Дымовые тесты" time="3.621"/>
+		<testcase name="Открытие формы списка &quot;Языки&quot;" classname="Дымовые тесты" time="3.095"/>
+		<testcase name="Открытие формы объекта &quot;Языки&quot;" classname="Дымовые тесты" time="3.326"/>
+		<testcase name="Открытие формы списка &quot;CRM_БизнесРегионы&quot;" classname="Дымовые тесты" time="3.227"/>
+		<testcase name="Открытие формы объекта &quot;CRM_БизнесРегионы&quot;" classname="Дымовые тесты" time="3.021"/>
+		<testcase name="Открытие формы списка &quot;ТомаХраненияФайлов&quot;" classname="Дымовые тесты" time="7.676">
+			<error>Не удалось открыть форму справочника ТомаХраненияФайлов
+
+{ВнешняяОбработка.Условие.Форма.Форма.Форма(263)}:
+
+Технические данные:
+        ЗаголовокАктивногоОкна: 1С:Предприятие
+        ИмяАктивнойФормы: ErrorWindow
+        ИмяФичи: Дымовые тесты
+        ИмяСценария: Открытие формы списка "ТомаХраненияФайлов"
+        НомерСтрокиДерева: 1 338
+        НомерСтрокиФичи: 1 987
+        ПолныйПутьКФиче: e:\vanessa\corp\features\beforeRelease\001. Открытие форм справочников.feature
+        ИмяФайла: e:\vanessa\vanessa-automation\features\Libraries\Условие\step_definitions\Условие.epf
+        ИмяПроцедуры: ЯВызываюИсключение
+        ИмяРаннера: ts1scont
+        ТипПлатформы: Windows x86
+        ТипКлиентаТестирования: Web
+        СтрокаСоединения: http://localhost/v83ServiceBaseCorp8319/ru_RU/
+        PIDКлиентаТестирования: 0
+        ВерсияVA: ver 1.2.038.1
+        ВерсияПлатформы: 8.3.19.1229
+        РежимСовместимостиTestManager: Версия8_3_18
+        ДатаВремяОшибки: 09.08.2022 21:00:47
+Текст модального окна:
+    К сожалению, возникла непредвиденная ошибка  Попробуйте повторить операцию. Если ошибка повторится, попробуйте перезапустить приложение или обратитесь к администратору приложения или техническому специалисту.
+</error>
+			<system-out>[[ATTACHMENT|/tools/ServiceBases/ScreenShots/25fd207f-2788-4939-863c-53d626ce3fbc-attachment.png]]</system-out>
+		</testcase>
+		<testcase name="Открытие формы объекта &quot;ТомаХраненияФайлов&quot;" classname="Дымовые тесты" time="7.083">
+			<error>Не удалось открыть форму справочника ТомаХраненияФайлов
+
+{ВнешняяОбработка.Условие.Форма.Форма.Форма(263)}:
+
+Технические данные:
+        ЗаголовокАктивногоОкна: 1С:Предприятие
+        ИмяАктивнойФормы: ErrorWindow
+        ИмяФичи: Дымовые тесты
+        ИмяСценария: Открытие формы объекта "ТомаХраненияФайлов"
+        НомерСтрокиДерева: 1 343
+        НомерСтрокиФичи: 1 994
+        ПолныйПутьКФиче: e:\vanessa\corp\features\beforeRelease\001. Открытие форм справочников.feature
+        ИмяФайла: e:\vanessa\vanessa-automation\features\Libraries\Условие\step_definitions\Условие.epf
+        ИмяПроцедуры: ЯВызываюИсключение
+        ИмяРаннера: ts1scont
+        ТипПлатформы: Windows x86
+        ТипКлиентаТестирования: Web
+        СтрокаСоединения: http://localhost/v83ServiceBaseCorp8319/ru_RU/
+        PIDКлиентаТестирования: 0
+        ВерсияVA: ver 1.2.038.1
+        ВерсияПлатформы: 8.3.19.1229
+        РежимСовместимостиTestManager: Версия8_3_18
+        ДатаВремяОшибки: 09.08.2022 21:01:02
+Текст модального окна:
+    К сожалению, возникла непредвиденная ошибка  Попробуйте повторить операцию. Если ошибка повторится, попробуйте перезапустить приложение или обратитесь к администратору приложения или техническому специалисту.
+</error>
+			<system-out>[[ATTACHMENT|/tools/ServiceBases/ScreenShots/4a037946-3228-4524-81f6-07293d87bbf3-attachment.png]]</system-out>
+		</testcase>
+		<testcase name="Открытие формы списка &quot;ИдентификаторыОбъектовМетаданных&quot;" classname="Дымовые тесты" time="5.406">
+			<error>Не удалось открыть форму справочника ИдентификаторыОбъектовМетаданных
+
+{ВнешняяОбработка.Условие.Форма.Форма.Форма(263)}:
+
+Технические данные:
+        ЗаголовокАктивногоОкна: 1С:Предприятие
+        ИмяАктивнойФормы: ErrorWindow
+        ИмяФичи: Дымовые тесты
+        ИмяСценария: Открытие формы списка "ИдентификаторыОбъектовМетаданных"
+        НомерСтрокиДерева: 1 348
+        НомерСтрокиФичи: 2 002
+        ПолныйПутьКФиче: e:\vanessa\corp\features\beforeRelease\001. Открытие форм справочников.feature
+        ИмяФайла: e:\vanessa\vanessa-automation\features\Libraries\Условие\step_definitions\Условие.epf
+        ИмяПроцедуры: ЯВызываюИсключение
+        ИмяРаннера: ts1scont
+        ТипПлатформы: Windows x86
+        ТипКлиентаТестирования: Web
+        СтрокаСоединения: http://localhost/v83ServiceBaseCorp8319/ru_RU/
+        PIDКлиентаТестирования: 0
+        ВерсияVA: ver 1.2.038.1
+        ВерсияПлатформы: 8.3.19.1229
+        РежимСовместимостиTestManager: Версия8_3_18
+        ДатаВремяОшибки: 09.08.2022 21:01:15
+        ДеталиОшибки:
+                Метод объекта не обнаружен (ФормаСпискаПриСозданииНаСервере)
+                {Справочник.ИдентификаторыОбъектовМетаданных.Форма.ФормаСписка.Форма(7)}:
+	Справочники.ИдентификаторыОбъектовМетаданных.ФормаСпискаПриСозданииНаСервере(ЭтотОбъект);
+                
+
+</error>
+			<system-out>[[ATTACHMENT|/tools/ServiceBases/ScreenShots/a84e4661-e1d0-42c1-b4bb-69dd529f68eb-attachment.png]]</system-out>
+		</testcase>
+		<testcase name="Открытие формы объекта &quot;ИдентификаторыОбъектовМетаданных&quot;" classname="Дымовые тесты" time="24.782"/>
+		<testcase name="Открытие формы списка &quot;CRM_Взаимодействия&quot;" classname="Дымовые тесты" time="143.161"/>
+		<testcase name="Открытие формы объекта &quot;CRM_Взаимодействия&quot;" classname="Дымовые тесты" time="23.52"/>
+	</testsuite>
+	<testsuite name="002. Открытие форм документов" errors="0" skipped="0" tests="0" failures="0" time="0"/>
+	<testsuite name="020. Заполнение информационной базы. Справочник банки" errors="0" skipped="0" tests="0" failures="0" time="0"/>
+	<testsuite name="1.Заполнение сведений об организации" errors="0" skipped="0" tests="0" failures="0" time="0"/>
+</testsuites>

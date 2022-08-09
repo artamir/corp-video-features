@@ -1,0 +1,1 @@
+allure open .\allurereport_html
