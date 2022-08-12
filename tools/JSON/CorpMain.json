@@ -5,6 +5,7 @@
    ".\\ServiceBases\\junitreport"
    ],
    "ВариантыСборок":[
-   ".\\JSON\\corpVBParams8319Web.json"
+   	".\\JSON\\corpIrinaVBParams8319Web.json",
+	".\\JSON\\corpVBParams8319Web.json"
    ]
 }

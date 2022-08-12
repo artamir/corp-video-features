@@ -13,7 +13,7 @@
 			"ПутьКИсходникам":"./../../git-repo/SRC/",
 			"СоздаваемаяБаза":"./tools/ServiceBases/bases/v83CORP_irina",
 			"Версия":"8.3.19",
-			"ПутьКДТ":"./../beforeRelease_Nagaeva/Vanessa_na4alo_12-08-2022.dt",
+			"ПутьКДТ":"./beforeRelease_Nagaeva/Vanessa_na4alo_12-08-2022.dt",
 			"ИмяБазыВСписке":"!CORP Service Base (Nagaeva)",
 			"ИмяПользователяИБ":"admin",
 			"ПарольПользователяИБ":""
