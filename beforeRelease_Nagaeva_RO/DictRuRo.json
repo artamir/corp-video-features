@@ -1,5 +1,10 @@
-"(создание)":"(*)",
-"Фирмы":"Companii",
-"Виды деятельности":"Genuri de activitate",
-"Коммерческая деятельность":"Activitate comercială",
-"Резидент":"Rezident"
+{
+    "создание":"*",
+    "Фирмы":"Companii",
+    "Виды деятельности":"Genuri de activitate",
+    "Коммерческая деятельность":"Activitate comercială",
+    "Резидент":"Rezident",
+    "Коды Государственной Налоговой Инспекции":"Codurile Inspectoratului Fiscal de Stat",
+    "Код":"Cod",
+    "Наименование":"Denumirea"
+}
