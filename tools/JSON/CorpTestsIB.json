@@ -11,10 +11,19 @@
 		},
 		{
 			"ПутьКИсходникам":"./../../git-repo/SRC/",
-			"СоздаваемаяБаза":"./tools/ServiceBases/bases/v83CORP_irina",
+			"СоздаваемаяБаза":"./tools/ServiceBases/bases/v83CORP_irina_ru",
 			"Версия":"8.3.19",
 			"ПутьКДТ":"./beforeRelease_Nagaeva/Vanessa_na4alo_12-08-2022.dt",
-			"ИмяБазыВСписке":"!CORP Service Base (Nagaeva)",
+			"ИмяБазыВСписке":"!CORP Service Base ru (Nagaeva)",
+			"ИмяПользователяИБ":"admin",
+			"ПарольПользователяИБ":""
+		},
+		{
+			"ПутьКИсходникам":"./../../git-repo/SRC/",
+			"СоздаваемаяБаза":"./tools/ServiceBases/bases/v83CORP_irina_ro",
+			"Версия":"8.3.19",
+			"ПутьКДТ":"./beforeRelease_Nagaeva/Vanessa_na4alo_ro_12-08-2022.dt",
+			"ИмяБазыВСписке":"!CORP Service Base ro (Nagaeva)",
 			"ИмяПользователяИБ":"admin",
 			"ПарольПользователяИБ":""
 		}

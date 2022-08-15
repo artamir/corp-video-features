@@ -1,3 +1,3 @@
-allure generate .\allurereport\CorpWeb -o .\allurereport_html
+allure generate .\allurereport\CorpWeb_irina -o .\allurereport_html
 
-rem pause
+pause

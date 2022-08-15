@@ -4,8 +4,13 @@
    ".\\ServiceBases\\cucumber",
    ".\\ServiceBases\\junitreport"
    ],
+   "ВариантыСборокСтар":[
+   	".\\JSON\\corpIrinaRUVBParams8319Web.json",
+      ".\\JSON\\corpIrinaROVBParams8319Web.json",
+	   ".\\JSON\\corpVBParams8319Web.json"
+   ],
    "ВариантыСборок":[
-   	".\\JSON\\corpIrinaVBParams8319Web.json",
-	".\\JSON\\corpVBParams8319Web.json"
+   	".\\JSON\\corpIrinaRUVBParams8319Web.json",
+      ".\\JSON\\corpIrinaROVBParams8319Web.json"
    ]
 }
