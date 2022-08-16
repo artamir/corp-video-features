@@ -6,5 +6,8 @@
     "Резидент":"Rezident",
     "Коды Государственной Налоговой Инспекции":"Codurile Inspectoratului Fiscal de Stat",
     "Код":"Cod",
-    "Наименование":"Denumirea"
+    "Наименование":"Denumirea",
+    "Классификатор КФС":"Clasificatorul CFP",
+    "Частная собственность":"Proprietate privată",
+    "Классификатор КОПФ: КОПФ":"Clasificatorul CFOJ: CFOJ"
 }
