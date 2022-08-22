@@ -9,8 +9,12 @@
       ".\\JSON\\corpIrinaROVBParams8319Web.json",
 	   ".\\JSON\\corpVBParams8319Web.json"
    ],
-   "ВариантыСборок":[
+   "ВариантыСборокВсе":[
+	".\\JSON\\corpIrinaVBParams8319Web.json",
    	".\\JSON\\corpIrinaRUVBParams8319Web.json",
-      ".\\JSON\\corpIrinaROVBParams8319Web.json"
+	".\\JSON\\corpIrinaROVBParams8319Web.json"
+   ],
+   "ВариантыСборок":[
+	".\\JSON\\corpVBParams8319Web.json"
    ]
 }
