@@ -4,17 +4,14 @@
    ".\\ServiceBases\\cucumber",
    ".\\ServiceBases\\junitreport"
    ],
-   "ВариантыСборокСтар":[
-   	".\\JSON\\corpIrinaRUVBParams8319Web.json",
-      ".\\JSON\\corpIrinaROVBParams8319Web.json",
-	   ".\\JSON\\corpVBParams8319Web.json"
-   ],
+ 
    "ВариантыСборокВсе":[
-	".\\JSON\\corpIrinaVBParams8319Web.json",
-   	".\\JSON\\corpIrinaRUVBParams8319Web.json",
-	".\\JSON\\corpIrinaROVBParams8319Web.json"
+	".\\JSON\\corp_smoke_test_VA_Web.json",
+   	".\\JSON\\corp_Irina_RU_VA_Web.json",
+	".\\JSON\\corp_Irina_RO_VA_Web.json"
    ],
+
    "ВариантыСборок":[
-	".\\JSON\\corpVBParams8319Web.json"
+	".\\JSON\\corp_smoke_test_VA_Web.json"
    ]
 }
