@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-	<testsuite name="Дымовые тесты" errors="0" skipped="0" tests="1" failures="1" time="27.167">
-		<testcase name="Запись нового &quot;справочника Tarifele&quot;" classname="Дымовые тесты" time="27.167">
+	<testsuite name="Дымовые тесты" errors="0" skipped="0" tests="1" failures="1" time="23.381">
+		<testcase name="Запись нового &quot;справочника Tarifele&quot;" classname="Дымовые тесты" time="23.381">
 			<error>Поле "Наименование" доступен только для просмотра Справочник.Tarifele.ФормаОбъекта
 
 {ВнешняяОбработка.Условие.Форма.Форма.Форма(263)}:
@@ -20,17 +20,17 @@
         ТипПлатформы: Windows x86
         ТипКлиентаТестирования: Тонкий
         СтрокаСоединения: File="e:\vanessa\corp\features\tools\ServiceBases\Bases\v83CORP";
-        PIDКлиентаТестирования: 7076
+        PIDКлиентаТестирования: 2816
         ВерсияVA: ver 1.2.038.1
         ВерсияПлатформы: 8.3.19.1229
         РежимСовместимостиTestManager: Версия8_3_18
-        ДатаВремяОшибки: 28.08.2022 12:06:34
+        ДатаВремяОшибки: 28.08.2022 12:22:23
 </error>
-			<system-out>[[ATTACHMENT|/tools/ServiceBases/ScreenShots/3bd081c3-0efc-4c0d-9fcb-89a762d1f113-attachment.png]]</system-out>
+			<system-out>[[ATTACHMENT|/tools/ServiceBases/ScreenShots/fe98ec3a-bd56-4fb6-92c6-e1a8b211ca46-attachment.png]]</system-out>
 		</testcase>
 	</testsuite>
-	<testsuite name="Дымовые тесты" errors="0" skipped="0" tests="2" failures="2" time="12.73">
-		<testcase name="Запись нового &quot;справочника Tarifele&quot;" classname="Дымовые тесты" time="6.426">
+	<testsuite name="Дымовые тесты" errors="0" skipped="0" tests="2" failures="2" time="13.08">
+		<testcase name="Запись нового &quot;справочника Tarifele&quot;" classname="Дымовые тесты" time="6.436">
 			<error>Поле "Наименование" доступен только для просмотра Справочник.Tarifele.ФормаОбъекта
 
 {ВнешняяОбработка.Условие.Форма.Форма.Форма(263)}:
@@ -49,15 +49,15 @@
         ТипПлатформы: Windows x86
         ТипКлиентаТестирования: Тонкий
         СтрокаСоединения: File="e:\vanessa\corp\features\tools\ServiceBases\Bases\v83CORP";
-        PIDКлиентаТестирования: 7076
+        PIDКлиентаТестирования: 2816
         ВерсияVA: ver 1.2.038.1
         ВерсияПлатформы: 8.3.19.1229
         РежимСовместимостиTestManager: Версия8_3_18
-        ДатаВремяОшибки: 28.08.2022 12:06:44
+        ДатаВремяОшибки: 28.08.2022 12:22:33
 </error>
-			<system-out>[[ATTACHMENT|/tools/ServiceBases/ScreenShots/e04a3e01-d969-4287-b4d9-56a35de8d9ac-attachment.png]]</system-out>
+			<system-out>[[ATTACHMENT|/tools/ServiceBases/ScreenShots/226ca3b3-1d40-4201-9100-451456dce013-attachment.png]]</system-out>
 		</testcase>
-		<testcase name="Запись нового &quot;справочника Авто_БланкиВнешние&quot;" classname="Дымовые тесты" time="6.304">
+		<testcase name="Запись нового &quot;справочника Авто_БланкиВнешние&quot;" classname="Дымовые тесты" time="6.644">
 			<error>Поле "Наименование" доступен только для просмотра Справочник.Авто_БланкиВнешние.ФормаОбъекта
 
 {ВнешняяОбработка.Условие.Форма.Форма.Форма(263)}:
@@ -76,13 +76,13 @@
         ТипПлатформы: Windows x86
         ТипКлиентаТестирования: Тонкий
         СтрокаСоединения: File="e:\vanessa\corp\features\tools\ServiceBases\Bases\v83CORP";
-        PIDКлиентаТестирования: 7076
+        PIDКлиентаТестирования: 2816
         ВерсияVA: ver 1.2.038.1
         ВерсияПлатформы: 8.3.19.1229
         РежимСовместимостиTestManager: Версия8_3_18
-        ДатаВремяОшибки: 28.08.2022 12:06:54
+        ДатаВремяОшибки: 28.08.2022 12:22:43
 </error>
-			<system-out>[[ATTACHMENT|/tools/ServiceBases/ScreenShots/10e2eb99-f979-4437-8c25-f0a61c374f48-attachment.png]]</system-out>
+			<system-out>[[ATTACHMENT|/tools/ServiceBases/ScreenShots/763fa44b-11f9-4277-a55b-c5abb520aa84-attachment.png]]</system-out>
 		</testcase>
 	</testsuite>
 </testsuites>
