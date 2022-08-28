@@ -1,88 +1,35 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-	<testsuite name="Дымовые тесты" errors="0" skipped="0" tests="1" failures="1" time="23.381">
-		<testcase name="Запись нового &quot;справочника Tarifele&quot;" classname="Дымовые тесты" time="23.381">
-			<error>Поле "Наименование" доступен только для просмотра Справочник.Tarifele.ФормаОбъекта
+	<testsuite name="1.Создание организации" errors="0" skipped="0" tests="2" failures="1" time="90.319">
+		<testcase name="&lt;описание сценария&gt;" classname="1.Создание организации" time="87.264">
+			<error>Окно с заголовком &lt;Классификатор единиц измерения (создание)&gt; не найдено. Таймаут поиска окна: &lt;10&gt;. Заголовок активного окна: &lt;&gt;.
 
-{ВнешняяОбработка.Условие.Форма.Форма.Форма(263)}:
+{ВнешняяОбработка.РаботаСИнтерфейсом.Форма.Форма.Форма(2407)}:
 
 Технические данные:
-        ЗаголовокАктивногоОкна: Tarifele (создание)
-        ИмяАктивнойФормы: Справочник.Tarifele.ФормаОбъекта
-        ИмяФичи: Дымовые тесты
-        ИмяСценария: Запись нового "справочника Tarifele"
-        НомерСтрокиДерева: 17
-        НомерСтрокиФичи: 23
-        ПолныйПутьКФиче: e:\vanessa\corp\features\beforeRelease\0001. Справочники.ЗаписьНового.feature
-        ИмяФайла: e:\vanessa\vanessa-automation\features\Libraries\Условие\step_definitions\Условие.epf
-        ИмяПроцедуры: ЯВызываюИсключение
+        ЗаголовокАктивногоОкна: 1С:Предприятие
+        ИмяАктивнойФормы: MessageBox
+        ИмяФичи: 1.Создание организации
+        ИмяСценария: &lt;описание сценария&gt;
+        НомерСтрокиДерева: 96
+        НомерСтрокиФичи: 109
+        ПолныйПутьКФиче: e:\vanessa\corp\features\beforeRelease_Nagaeva_RU\1_создание организации.feature
+        ИмяФайла: e:\vanessa\vanessa-automation\features\Libraries\UITestRunner\step_definitions\РаботаСИнтерфейсом.epf
+        ИмяПроцедуры: ОткрылосьОкно
         ИмяРаннера: ts1scont
         ТипПлатформы: Windows x86
         ТипКлиентаТестирования: Тонкий
-        СтрокаСоединения: File="e:\vanessa\corp\features\tools\ServiceBases\Bases\v83CORP";
-        PIDКлиентаТестирования: 2816
+        СтрокаСоединения: File="e:\vanessa\corp\features\tools\ServiceBases\Bases\v83CORP_irina_ru";
+        PIDКлиентаТестирования: 696
         ВерсияVA: ver 1.2.038.1
         ВерсияПлатформы: 8.3.19.1229
         РежимСовместимостиTestManager: Версия8_3_18
-        ДатаВремяОшибки: 28.08.2022 12:22:23
+        ДатаВремяОшибки: 28.08.2022 12:45:29
+Текст модального окна:
+    В справочнике "Классификатор единиц измерения" уже существует элемент с кодом 796! Открыть существующий?
 </error>
-			<system-out>[[ATTACHMENT|/tools/ServiceBases/ScreenShots/fe98ec3a-bd56-4fb6-92c6-e1a8b211ca46-attachment.png]]</system-out>
+			<system-out>[[ATTACHMENT|/tools/ServiceBases/ScreenShots/9e11a303-3d2a-4945-b117-f41961a34164-attachment.png]]</system-out>
 		</testcase>
-	</testsuite>
-	<testsuite name="Дымовые тесты" errors="0" skipped="0" tests="2" failures="2" time="13.08">
-		<testcase name="Запись нового &quot;справочника Tarifele&quot;" classname="Дымовые тесты" time="6.436">
-			<error>Поле "Наименование" доступен только для просмотра Справочник.Tarifele.ФормаОбъекта
-
-{ВнешняяОбработка.Условие.Форма.Форма.Форма(263)}:
-
-Технические данные:
-        ЗаголовокАктивногоОкна: Tarifele (создание)
-        ИмяАктивнойФормы: Справочник.Tarifele.ФормаОбъекта
-        ИмяФичи: Дымовые тесты
-        ИмяСценария: Запись нового "справочника Tarifele"
-        НомерСтрокиДерева: 41
-        НомерСтрокиФичи: 18
-        ПолныйПутьКФиче: e:\vanessa\corp\features\beforeRelease\0002. Справочники.ЗаписьНового.feature
-        ИмяФайла: e:\vanessa\vanessa-automation\features\Libraries\Условие\step_definitions\Условие.epf
-        ИмяПроцедуры: ЯВызываюИсключение
-        ИмяРаннера: ts1scont
-        ТипПлатформы: Windows x86
-        ТипКлиентаТестирования: Тонкий
-        СтрокаСоединения: File="e:\vanessa\corp\features\tools\ServiceBases\Bases\v83CORP";
-        PIDКлиентаТестирования: 2816
-        ВерсияVA: ver 1.2.038.1
-        ВерсияПлатформы: 8.3.19.1229
-        РежимСовместимостиTestManager: Версия8_3_18
-        ДатаВремяОшибки: 28.08.2022 12:22:33
-</error>
-			<system-out>[[ATTACHMENT|/tools/ServiceBases/ScreenShots/226ca3b3-1d40-4201-9100-451456dce013-attachment.png]]</system-out>
-		</testcase>
-		<testcase name="Запись нового &quot;справочника Авто_БланкиВнешние&quot;" classname="Дымовые тесты" time="6.644">
-			<error>Поле "Наименование" доступен только для просмотра Справочник.Авто_БланкиВнешние.ФормаОбъекта
-
-{ВнешняяОбработка.Условие.Форма.Форма.Форма(263)}:
-
-Технические данные:
-        ЗаголовокАктивногоОкна: Бланки внешние (создание)
-        ИмяАктивнойФормы: Справочник.Авто_БланкиВнешние.ФормаОбъекта
-        ИмяФичи: Дымовые тесты
-        ИмяСценария: Запись нового "справочника Авто_БланкиВнешние"
-        НомерСтрокиДерева: 60
-        НомерСтрокиФичи: 41
-        ПолныйПутьКФиче: e:\vanessa\corp\features\beforeRelease\0002. Справочники.ЗаписьНового.feature
-        ИмяФайла: e:\vanessa\vanessa-automation\features\Libraries\Условие\step_definitions\Условие.epf
-        ИмяПроцедуры: ЯВызываюИсключение
-        ИмяРаннера: ts1scont
-        ТипПлатформы: Windows x86
-        ТипКлиентаТестирования: Тонкий
-        СтрокаСоединения: File="e:\vanessa\corp\features\tools\ServiceBases\Bases\v83CORP";
-        PIDКлиентаТестирования: 2816
-        ВерсияVA: ver 1.2.038.1
-        ВерсияПлатформы: 8.3.19.1229
-        РежимСовместимостиTestManager: Версия8_3_18
-        ДатаВремяОшибки: 28.08.2022 12:22:43
-</error>
-			<system-out>[[ATTACHMENT|/tools/ServiceBases/ScreenShots/763fa44b-11f9-4277-a55b-c5abb520aa84-attachment.png]]</system-out>
-		</testcase>
+		<testcase name="Закрытие клиента тестирования" classname="1.Создание организации" time="3.055"/>
 	</testsuite>
 </testsuites>

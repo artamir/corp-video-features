@@ -7,11 +7,12 @@
  
    "ВариантыСборокВсе":[
 	".\\JSON\\corp_smoke_test_VA_Web.json",
-   	".\\JSON\\corp_Irina_RU_VA_Web.json",
+   ".\\JSON\\corp_Irina_RU_VA_Web.json",
 	".\\JSON\\corp_Irina_RO_VA_Web.json"
    ],
 
    "ВариантыСборок":[
-	".\\JSON\\corp_smoke_test_VA_Web.json"
+	".\\JSON\\corp_smoke_test_VA_Web.json",
+   ".\\JSON\\corp_Irina_RU_VA_Web.json"
    ]
 }

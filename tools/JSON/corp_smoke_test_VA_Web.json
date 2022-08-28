@@ -81,9 +81,9 @@
 	"ДелатьОтчетВФорматеАллюр": true,
 	"ОтчетAllure": {
 		"КаталогВыгрузкиAllure": "./ServiceBases/allurereport/Corp_smoke_Web",
-		"КаталогВыгрузкиAllureБазовый": "./ServiceBases/allurereport/",
-		"УровеньОтчета1": "#report.epic=Corp_smoke_Web",
-		"УровеньОтчета2": "#report.feature=;Каталог2",
+		"КаталогВыгрузкиAllureБазовый": "",
+		"УровеньОтчета1": "#report.epic=;Каталог1",
+		"УровеньОтчета2": "#report.feature=;ИмяФичи",
 		//"УровеньОтчета3": "#report.story=;ИмяСценария",
 		"ГруппировкаTestSuites": "",
 		"ПрикладыватьКОтчетуAllureЖурналРегистрацииВыполненияСценария": true,
