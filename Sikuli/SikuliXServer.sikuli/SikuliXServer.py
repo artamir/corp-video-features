@@ -206,6 +206,36 @@ def VanessaRunTestKlient():
     click("1SManagerOnPanel.jpg")
     wait("e:/vanessa/corp/features/Sikuli/VanessaRunTestKlient.sikuli/1651754519039.png")
 
+def ClickBihaviors():
+    click("e:/vanessa/corp/features/Sikuli/Allure/ClickBihaviors.sikuli/1661765438288.png")
+
+def ClickCategories():
+    click("e:/vanessa/corp/features/Sikuli/Allure/ClickCategories.sikuli/1661765223409.png")
+
+def ClickCategoriesErrors():
+    click("e:/vanessa/corp/features/Sikuli/Allure/ClickCategoriesErrors.sikuli/1661766840087.png")
+    click("e:/vanessa/corp/features/Sikuli/Allure/ClickCategoriesErrors.sikuli/1661766925681.png")
+    click("e:/vanessa/corp/features/Sikuli/Allure/ClickCategoriesErrors.sikuli/1661766951045.png")
+    click("e:/vanessa/corp/features/Sikuli/Allure/ClickCategoriesErrors.sikuli/1661767353105.png")
+    click("e:/vanessa/corp/features/Sikuli/Allure/ClickCategoriesErrors.sikuli/1661766993880.png")
+    wait(3)
+    click("e:/vanessa/corp/features/Sikuli/Allure/ClickCategoriesErrors.sikuli/1661767155635.png")
+    wait(2)
+    click("e:/vanessa/corp/features/Sikuli/Allure/ClickCategoriesErrors.sikuli/1661767207926.png")
+    click("e:/vanessa/corp/features/Sikuli/Allure/ClickCategoriesErrors.sikuli/1661767234774.png")
+
+def ClickGraphs():
+    click("e:/vanessa/corp/features/Sikuli/Allure/ClickGraphs.sikuli/1661765371840.png")
+
+def ClickPackages():
+    click("e:/vanessa/corp/features/Sikuli/Allure/ClickPackages.sikuli/1661765470590.png")
+
+def ClickSuites():
+    click("e:/vanessa/corp/features/Sikuli/Allure/ClickSuites.sikuli/1661765329972.png")
+
+def ClickTimeline():
+    click("e:/vanessa/corp/features/Sikuli/Allure/ClickTimeline.sikuli/1661765401891.png")
+
 def AdressnaeaStroka():
     click(Pattern("e:/vanessa/corp/features/Sikuli/OF/AdressnaeaStroka.sikuli/AdressnaeaStroka.png").targetOffset(65,-1))
 
@@ -532,6 +562,48 @@ while True:
             elif comand == "VanessaRunTestKlient":
                 read_comand(dataofcomand)
                 VanessaRunTestKlient()
+                DoResponse(response_filename,'success')
+
+
+            elif comand == "ClickBihaviors":
+                read_comand(dataofcomand)
+                ClickBihaviors()
+                DoResponse(response_filename,'success')
+
+
+            elif comand == "ClickCategories":
+                read_comand(dataofcomand)
+                ClickCategories()
+                DoResponse(response_filename,'success')
+
+
+            elif comand == "ClickCategoriesErrors":
+                read_comand(dataofcomand)
+                ClickCategoriesErrors()
+                DoResponse(response_filename,'success')
+
+
+            elif comand == "ClickGraphs":
+                read_comand(dataofcomand)
+                ClickGraphs()
+                DoResponse(response_filename,'success')
+
+
+            elif comand == "ClickPackages":
+                read_comand(dataofcomand)
+                ClickPackages()
+                DoResponse(response_filename,'success')
+
+
+            elif comand == "ClickSuites":
+                read_comand(dataofcomand)
+                ClickSuites()
+                DoResponse(response_filename,'success')
+
+
+            elif comand == "ClickTimeline":
+                read_comand(dataofcomand)
+                ClickTimeline()
                 DoResponse(response_filename,'success')
 
 

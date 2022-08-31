@@ -1,35 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-	<testsuite name="1.Создание организации" errors="0" skipped="0" tests="2" failures="1" time="89.195">
-		<testcase name="&lt;описание сценария&gt;" classname="1.Создание организации" time="86.358">
-			<error>Окно с заголовком &lt;Классификатор единиц измерения (создание)&gt; не найдено. Таймаут поиска окна: &lt;10&gt;. Заголовок активного окна: &lt;&gt;.
-
-{ВнешняяОбработка.РаботаСИнтерфейсом.Форма.Форма.Форма(2407)}:
-
-Технические данные:
-        ЗаголовокАктивногоОкна: 1С:Предприятие
-        ИмяАктивнойФормы: MessageBox
-        ИмяФичи: 1.Создание организации
-        ИмяСценария: &lt;описание сценария&gt;
-        НомерСтрокиДерева: 96
-        НомерСтрокиФичи: 109
-        ПолныйПутьКФиче: e:\vanessa\corp\features\beforeRelease_Nagaeva_RU\1_создание организации.feature
-        ИмяФайла: e:\vanessa\vanessa-automation\features\Libraries\UITestRunner\step_definitions\РаботаСИнтерфейсом.epf
-        ИмяПроцедуры: ОткрылосьОкно
-        ИмяРаннера: ts1scont
-        ТипПлатформы: Windows x86
-        ТипКлиентаТестирования: Тонкий
-        СтрокаСоединения: File="e:\vanessa\corp\features\tools\ServiceBases\Bases\v83CORP_irina_ru";
-        PIDКлиентаТестирования: 6364
-        ВерсияVA: ver 1.2.038.1
-        ВерсияПлатформы: 8.3.19.1229
-        РежимСовместимостиTestManager: Версия8_3_18
-        ДатаВремяОшибки: 28.08.2022 13:30:21
-Текст модального окна:
-    В справочнике "Классификатор единиц измерения" уже существует элемент с кодом 796! Открыть существующий?
-</error>
-			<system-out>[[ATTACHMENT|/tools/ServiceBases/ScreenShots/078c3b88-8da1-4c83-89ed-1066b10e6ac9-attachment.png]]</system-out>
-		</testcase>
-		<testcase name="Закрытие клиента тестирования" classname="1.Создание организации" time="2.837"/>
+	<testsuite name="1.Создание организации" errors="0" skipped="0" tests="2" failures="0" time="72.559">
+		<testcase name="1.Создание организации" classname="1.Создание организации" time="69.714"/>
+		<testcase name="Закрытие клиента тестирования" classname="1.Создание организации" time="2.845"/>
 	</testsuite>
 </testsuites>
