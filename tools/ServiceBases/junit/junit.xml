@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-	<testsuite name="1.Создание организации" errors="0" skipped="0" tests="2" failures="0" time="72.559">
-		<testcase name="1.Создание организации" classname="1.Создание организации" time="69.714"/>
-		<testcase name="Закрытие клиента тестирования" classname="1.Создание организации" time="2.845"/>
+	<testsuite name="1.Создание организации" errors="0" skipped="0" tests="2" failures="0" time="68.233">
+		<testcase name="1.Создание организации" classname="1.Создание организации" time="65.605"/>
+		<testcase name="Закрытие клиента тестирования" classname="1.Создание организации" time="2.628"/>
 	</testsuite>
 </testsuites>
