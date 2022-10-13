@@ -10,6 +10,15 @@
 			"ПарольПользователяИБ":""
 		},
 		{
+			"ПутьКИсходникам":"./tools/SRC/CORP_BSP_BTS/",
+			"СоздаваемаяБаза":"./tools/ServiceBases/bases/v83CORP_BSP_BTS",
+			"Версия":"8.3.19",
+			"ПутьКДТ":"./../../git-repo/DT/corp_bsp_bts_init.dt",
+			"ИмяБазыВСписке":"!CORP BSP BTS Service Base (for tests)",
+			"ИмяПользователяИБ":"Админ",
+			"ПарольПользователяИБ":""
+		},
+		{
 			"ПутьКИсходникам":"./../../git-repo/SRC/",
 			"СоздаваемаяБаза":"./tools/ServiceBases/bases/v83CORP_irina_ru",
 			"Версия":"8.3.19",
