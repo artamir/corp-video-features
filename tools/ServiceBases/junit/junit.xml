@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-	<testsuite name="Дымовые тесты" errors="0" skipped="0" tests="4" failures="1" time="85.469">
-		<testcase name="Запись нового &quot;документа АвансовыйОтчет&quot;" classname="Дымовые тесты" time="43.26"/>
-		<testcase name="Запись нового &quot;документа ОтчетКассира&quot;" classname="Дымовые тесты" time="13.646"/>
-		<testcase name="Запись нового &quot;документа ПриходныйКассовый&quot;" classname="Дымовые тесты" time="18.618">
+	<testsuite name="Дымовые тесты" errors="0" skipped="0" tests="4" failures="1" time="83.463">
+		<testcase name="Запись нового &quot;документа АвансовыйОтчет&quot;" classname="Дымовые тесты" time="41.7"/>
+		<testcase name="Запись нового &quot;документа ОтчетКассира&quot;" classname="Дымовые тесты" time="10.961"/>
+		<testcase name="Запись нового &quot;документа ПриходныйКассовый&quot;" classname="Дымовые тесты" time="20.861">
 			<error>Ошибка при вызове метода контекста (ПолучитьТекстыСообщенийПользователю): Метод не может быть вызван для данного объекта (1С:Предприятие)
 
 {ВнешняяОбработка.РаботаСОкномСообщений.Форма.Форма.Форма(430)}:
@@ -22,11 +22,11 @@
         ТипПлатформы: Windows x86
         ТипКлиентаТестирования: Тонкий
         СтрокаСоединения: File="e:\vanessa\corp\features\tools\ServiceBases\Bases\v83CORP_BSP_BTS";
-        PIDКлиентаТестирования: 4088
+        PIDКлиентаТестирования: 7568
         ВерсияVA: ver 1.2.038.1
         ВерсияПлатформы: 8.3.19.1229
         РежимСовместимостиTestManager: Версия8_3_16
-        ДатаВремяОшибки: 12.10.2022 0:11:26
+        ДатаВремяОшибки: 14.10.2022 18:22:01
         ДеталиОшибки:
                 Ошибка при выполнении обработчика - 'ОбработкаПроведения'
                 по причине:
@@ -35,13 +35,13 @@
                 Запись не верна! Не заполнен счет кредита (Регистр бухгалтерии: Хозрасчетный; Номер строки: 1)
 
 </error>
-			<system-out>[[ATTACHMENT|/tools/ServiceBases/ScreenShots/6187cebf-ac6d-486d-a345-97963a56d9bf-attachment.png]]</system-out>
+			<system-out>[[ATTACHMENT|/tools/ServiceBases/ScreenShots/4bec4f50-ea8d-43b4-af12-5bc86816f6e9-attachment.png]]</system-out>
 		</testcase>
-		<testcase name="Запись нового &quot;документа РасходныйКассовый&quot;" classname="Дымовые тесты" time="9.945"/>
+		<testcase name="Запись нового &quot;документа РасходныйКассовый&quot;" classname="Дымовые тесты" time="9.941"/>
 	</testsuite>
-	<testsuite name="Дымовые тесты" errors="0" skipped="0" tests="3" failures="1" time="45.263">
-		<testcase name="Запись нового &quot;документа ВыпискиБанка&quot;" classname="Дымовые тесты" time="9.965"/>
-		<testcase name="Запись нового &quot;документа ПлатежкаВалютная&quot;" classname="Дымовые тесты" time="21.367">
+	<testsuite name="Дымовые тесты" errors="0" skipped="0" tests="3" failures="1" time="40.004">
+		<testcase name="Запись нового &quot;документа ВыпискиБанка&quot;" classname="Дымовые тесты" time="9.942"/>
+		<testcase name="Запись нового &quot;документа ПлатежкаВалютная&quot;" classname="Дымовые тесты" time="20.263">
 			<error>У документа: не дождались закрытия формы. Сообщения: Поле "Страна" не заполнено
 Поле "Город" не заполнено
 
@@ -62,25 +62,25 @@
         ТипПлатформы: Windows x86
         ТипКлиентаТестирования: Тонкий
         СтрокаСоединения: File="e:\vanessa\corp\features\tools\ServiceBases\Bases\v83CORP_BSP_BTS";
-        PIDКлиентаТестирования: 4088
+        PIDКлиентаТестирования: 7568
         ВерсияVA: ver 1.2.038.1
         ВерсияПлатформы: 8.3.19.1229
         РежимСовместимостиTestManager: Версия8_3_16
-        ДатаВремяОшибки: 12.10.2022 0:12:16
+        ДатаВремяОшибки: 14.10.2022 18:22:50
 </error>
-			<system-out>[[ATTACHMENT|/tools/ServiceBases/ScreenShots/5f4e7036-a587-438d-b914-df9e86ee0277-attachment.png]]</system-out>
+			<system-out>[[ATTACHMENT|/tools/ServiceBases/ScreenShots/6077e001-ee60-4271-a3f0-1680d4e56612-attachment.png]]</system-out>
 		</testcase>
-		<testcase name="Запись нового &quot;документа ПлатежноеПоручение&quot;" classname="Дымовые тесты" time="13.931"/>
+		<testcase name="Запись нового &quot;документа ПлатежноеПоручение&quot;" classname="Дымовые тесты" time="9.799"/>
 	</testsuite>
-	<testsuite name="Дымовые тесты" errors="0" skipped="0" tests="19" failures="4" time="213.236">
-		<testcase name="Запись нового &quot;документа ВыдачаЗаработнойПлаты&quot;" classname="Дымовые тесты" time="9.969"/>
-		<testcase name="Запись нового &quot;документа ЗаявлениеНаОсвобождениеПоПН&quot;" classname="Дымовые тесты" time="9.937"/>
-		<testcase name="Запись нового &quot;документа ИзменениеОкладаСписком&quot;" classname="Дымовые тесты" time="8.927"/>
-		<testcase name="Запись нового &quot;документа ИзменениеПлановыхУдержаний&quot;" classname="Дымовые тесты" time="10.064"/>
-		<testcase name="Запись нового &quot;документа ИзменитьСпособОтраженияБУ&quot;" classname="Дымовые тесты" time="9.208"/>
-		<testcase name="Запись нового &quot;документа КадровоеПеремещение&quot;" classname="Дымовые тесты" time="9.136"/>
-		<testcase name="Запись нового &quot;документа НакоплениеОсвобожденийПоПН&quot;" classname="Дымовые тесты" time="8.119"/>
-		<testcase name="Запись нового &quot;документа НарядПоЧасам&quot;" classname="Дымовые тесты" time="21.359">
+	<testsuite name="Дымовые тесты" errors="0" skipped="0" tests="19" failures="4" time="236.83">
+		<testcase name="Запись нового &quot;документа ВыдачаЗаработнойПлаты&quot;" classname="Дымовые тесты" time="9.932"/>
+		<testcase name="Запись нового &quot;документа ЗаявлениеНаОсвобождениеПоПН&quot;" classname="Дымовые тесты" time="9.329"/>
+		<testcase name="Запись нового &quot;документа ИзменениеОкладаСписком&quot;" classname="Дымовые тесты" time="10.207"/>
+		<testcase name="Запись нового &quot;документа ИзменениеПлановыхУдержаний&quot;" classname="Дымовые тесты" time="10.132"/>
+		<testcase name="Запись нового &quot;документа ИзменитьСпособОтраженияБУ&quot;" classname="Дымовые тесты" time="9.972"/>
+		<testcase name="Запись нового &quot;документа КадровоеПеремещение&quot;" classname="Дымовые тесты" time="9.329"/>
+		<testcase name="Запись нового &quot;документа НакоплениеОсвобожденийПоПН&quot;" classname="Дымовые тесты" time="9.941"/>
+		<testcase name="Запись нового &quot;документа НарядПоЧасам&quot;" classname="Дымовые тесты" time="20.477">
 			<error>У документа: не дождались закрытия формы. Сообщения: Поле "Строка период" не заполнено.
 
 
@@ -100,19 +100,19 @@
         ТипПлатформы: Windows x86
         ТипКлиентаТестирования: Тонкий
         СтрокаСоединения: File="e:\vanessa\corp\features\tools\ServiceBases\Bases\v83CORP_BSP_BTS";
-        PIDКлиентаТестирования: 4088
+        PIDКлиентаТестирования: 7568
         ВерсияVA: ver 1.2.038.1
         ВерсияПлатформы: 8.3.19.1229
         РежимСовместимостиTestManager: Версия8_3_16
-        ДатаВремяОшибки: 12.10.2022 0:14:10
+        ДатаВремяОшибки: 14.10.2022 18:24:39
 </error>
-			<system-out>[[ATTACHMENT|/tools/ServiceBases/ScreenShots/8515c935-000d-4d66-a115-9c22f6a6b065-attachment.png]]</system-out>
+			<system-out>[[ATTACHMENT|/tools/ServiceBases/ScreenShots/e7326087-7ef1-415e-8236-ad203463f5a1-attachment.png]]</system-out>
 		</testcase>
-		<testcase name="Запись нового &quot;документа ПлатежнаяВедомость&quot;" classname="Дымовые тесты" time="8.812"/>
-		<testcase name="Запись нового &quot;документа ПриемНаРаботу&quot;" classname="Дымовые тесты" time="8.126"/>
-		<testcase name="Запись нового &quot;документа РазовыеНачисления&quot;" classname="Дымовые тесты" time="9.939"/>
-		<testcase name="Запись нового &quot;документа РазовыеУдержания&quot;" classname="Дымовые тесты" time="9.329"/>
-		<testcase name="Запись нового &quot;документа РасчетБольничных2010&quot;" classname="Дымовые тесты" time="21.127">
+		<testcase name="Запись нового &quot;документа ПлатежнаяВедомость&quot;" classname="Дымовые тесты" time="9.731"/>
+		<testcase name="Запись нового &quot;документа ПриемНаРаботу&quot;" classname="Дымовые тесты" time="10.004"/>
+		<testcase name="Запись нового &quot;документа РазовыеНачисления&quot;" classname="Дымовые тесты" time="8.919"/>
+		<testcase name="Запись нового &quot;документа РазовыеУдержания&quot;" classname="Дымовые тесты" time="9.349"/>
+		<testcase name="Запись нового &quot;документа РасчетБольничных2010&quot;" classname="Дымовые тесты" time="22.197">
 			<error>Ошибка при вызове метода контекста (ПолучитьТекстыСообщенийПользователю): Метод не может быть вызван для данного объекта (1С:Предприятие)
 
 {ВнешняяОбработка.РаботаСОкномСообщений.Форма.Форма.Форма(430)}:
@@ -131,18 +131,18 @@
         ТипПлатформы: Windows x86
         ТипКлиентаТестирования: Тонкий
         СтрокаСоединения: File="e:\vanessa\corp\features\tools\ServiceBases\Bases\v83CORP_BSP_BTS";
-        PIDКлиентаТестирования: 4088
+        PIDКлиентаТестирования: 7568
         ВерсияVA: ver 1.2.038.1
         ВерсияПлатформы: 8.3.19.1229
         РежимСовместимостиTestManager: Версия8_3_16
-        ДатаВремяОшибки: 12.10.2022 0:15:14
+        ДатаВремяОшибки: 14.10.2022 18:25:46
 Текст модального окна:
     Запись не верна! Период не может быть пустым! (Регистр накопления: Учет больничных дней за счет фирмы; Номер строки: 1)
 </error>
-			<system-out>[[ATTACHMENT|/tools/ServiceBases/ScreenShots/a786e0ea-cac5-48d1-aed4-2e0c27bddfe4-attachment.png]]</system-out>
+			<system-out>[[ATTACHMENT|/tools/ServiceBases/ScreenShots/a81d590e-40b8-4d7c-8b06-7d315800d075-attachment.png]]</system-out>
 		</testcase>
-		<testcase name="Запись нового &quot;документа РасчетЗаработнойПлатыОтОбратного&quot;" classname="Дымовые тесты" time="9.937"/>
-		<testcase name="Запись нового &quot;документа РасчетОплатыНерабочихПраздничныхДнейРасш&quot;" classname="Дымовые тесты" time="11.432">
+		<testcase name="Запись нового &quot;документа РасчетЗаработнойПлатыОтОбратного&quot;" classname="Дымовые тесты" time="9.121"/>
+		<testcase name="Запись нового &quot;документа РасчетОплатыНерабочихПраздничныхДнейРасш&quot;" classname="Дымовые тесты" time="12.334">
 			<error>Элемент Фирма отсуствует на форме
 
 {ВнешняяОбработка.Условие.Форма.Форма.Форма(263)}:
@@ -161,16 +161,16 @@
         ТипПлатформы: Windows x86
         ТипКлиентаТестирования: Тонкий
         СтрокаСоединения: File="e:\vanessa\corp\features\tools\ServiceBases\Bases\v83CORP_BSP_BTS";
-        PIDКлиентаТестирования: 4088
+        PIDКлиентаТестирования: 7568
         ВерсияVA: ver 1.2.038.1
         ВерсияПлатформы: 8.3.19.1229
         РежимСовместимостиTestManager: Версия8_3_16
-        ДатаВремяОшибки: 12.10.2022 0:15:42
+        ДатаВремяОшибки: 14.10.2022 18:26:14
 </error>
-			<system-out>[[ATTACHMENT|/tools/ServiceBases/ScreenShots/4d110b61-c850-4cd9-aab2-c5b116744863-attachment.png]]</system-out>
+			<system-out>[[ATTACHMENT|/tools/ServiceBases/ScreenShots/f64f803e-40d2-4985-9aef-ebbb169c907a-attachment.png]]</system-out>
 		</testcase>
-		<testcase name="Запись нового &quot;документа РасчетОтпускных2010&quot;" classname="Дымовые тесты" time="9.736"/>
-		<testcase name="Запись нового &quot;документа РасчетПоСредней&quot;" classname="Дымовые тесты" time="16.961">
+		<testcase name="Запись нового &quot;документа РасчетОтпускных2010&quot;" classname="Дымовые тесты" time="8.501"/>
+		<testcase name="Запись нового &quot;документа РасчетПоСредней&quot;" classname="Дымовые тесты" time="18.173">
 			<error>Ошибка при вызове метода контекста (ПолучитьТекстыСообщенийПользователю): Метод не может быть вызван для данного объекта (1С:Предприятие)
 
 {ВнешняяОбработка.РаботаСОкномСообщений.Форма.Форма.Форма(430)}:
@@ -189,11 +189,11 @@
         ТипПлатформы: Windows x86
         ТипКлиентаТестирования: Тонкий
         СтрокаСоединения: File="e:\vanessa\corp\features\tools\ServiceBases\Bases\v83CORP_BSP_BTS";
-        PIDКлиентаТестирования: 4088
+        PIDКлиентаТестирования: 7568
         ВерсияVA: ver 1.2.038.1
         ВерсияПлатформы: 8.3.19.1229
         РежимСовместимостиTestManager: Версия8_3_16
-        ДатаВремяОшибки: 12.10.2022 0:16:12
+        ДатаВремяОшибки: 14.10.2022 18:26:44
         ДеталиОшибки:
                 Ошибка при выполнении обработчика - 'ОбработкаПроведения'
                 по причине:
@@ -202,52 +202,26 @@
                 Запись не верна! Период регистрации не может быть пустым (Регистр расчета: Основные начисления; Номер строки: 1)
 
 </error>
-			<system-out>[[ATTACHMENT|/tools/ServiceBases/ScreenShots/de3379f2-bb3c-4d8b-aad4-93f086ee2bfa-attachment.png]]</system-out>
+			<system-out>[[ATTACHMENT|/tools/ServiceBases/ScreenShots/6b0cf200-9ae8-403c-bdcd-88035f47e84c-attachment.png]]</system-out>
 		</testcase>
-		<testcase name="Запись нового &quot;документа ТабельУчетаРабочегоВремени2010&quot;" classname="Дымовые тесты" time="10.977"/>
-		<testcase name="Запись нового &quot;документа Увольнение&quot;" classname="Дымовые тесты" time="10.141"/>
+		<testcase name="Запись нового &quot;документа ТабельУчетаРабочегоВремени2010&quot;" classname="Дымовые тесты" time="13.299"/>
+		<testcase name="Запись нового &quot;документа Увольнение&quot;" classname="Дымовые тесты" time="25.883"/>
 	</testsuite>
-	<testsuite name="Дымовые тесты" errors="0" skipped="0" tests="1" failures="0" time="11.165">
-		<testcase name="Запись нового &quot;документа ПрихНалоговаяНакладная&quot;" classname="Дымовые тесты" time="11.165"/>
+	<testsuite name="Дымовые тесты" errors="0" skipped="0" tests="1" failures="0" time="27.584">
+		<testcase name="Запись нового &quot;документа ПрихНалоговаяНакладная&quot;" classname="Дымовые тесты" time="27.584"/>
 	</testsuite>
-	<testsuite name="Дымовые тесты" errors="0" skipped="0" tests="1" failures="1" time="12.202">
-		<testcase name="Запись нового &quot;документа РасхНалоговаяНакладная&quot;" classname="Дымовые тесты" time="12.202">
-			<error>Элемент Фирма отсуствует на форме
-
-{ВнешняяОбработка.Условие.Форма.Форма.Форма(263)}:
-
-Технические данные:
-        ЗаголовокАктивногоОкна: Виды Расходных
-        ИмяАктивнойФормы: Перечисление.ВидыРасходных.Форма.ФормаВыбораУФОсн
-        ИмяФичи: Дымовые тесты
-        ИмяСценария: Запись нового "документа РасхНалоговаяНакладная"
-        НомерСтрокиДерева: 1 671
-        НомерСтрокиФичи: 206
-        ПолныйПутьКФиче: e:\vanessa\corp\features\beforeRelease\5 Расходные документы.feature
-        ИмяФайла: e:\vanessa\vanessa-automation\features\Libraries\Условие\step_definitions\Условие.epf
-        ИмяПроцедуры: ЯВызываюИсключение
-        ИмяРаннера: ts1scont
-        ТипПлатформы: Windows x86
-        ТипКлиентаТестирования: Тонкий
-        СтрокаСоединения: File="e:\vanessa\corp\features\tools\ServiceBases\Bases\v83CORP_BSP_BTS";
-        PIDКлиентаТестирования: 4088
-        ВерсияVA: ver 1.2.038.1
-        ВерсияПлатформы: 8.3.19.1229
-        РежимСовместимостиTestManager: Версия8_3_16
-        ДатаВремяОшибки: 12.10.2022 0:17:06
-</error>
-			<system-out>[[ATTACHMENT|/tools/ServiceBases/ScreenShots/46027945-b39b-4462-a3cc-56abde6bdce5-attachment.png]]</system-out>
-		</testcase>
+	<testsuite name="Дымовые тесты" errors="0" skipped="0" tests="1" failures="0" time="35.428">
+		<testcase name="Запись нового &quot;документа РасхНалоговаяНакладная&quot;" classname="Дымовые тесты" time="35.428"/>
 	</testsuite>
-	<testsuite name="Дымовые тесты" errors="0" skipped="0" tests="1" failures="0" time="8.525">
-		<testcase name="Запись нового &quot;документа УстановкаЦенНоменклатуры&quot;" classname="Дымовые тесты" time="8.525"/>
+	<testsuite name="Дымовые тесты" errors="0" skipped="0" tests="1" failures="0" time="20.084">
+		<testcase name="Запись нового &quot;документа УстановкаЦенНоменклатуры&quot;" classname="Дымовые тесты" time="20.084"/>
 	</testsuite>
-	<testsuite name="Дымовые тесты" errors="0" skipped="0" tests="10" failures="4" time="140.531">
-		<testcase name="Запись нового &quot;документа АктНаСписание&quot;" classname="Дымовые тесты" time="10.187"/>
-		<testcase name="Запись нового &quot;документа ВводВЭксплуатацию&quot;" classname="Дымовые тесты" time="8.926"/>
-		<testcase name="Запись нового &quot;документа ВводВЭксплуатациюНМА&quot;" classname="Дымовые тесты" time="9.126"/>
-		<testcase name="Запись нового &quot;документа ВыбытиеОС&quot;" classname="Дымовые тесты" time="9.937"/>
-		<testcase name="Запись нового &quot;документа ИзносОС&quot;" classname="Дымовые тесты" time="22.208">
+	<testsuite name="Дымовые тесты" errors="0" skipped="0" tests="10" failures="4" time="147.158">
+		<testcase name="Запись нового &quot;документа АктНаСписание&quot;" classname="Дымовые тесты" time="10.345"/>
+		<testcase name="Запись нового &quot;документа ВводВЭксплуатацию&quot;" classname="Дымовые тесты" time="9.938"/>
+		<testcase name="Запись нового &quot;документа ВводВЭксплуатациюНМА&quot;" classname="Дымовые тесты" time="9.933"/>
+		<testcase name="Запись нового &quot;документа ВыбытиеОС&quot;" classname="Дымовые тесты" time="9.766"/>
+		<testcase name="Запись нового &quot;документа ИзносОС&quot;" classname="Дымовые тесты" time="22.404">
 			<error>Ошибка при вызове метода контекста (ПолучитьТекстыСообщенийПользователю): Метод не может быть вызван для данного объекта (1С:Предприятие)
 
 {ВнешняяОбработка.РаботаСОкномСообщений.Форма.Форма.Форма(430)}:
@@ -257,7 +231,7 @@
         ИмяАктивнойФормы: ErrorWindow
         ИмяФичи: Дымовые тесты
         ИмяСценария: Запись нового "документа ИзносОС"
-        НомерСтрокиДерева: 2 192
+        НомерСтрокиДерева: 2 198
         НомерСтрокиФичи: 401
         ПолныйПутьКФиче: e:\vanessa\corp\features\beforeRelease\6 ОС и НМА.feature
         ИмяФайла: e:\vanessa\vanessa-automation\features\Libraries\UITestRunner\step_definitions\РаботаСОкномСообщений.epf
@@ -266,17 +240,17 @@
         ТипПлатформы: Windows x86
         ТипКлиентаТестирования: Тонкий
         СтрокаСоединения: File="e:\vanessa\corp\features\tools\ServiceBases\Bases\v83CORP_BSP_BTS";
-        PIDКлиентаТестирования: 4088
+        PIDКлиентаТестирования: 7568
         ВерсияVA: ver 1.2.038.1
         ВерсияПлатформы: 8.3.19.1229
         РежимСовместимостиTestManager: Версия8_3_16
-        ДатаВремяОшибки: 12.10.2022 0:18:23
+        ДатаВремяОшибки: 14.10.2022 18:30:17
 Текст модального окна:
     Дата оперативно проводимого документа больше текущей. Документ не может быть проведен оперативно!
 </error>
-			<system-out>[[ATTACHMENT|/tools/ServiceBases/ScreenShots/b6dedb53-9004-4af5-ac94-0ee1317c6f9d-attachment.png]]</system-out>
+			<system-out>[[ATTACHMENT|/tools/ServiceBases/ScreenShots/e426e5c7-6fdb-443a-a0ab-6a98c70badc0-attachment.png]]</system-out>
 		</testcase>
-		<testcase name="Запись нового &quot;документа КапитализацияЗатрат&quot;" classname="Дымовые тесты" time="17.965">
+		<testcase name="Запись нового &quot;документа КапитализацияЗатрат&quot;" classname="Дымовые тесты" time="19.027">
 			<error>Ошибка при вызове метода контекста (ПолучитьТекстыСообщенийПользователю): Метод не может быть вызван для данного объекта (1С:Предприятие)
 
 {ВнешняяОбработка.РаботаСОкномСообщений.Форма.Форма.Форма(430)}:
@@ -286,7 +260,7 @@
         ИмяАктивнойФормы: ErrorWindow
         ИмяФичи: Дымовые тесты
         ИмяСценария: Запись нового "документа КапитализацияЗатрат"
-        НомерСтрокиДерева: 2 223
+        НомерСтрокиДерева: 2 229
         НомерСтрокиФичи: 447
         ПолныйПутьКФиче: e:\vanessa\corp\features\beforeRelease\6 ОС и НМА.feature
         ИмяФайла: e:\vanessa\vanessa-automation\features\Libraries\UITestRunner\step_definitions\РаботаСОкномСообщений.epf
@@ -295,11 +269,11 @@
         ТипПлатформы: Windows x86
         ТипКлиентаТестирования: Тонкий
         СтрокаСоединения: File="e:\vanessa\corp\features\tools\ServiceBases\Bases\v83CORP_BSP_BTS";
-        PIDКлиентаТестирования: 4088
+        PIDКлиентаТестирования: 7568
         ВерсияVA: ver 1.2.038.1
         ВерсияПлатформы: 8.3.19.1229
         РежимСовместимостиTestManager: Версия8_3_16
-        ДатаВремяОшибки: 12.10.2022 0:18:46
+        ДатаВремяОшибки: 14.10.2022 18:30:41
         ДеталиОшибки:
                 Ошибка при выполнении обработчика - 'ОбработкаПроведения'
                 по причине:
@@ -308,9 +282,9 @@
                 Запись не верна! Не заполнен счет дебета (Регистр бухгалтерии: Хозрасчетный; Номер строки: 1)
 
 </error>
-			<system-out>[[ATTACHMENT|/tools/ServiceBases/ScreenShots/a46daead-6efd-44e8-a017-661033e57e03-attachment.png]]</system-out>
+			<system-out>[[ATTACHMENT|/tools/ServiceBases/ScreenShots/1dfa53b2-7a44-45a5-b18e-96ffcd1bedaa-attachment.png]]</system-out>
 		</testcase>
-		<testcase name="Запись нового &quot;документа НачислениеИзносаОС&quot;" classname="Дымовые тесты" time="22.065">
+		<testcase name="Запись нового &quot;документа НачислениеИзносаОС&quot;" classname="Дымовые тесты" time="22.396">
 			<error>Ошибка при вызове метода контекста (ПолучитьТекстыСообщенийПользователю): Метод не может быть вызван для данного объекта (1С:Предприятие)
 
 {ВнешняяОбработка.РаботаСОкномСообщений.Форма.Форма.Форма(430)}:
@@ -320,7 +294,7 @@
         ИмяАктивнойФормы: ErrorWindow
         ИмяФичи: Дымовые тесты
         ИмяСценария: Запись нового "документа НачислениеИзносаОС"
-        НомерСтрокиДерева: 2 254
+        НомерСтрокиДерева: 2 260
         НомерСтрокиФичи: 493
         ПолныйПутьКФиче: e:\vanessa\corp\features\beforeRelease\6 ОС и НМА.feature
         ИмяФайла: e:\vanessa\vanessa-automation\features\Libraries\UITestRunner\step_definitions\РаботаСОкномСообщений.epf
@@ -329,17 +303,17 @@
         ТипПлатформы: Windows x86
         ТипКлиентаТестирования: Тонкий
         СтрокаСоединения: File="e:\vanessa\corp\features\tools\ServiceBases\Bases\v83CORP_BSP_BTS";
-        PIDКлиентаТестирования: 4088
+        PIDКлиентаТестирования: 7568
         ВерсияVA: ver 1.2.038.1
         ВерсияПлатформы: 8.3.19.1229
         РежимСовместимостиTestManager: Версия8_3_16
-        ДатаВремяОшибки: 12.10.2022 0:19:15
+        ДатаВремяОшибки: 14.10.2022 18:31:10
 Текст модального окна:
     Не удалось провести: "Износ основных средств"!
 </error>
-			<system-out>[[ATTACHMENT|/tools/ServiceBases/ScreenShots/d8648064-af3e-4013-b05c-afe65332193c-attachment.png]]</system-out>
+			<system-out>[[ATTACHMENT|/tools/ServiceBases/ScreenShots/0d235d09-3ed4-4188-9761-51b77023ce27-attachment.png]]</system-out>
 		</testcase>
-		<testcase name="Запись нового &quot;документа НачислИзносНМА&quot;" classname="Дымовые тесты" time="22.069">
+		<testcase name="Запись нового &quot;документа НачислИзносНМА&quot;" classname="Дымовые тесты" time="22.217">
 			<error>Ошибка при вызове метода контекста (ПолучитьТекстыСообщенийПользователю): Метод не может быть вызван для данного объекта (1С:Предприятие)
 
 {ВнешняяОбработка.РаботаСОкномСообщений.Форма.Форма.Форма(430)}:
@@ -349,7 +323,7 @@
         ИмяАктивнойФормы: ErrorWindow
         ИмяФичи: Дымовые тесты
         ИмяСценария: Запись нового "документа НачислИзносНМА"
-        НомерСтрокиДерева: 2 285
+        НомерСтрокиДерева: 2 291
         НомерСтрокиФичи: 539
         ПолныйПутьКФиче: e:\vanessa\corp\features\beforeRelease\6 ОС и НМА.feature
         ИмяФайла: e:\vanessa\vanessa-automation\features\Libraries\UITestRunner\step_definitions\РаботаСОкномСообщений.epf
@@ -358,31 +332,31 @@
         ТипПлатформы: Windows x86
         ТипКлиентаТестирования: Тонкий
         СтрокаСоединения: File="e:\vanessa\corp\features\tools\ServiceBases\Bases\v83CORP_BSP_BTS";
-        PIDКлиентаТестирования: 4088
+        PIDКлиентаТестирования: 7568
         ВерсияVA: ver 1.2.038.1
         ВерсияПлатформы: 8.3.19.1229
         РежимСовместимостиTestManager: Версия8_3_16
-        ДатаВремяОшибки: 12.10.2022 0:19:43
+        ДатаВремяОшибки: 14.10.2022 18:31:38
 Текст модального окна:
     Не удалось провести: "Амортизация нематериальных активов"!
 </error>
-			<system-out>[[ATTACHMENT|/tools/ServiceBases/ScreenShots/b8ca0515-65c0-46b8-b591-4f1ec9a36255-attachment.png]]</system-out>
+			<system-out>[[ATTACHMENT|/tools/ServiceBases/ScreenShots/dc2988ab-356a-4669-b543-e151e74bc9e6-attachment.png]]</system-out>
 		</testcase>
-		<testcase name="Запись нового &quot;документа ПоступлениеОС&quot;" classname="Дымовые тесты" time="8.925"/>
-		<testcase name="Запись нового &quot;документа СписаниеОС&quot;" classname="Дымовые тесты" time="9.123"/>
+		<testcase name="Запись нового &quot;документа ПоступлениеОС&quot;" classname="Дымовые тесты" time="8.884"/>
+		<testcase name="Запись нового &quot;документа СписаниеОС&quot;" classname="Дымовые тесты" time="12.248"/>
 	</testsuite>
-	<testsuite name="Дымовые тесты" errors="0" skipped="0" tests="7" failures="0" time="50.52">
-		<testcase name="Запись нового &quot;документа АнулБлнкСтрогОтч&quot;" classname="Дымовые тесты" time="10.141"/>
-		<testcase name="Запись нового &quot;документа ПриходБСО&quot;" classname="Дымовые тесты" time="10.164"/>
-		<testcase name="Запись нового &quot;документа СписаниеБСО&quot;" classname="Дымовые тесты" time="9.937"/>
-		<testcase name="Запись нового &quot;документа СписаниеРасходовБудущихПериодов&quot;" classname="Дымовые тесты" time="8.922"/>
-		<testcase name="Запись нового &quot;отчета АктИнвентаризацииБСО&quot;" classname="Дымовые тесты" time="3.446"/>
-		<testcase name="Запись нового &quot;отчета ОстаткиИОборотыПоБСО&quot;" classname="Дымовые тесты" time="4.062"/>
-		<testcase name="Запись нового &quot;отчета РеестрБСО&quot;" classname="Дымовые тесты" time="3.848"/>
+	<testsuite name="Дымовые тесты" errors="0" skipped="0" tests="7" failures="0" time="76.163">
+		<testcase name="Запись нового &quot;документа АнулБлнкСтрогОтч&quot;" classname="Дымовые тесты" time="13.27"/>
+		<testcase name="Запись нового &quot;документа ПриходБСО&quot;" classname="Дымовые тесты" time="18.605"/>
+		<testcase name="Запись нового &quot;документа СписаниеБСО&quot;" classname="Дымовые тесты" time="17.06"/>
+		<testcase name="Запись нового &quot;документа СписаниеРасходовБудущихПериодов&quot;" classname="Дымовые тесты" time="15.455"/>
+		<testcase name="Запись нового &quot;отчета АктИнвентаризацииБСО&quot;" classname="Дымовые тесты" time="4.255"/>
+		<testcase name="Запись нового &quot;отчета ОстаткиИОборотыПоБСО&quot;" classname="Дымовые тесты" time="3.86"/>
+		<testcase name="Запись нового &quot;отчета РеестрБСО&quot;" classname="Дымовые тесты" time="3.658"/>
 	</testsuite>
-	<testsuite name="Дымовые тесты" errors="0" skipped="0" tests="6" failures="1" time="65.221">
-		<testcase name="Запись нового &quot;документа Инв1&quot;" classname="Дымовые тесты" time="9.937"/>
-		<testcase name="Запись нового &quot;документа Инв4&quot;" classname="Дымовые тесты" time="18.78">
+	<testsuite name="Дымовые тесты" errors="0" skipped="0" tests="6" failures="1" time="71.849">
+		<testcase name="Запись нового &quot;документа Инв1&quot;" classname="Дымовые тесты" time="9.536"/>
+		<testcase name="Запись нового &quot;документа Инв4&quot;" classname="Дымовые тесты" time="17.997">
 			<error>Ошибка при вызове метода контекста (ПолучитьТекстыСообщенийПользователю): Метод не может быть вызван для данного объекта (1С:Предприятие)
 
 {ВнешняяОбработка.РаботаСОкномСообщений.Форма.Форма.Форма(430)}:
@@ -392,7 +366,7 @@
         ИмяАктивнойФормы: ErrorWindow
         ИмяФичи: Дымовые тесты
         ИмяСценария: Запись нового "документа Инв4"
-        НомерСтрокиДерева: 2 880
+        НомерСтрокиДерева: 2 886
         НомерСтрокиФичи: 263
         ПолныйПутьКФиче: e:\vanessa\corp\features\beforeRelease\8 Инвентаризация.feature
         ИмяФайла: e:\vanessa\vanessa-automation\features\Libraries\UITestRunner\step_definitions\РаботаСОкномСообщений.epf
@@ -401,11 +375,11 @@
         ТипПлатформы: Windows x86
         ТипКлиентаТестирования: Тонкий
         СтрокаСоединения: File="e:\vanessa\corp\features\tools\ServiceBases\Bases\v83CORP_BSP_BTS";
-        PIDКлиентаТестирования: 4088
+        PIDКлиентаТестирования: 7568
         ВерсияVA: ver 1.2.038.1
         ВерсияПлатформы: 8.3.19.1229
         РежимСовместимостиTestManager: Версия8_3_16
-        ДатаВремяОшибки: 12.10.2022 0:21:35
+        ДатаВремяОшибки: 14.10.2022 18:34:03
         ДеталиОшибки:
                 Ошибка записи! Не установлен отбор по регистратору (Регистр бухгалтерии: Хозрасчетный)
                 {Документ.Инв4.Форма.ФормаДокументаУФ.Форма(576)}:
@@ -415,11 +389,11 @@
                 Ошибка записи! Не установлен отбор по регистратору (Регистр бухгалтерии: Хозрасчетный)
 
 </error>
-			<system-out>[[ATTACHMENT|/tools/ServiceBases/ScreenShots/0e8f6f29-82ab-4c62-a6ce-f4788f1f4d1b-attachment.png]]</system-out>
+			<system-out>[[ATTACHMENT|/tools/ServiceBases/ScreenShots/15f5aa1d-86b1-4106-8143-7854b5275473-attachment.png]]</system-out>
 		</testcase>
-		<testcase name="Запись нового &quot;документа Инв5&quot;" classname="Дымовые тесты" time="9.934"/>
-		<testcase name="Запись нового &quot;документа Инв6&quot;" classname="Дымовые тесты" time="9.129"/>
-		<testcase name="Запись нового &quot;документа Инв7&quot;" classname="Дымовые тесты" time="8.317"/>
-		<testcase name="Запись нового &quot;документа ИнвПриказ&quot;" classname="Дымовые тесты" time="9.124"/>
+		<testcase name="Запись нового &quot;документа Инв5&quot;" classname="Дымовые тесты" time="16.124"/>
+		<testcase name="Запись нового &quot;документа Инв6&quot;" classname="Дымовые тесты" time="10.343"/>
+		<testcase name="Запись нового &quot;документа Инв7&quot;" classname="Дымовые тесты" time="8.917"/>
+		<testcase name="Запись нового &quot;документа ИнвПриказ&quot;" classname="Дымовые тесты" time="8.932"/>
 	</testsuite>
 </testsuites>
